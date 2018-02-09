@@ -1,0 +1,274 @@
+\documentclass[ 11pt
+				,ngerman 
+				,headsepline
+				,headings=small
+				,numbers=noenddot % Kein "." hinter der letzten Kapitelnummer --> 2.1 statt 2.1.
+				,draft=false
+				,BCOR=0mm % Wert für die Bindung 
+				,DIV=12 % Wert für die größe des Textblocks
+				,captions=tableheading
+				,paper=a4
+				,abstracton
+				,twoside % Erlaubt beidseitigen Druck
+                ]{scrreprt}
+% Wählt den passenden Offset und Margin für das Deckblatt und wählt ein passenden Seitenlayout
+\makeatletter
+\newlength\offsetCoverPage
+\newlength\marginCoverPage
+\newcount\onesideprint
+\if@twoside
+\usepackage[a4paper, left=2.6cm, right=2.9cm, top=3.7cm, bottom=3.8cm]{geometry}
+\offsetCoverPage=0.0cm
+\marginCoverPage=0.25cm
+\onesideprint=0
+\else
+\usepackage[a4paper, left=2.75cm, right=2.75cm, top=3.7cm, bottom=3.8cm]{geometry}
+\offsetCoverPage=-0.10cm
+\marginCoverPage=0cm
+\onesideprint=1
+\fi
+\makeatother
+
+
+%-----------------------------------------------------------------------------
+% Größeninformationen:
+% mit den gewählten Einstellungen beträgt die Textbreite (und damit auch die
+% sinnvolle Bildbreite) ca. 158 mm
+% Die Texthöhe beträgt etwa 215.0 mm, eine vollseitige Grafik sollte daher 
+% maximal 200 mm hoch sein, halbseitige Grafiken entsprechend etwa 90 mm um
+% genügend Raum für ein zweites Bild mit Bildunterschrift oder alternativ 
+% Fließtext zu bieten
+%-----------------------------------------------------------------------------
+
+%-----------------------------------------------------------------------------
+% Basispackete
+%-----------------------------------------------------------------------------
+\usepackage[utf8]{inputenc} 
+%\usepackage[english]{babel} %Für einen englischen Text kommentiere die nächste Zeile und entferne den Kommentar dieser Zeile
+\usepackage[ngerman]{babel} 
+\usepackage{ifpdf} 
+\usepackage{blindtext} % Um den lorem ipsum Text zu erzeugen
+                      
+%-----------------------------------------------------------------------------
+% Schrifteinstellungen
+%-----------------------------------------------------------------------------
+\usepackage{fourier} %PDF-compatible font "Utopia". There exists a free look-alike: Heuristica
+\makeatletter % No warnings because of a replaced font
+  \let\@font@info\@gobble
+  \let\@font@warning\@gobble
+\makeatother
+\usepackage[official]{eurosym} % Eurosymbol
+\DeclareUnicodeCharacter{20AC}{\euro} % The normale euro symbol via [Alt Gr][€] is replaced by a high quality one
+\renewcommand{\caplabelfont}{\bfseries} % Fig. and Tab. are bold
+\usepackage{color}
+\definecolor{ercred}{RGB}{229,48,39}
+\usepackage{setspace} % Change Linespread
+\onehalfspacing % Linespread 1.5
+\setlength\parskip{\medskipamount} % Small linespread between two paragraphs
+\setlength\parindent{0pt} % No indentation in the first line of a new paragraph
+\AtBeginDocument{
+  \renewcommand{\labelitemi}{\(\triangleright\)} % re-definition of the bullet-points
+  \renewcommand{\labelitemii}{\(\bullet\)}}
+
+%-----------------------------------------------------------------------------
+% Seitenlayout
+%-----------------------------------------------------------------------------
+\usepackage[automark, autooneside=false]{scrlayer-scrpage}
+% Für eine genauere Erklärung lies scrguide.pdf, ca. Seite 240
+\automark[chapter]{chapter}
+\automark*[section]{}
+\interfootnotelinepenalty=10000 % Fußnoten nicht über zwei Seiten verteilen
+
+%Kopfzeile einseitiger Druck
+\ifnum\onesideprint=1
+\pagestyle{scrheadings}
+ \clearscrheadfoot
+ \automark{chapter}
+ \renewcommand\sectionmark[1]{\markright{\MakeMarkcase {\thesection\hskip .5em\relax#1}}} 
+ \rohead{\ifnum\expandafter\pdfstrcmp\botmark=0 \rightmark\else\leftmark{} --- \rightmark\fi}
+\ihead{\leftmark}
+\ohead{\rightmark}
+\cfoot{\pagemark}
+\fi
+%-----------------------------------------------------------------------------
+% Tabellen
+%-----------------------------------------------------------------------------
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{booktabs} % Erstelle besser aussehende Tabellen, nutze \toprule, \midrule, \bottomrule für horizontale Linien
+\usepackage[point]{rccol} % Werte werden über das Kommata ausgerichtet
+
+%-----------------------------------------------------------------------------
+% Abbildungen
+%-----------------------------------------------------------------------------
+\usepackage{subfigure}
+\usepackage{float}
+% Reduzierung der Anzahl von "Float-Only"-Seiten
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.75}
+
+%-----------------------------------------------------------------------------
+% Mathematik
+%-----------------------------------------------------------------------------
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{array}
+\usepackage[cdot,thickqspace,squaren,textstyle]{SIunits} % SI-Einheiten können mit Namen eingegeben werden
+
+%-----------------------------------------------------------------------------
+% Verweise und Zitate
+%-----------------------------------------------------------------------------
+\usepackage{varioref}
+\usepackage[square]{natbib}
+\usepackage{bibunits}
+
+%-----------------------------------------------------------------------------
+% PDF-Setup
+%-----------------------------------------------------------------------------
+\ifpdf
+	%wir benutzen PDFLaTeX
+	\usepackage[pdftex]{graphicx} 
+	\pdfimageresolution=100
+	\pdfminorversion=7
+	\pdfcompresslevel=9
+	\usepackage[pdftex,
+		urlcolor=blue,
+		linktoc=all,
+		colorlinks=true,
+		linkcolor=black,
+		citecolor=black,
+		pdfview=FitH,
+		pdfstartview=FitH,
+		plainpages=false]{hyperref}
+	\hypersetup{
+		pdfauthor={Your Name here},
+        pdftitle={Name of your thesis},
+        pdfsubject={},
+        pdfkeywords={several helpful keywords},
+        pdfproducer={LaTeX with hyperref},
+        pdfcreator={pdflatex}}
+    \usepackage[figure,figure*]{hypcap}
+\else
+	%DVI oder PS Ausgabe
+	\usepackage{graphicx} 
+\fi
+
+%-----------------------------------------------------------------------------
+% JETZT GEHTS LOS!
+%-----------------------------------------------------------------------------
+\begin{document}
+\pagestyle{empty}
+\newcounter{Hilfszaehler}
+
+%-----------------------------------------------------------------------------
+% Deckblatt
+%-----------------------------------------------------------------------------
+\input{Chapters/Deckblatt.tex}
+
+%-----------------------------------------------------------------------------
+% Setup von speziellen Seiten(Abbildungsverzeichnis, Nomenklatur etc.
+%-----------------------------------------------------------------------------
+\cleardoublepage
+\pagenumbering{Roman} % Romanische Nummerierung
+%-----------------------------------------------------------------------------
+% Englische und Deutsche Kurzfassung. Beide notwendig
+%-----------------------------------------------------------------------------
+\clearpage
+\refstepcounter{Hilfszaehler}
+\renewcommand\abstractname{Kurzfassung}
+\begin{abstract}
+\input{Chapters/Kurzfassung}
+\end{abstract}
+\renewcommand{\abstractname}{Abstract}
+\begin{abstract}
+\input{Chapters/Abstract} 
+\end{abstract}
+
+%-----------------------------------------------------------------------------
+% Inhaltsverzeichnis
+%-----------------------------------------------------------------------------
+\pagestyle{plain.scrheadings}
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+%-----------------------------------------------------------------------------
+% Nomenklatur
+%-----------------------------------------------------------------------------
+\clearpage
+\refstepcounter{Hilfszaehler}
+\addcontentsline{toc}{chapter}{Nomenklatur}
+\input{Chapters/Abkuerzungen.tex}
+
+%-----------------------------------------------------------------------------
+% Abbildungsverzeichnis
+%-----------------------------------------------------------------------------
+\clearpage
+\refstepcounter{Hilfszaehler}
+\addcontentsline{toc}{chapter}{Abbildungsverzeichnis}
+\listoffigures
+
+%-----------------------------------------------------------------------------
+% Tabellenverzeichnis
+%-----------------------------------------------------------------------------
+\clearpage
+\refstepcounter{Hilfszaehler}
+\addcontentsline{toc}{chapter}{Tabellenverzeichnis}
+\listoftables
+
+%-----------------------------------------------------------------------------
+% Vorwort, kommentiere die Zeile wenn nicht nötig
+%-----------------------------------------------------------------------------
+\clearpage
+\refstepcounter{Hilfszaehler}
+\addcontentsline{toc}{chapter}{Vorwort}
+\input{Chapters/Vorwort.tex}
+
+%-----------------------------------------------------------------------------
+% Setup Normale Seiten(Neue Nummerierung)
+%-----------------------------------------------------------------------------
+\cleardoublepage
+\clearpage
+\pagenumbering{arabic}
+\pagestyle{scrheadings}%\ihead{\leftmark}\chead{}\ohead{\rightmark}
+\automark[chapter]{chapter}
+\automark*[section]{}
+
+%-----------------------------------------------------------------------------
+% Füge hier deine Kapitel hinzu
+%-----------------------------------------------------------------------------
+\input{Chapters/Teil1.tex}
+
+%-----------------------------------------------------------------------------
+% Literaturverzeichnis
+%-----------------------------------------------------------------------------
+
+\clearpage
+\refstepcounter{Hilfszaehler}
+\addcontentsline{toc}{chapter}{\bibname}
+\protect\bibliographystyle{natdin} % Dieser Stil ist eine Empfehlung, aber nicht verprlichtend.
+\bibliography{Literaturverzeichnis}
+
+%-----------------------------------------------------------------------------
+% Anhang
+%-----------------------------------------------------------------------------
+\pagestyle{empty}
+\clearpage
+\vfill{}\vspace{-1\parskip}
+\begin{center}\textsf{\textbf{\huge Anhang}}\end{center}{\huge \par}
+\vfill{}
+\appendix
+\newpage
+\pagestyle{scrheadings}
+\input{Chapters/Anhang.tex}
+
+%-----------------------------------------------------------------------------
+% Eigenstaendigkeitserklaerung
+%-----------------------------------------------------------------------------
+\pagestyle{empty}
+\cleardoublepage
+\input{Chapters/Eigenstaendigkeitserklaerung.tex}
+
+
+\end{document}

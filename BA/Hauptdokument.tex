@@ -48,7 +48,9 @@
 \usepackage[ngerman]{babel} 
 \usepackage{ifpdf} 
 \usepackage{blindtext} % Um den lorem ipsum Text zu erzeugen
-                      
+%\usepackage{svg}
+\usepackage{epstopdf}
+        
 %-----------------------------------------------------------------------------
 % Schrifteinstellungen
 %-----------------------------------------------------------------------------
@@ -116,6 +118,7 @@
 \usepackage{array}
 \usepackage[cdot,thickqspace,squaren,textstyle]{SIunits} % SI-Einheiten können mit Namen eingegeben werden
 
+ 
 %-----------------------------------------------------------------------------
 % Verweise und Zitate
 %-----------------------------------------------------------------------------
@@ -152,7 +155,9 @@
 \else
 	%DVI oder PS Ausgabe
 	\usepackage{graphicx} 
+
 \fi
+
 
 %-----------------------------------------------------------------------------
 % JETZT GEHTS LOS!
@@ -239,6 +244,10 @@
 % Füge hier deine Kapitel hinzu
 %-----------------------------------------------------------------------------
 \input{Chapters/Teil1.tex}
+\input{Chapters/Teil2.tex}
+\input{Chapters/Teil3.tex}
+\input{Chapters/Teil4.tex}
+
 
 %-----------------------------------------------------------------------------
 % Literaturverzeichnis

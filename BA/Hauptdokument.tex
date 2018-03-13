@@ -50,6 +50,7 @@
 \usepackage{blindtext} % Um den lorem ipsum Text zu erzeugen
 %\usepackage{svg}
 \usepackage{epstopdf}
+\usepackage[table,xcdraw]{xcolor}
         
 %-----------------------------------------------------------------------------
 % Schrifteinstellungen
@@ -123,7 +124,7 @@
 % Verweise und Zitate
 %-----------------------------------------------------------------------------
 \usepackage{varioref}
-\usepackage[square]{natbib}
+\usepackage{natbib}    %[square]{natbib}
 \usepackage{bibunits}
 
 %-----------------------------------------------------------------------------
@@ -256,7 +257,7 @@
 \clearpage
 \refstepcounter{Hilfszaehler}
 \addcontentsline{toc}{chapter}{\bibname}
-\protect\bibliographystyle{natdin} % Dieser Stil ist eine Empfehlung, aber nicht verprlichtend.
+\protect\bibliographystyle{unsrt} %natdin Dieser Stil ist eine Empfehlung, aber nicht verprlichtend.
 \bibliography{Literaturverzeichnis}
 
 %-----------------------------------------------------------------------------

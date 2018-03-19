@@ -2,7 +2,41 @@
 
 \bibitem{DINDeutschesInstitutfurNormunge.V..}
 {DIN Deutsches Institut f{\"u}r Normung e. V.}
-\newblock Verkaufsk{\"u}hlm{\"o}bel -- teil 2: Klassifizierung, anforderungen
-  und pr{\"u}fbedingungen.
+\newblock {Verkaufsk{\"u}hlm{\"o}bel -- Teil 2: Klassifizierung, Anforderungen
+  und Pr{\"u}fbedingungen}.
+
+\bibitem{Klein.2000}
+S.~A. Klein.
+\newblock {EES Manual}, 2000.
+
+\bibitem{SpringerVerlagGmbH.2013}
+{Springer-Verlag GmbH}.
+\newblock {\em {VDI-W{\"a}rmeatlas}}.
+\newblock 2013.
+
+\bibitem{Kesper.1976}
+Bernt Kesper and Jogindar~Mohan Chawla.
+\newblock {Reibungsdruckabfall bei adiabater
+  Zweiphasen-Fl{\"u}ssigkeits-Dampf-Str{\"o}mung hoher Geschwindigkeit}.
+\newblock {\em {Forschung im Ingenieurwesen}}, 42(6):177--183, 1976.
+
+\bibitem{Bergman.2011}
+Theodore~L. Bergman, Adrienne~S. Lavine, Frank~P. Incropera, David~P. Dewitt,
+  and T.~L. Bergman.
+\newblock {\em {Fundamentals of Heat and Mass Transfer}}.
+\newblock Wiley, Hoboken NJ, 7th ed. edition, 2011.
+
+\bibitem{Nellis.2009}
+Gregory Nellis and Sanford~A. Klein.
+\newblock {\em {Heat transfer}}.
+\newblock {Cambridge University Press}, Cambridge and New York, 2009.
+
+\bibitem{LehrstuhlfurWarmeundStoffubertragung.}
+{Lehrstuhl f{\"u}r W{\"a}rme- und Stoff{\"u}bertragung}.
+\newblock {W{\"a}rme- und Stoff{\"u}bertragung I/II}.
+
+\bibitem{LehrstuhlfurWarmeundStoffubertragung.b}
+{Lehrstuhl f{\"u}r W{\"a}rme- und Stoff{\"u}bertragung}.
+\newblock {W{\"a}rme{\"u}bertrager und Dampferzeuger}.
 
 \end{thebibliography}

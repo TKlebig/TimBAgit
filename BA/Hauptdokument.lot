@@ -1,11 +1,10 @@
 \select@language {ngerman}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1.1}{\ignorespaces Das ist eine Testtabelle}}{1}{table.1.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Klimaklassen}}{7}{table.2.1}
-\contentsline {table}{\numberline {2.2}{\ignorespaces Temperaturklassen der M-Pakete}}{7}{table.2.2}
+\contentsline {table}{\numberline {2.1}{\ignorespaces Klimaklassen~\cite {DINDeutschesInstitutfurNormunge.V..}}}{6}{table.2.1}
+\contentsline {table}{\numberline {2.2}{\ignorespaces Temperaturklassen der M-Pakete~\cite {DINDeutschesInstitutfurNormunge.V..}}}{7}{table.2.2}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Werte der W\IeC {\"a}rme\IeC {\"u}bergangs- und W\IeC {\"a}rmeleitzahlen}}{15}{table.3.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

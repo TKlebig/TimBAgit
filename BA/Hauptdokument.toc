@@ -4,19 +4,24 @@
 \contentsline {chapter}{Tabellenverzeichnis}{IX}{Hilfszaehler.4}
 \contentsline {chapter}{Vorwort}{X}{Hilfszaehler.5}
 \contentsline {chapter}{\numberline {1}Motivation}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Technik/Methoden}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}Das K\IeC {\"u}hlregal}{3}{section.2.1}
-\contentsline {section}{\numberline {2.2}Die Klimakammer}{3}{section.2.2}
-\contentsline {section}{\numberline {2.3}Erfassung von Messdaten}{5}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Messdaten der Klimakammer}{5}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Messdaten des K\IeC {\"u}hlregals}{6}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Messdaten des Leistungsanalysators}{6}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Testbedingungen nach Norm}{6}{section.2.4}
-\contentsline {chapter}{\numberline {3}Pr\IeC {\"u}fstand}{9}{chapter.3}
-\contentsline {chapter}{\numberline {4}Versuchsdurchf\IeC {\"u}hrung}{10}{chapter.4}
-\contentsline {chapter}{\numberline {5}Analyse der Messergebnisse}{11}{chapter.5}
-\contentsline {chapter}{\numberline {6}Zusammenfassung}{12}{chapter.6}
-\contentsline {chapter}{Literaturverzeichnis}{13}{Hilfszaehler.6}
-\contentsline {chapter}{\numberline {A}Wirklich wichtiger Anhang}{15}{appendix.A}
-\contentsline {section}{\numberline {A.1}Die Versalien}{15}{section.A.1}
-\contentsline {chapter}{\numberline {B}Wichtiger Anhang}{17}{appendix.B}
+\contentsline {chapter}{\numberline {2}Technik/Methoden}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Das K\IeC {\"u}hlregal}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}Die Klimakammer}{2}{section.2.2}
+\contentsline {section}{\numberline {2.3}Erfassung von Messdaten}{4}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Messdaten der Klimakammer}{4}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Messdaten des K\IeC {\"u}hlregals}{5}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Messdaten des Leistungsanalysators}{5}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Testbedingungen nach Norm}{5}{section.2.4}
+\contentsline {section}{\numberline {2.5}Simulationsmodell f\IeC {\"u}r Verschaltung der Verdampferrohre}{7}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Modellierung mit EES}{8}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Berechnung des Druckabfalls in der Zweiphasen-Str\IeC {\"o}mung}{9}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}Berechnung des W\IeC {\"a}rme\IeC {\"u}bergangs}{11}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}Das Modell}{13}{subsection.2.5.4}
+\contentsline {chapter}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{15}{chapter.3}
+\contentsline {section}{\numberline {3.1}Einstellung von Normbedingungen}{15}{section.3.1}
+\contentsline {chapter}{\numberline {4}Analyse der Messergebnisse}{16}{chapter.4}
+\contentsline {chapter}{\numberline {5}Zusammenfassung}{17}{chapter.5}
+\contentsline {chapter}{Literaturverzeichnis}{18}{Hilfszaehler.6}
+\contentsline {chapter}{\numberline {A}Wirklich wichtiger Anhang}{20}{appendix.A}
+\contentsline {section}{\numberline {A.1}Die Versalien}{20}{section.A.1}
+\contentsline {chapter}{\numberline {B}Wichtiger Anhang}{22}{appendix.B}

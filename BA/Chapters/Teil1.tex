@@ -1,6 +1,8 @@
 \chapter{Motivation}
 \label{cha:Motivation}
 
+
+
 Um den globalen Temperaturanstieg zu begrenzen und unerwünschte Klimaauswirkungen zu vermeiden ist es notwendig CO2- sowie Treibhausgasemissionen zu reduzieren. Im Rahmen der F-Gas-Verordnung der EU werden diese Ziele verfolgt. Mit einem Anteil von 14 \%  am Elektronenergiebedarf und etwa 5 \% an direkten und indirekten Treibhausgasemissionen bietet die Kältetechnik in Deutschland großes Einsparpotential. Somit ist der Umstieg von synthetischen auf natürliche Kältemittel ein wichtiger Ansatzpunkt. 
 Großes Potential als Ersatzkältemittel bietet der Einsatz von Propan (R290) in Kältekreisen, dessen maximale Füllmenge in Kältekreisen vor dem Hintergrund von Sicherheitsnormen auf 150 Gramm beschränkt ist. 
 
@@ -13,41 +15,10 @@ Quellen:
 ECODESIGN
 EN1127
 
-
-
-Grafiken:
-Klimakammer Inkscape
-Quellen:
-DIN EN ISO 23953
+Mithilfe des Programms EES (Engineering Equation Solver) wurde im Rahmen der Untersuchungen ein Modell erstellt, welches es ermöglicht den Effekt einer anderen Verschaltung der kältemittelführenden Leitungen innerhalb des Verdampfers auf dessen Kälteleistung zu simulieren. Grundidee hinter dem Modell ist den, durch den hohen Kältemittelmassenstrom bei gleichzeitig geringem Durchmesser der Verdampferrohre bedingten, Druckabfall und das damit einhergehende Absinken der Sättigungstemperatur zu nutzen. Im Ausgangsmodell durchströmt das Kältemittel den Verdampfer im Gegenstromprinzip. Aufgrund des Druckabfalls verhält sich diese Anordung wie eine Kombination aus Gleich- und Gegenstrom. Wird nun die Anordnung der Rohre dahingehend geändert, dass das Kältemittel den Verdampfer von dessen Mitte aus im Gleichstrom mit der Luft nach oben durchströmt, aber die überhitzten Rohrreihen noch immer beim Lufteintritt sind, so erzielt man den gegenteiligen Effekt: Der Wärmeübertrager bietet eine Kombination aus Gleich- und Gegenstrom, verhält sich aber wie ein reiner Gegenstromverdampfer. Hierbei ist am Verdampferaustritt der Luft eine höhere Temperaturdifferenz zum Kältemittel zu erwarten.
+Das Modell soll zeigen ob diese Maßnahme einen bedeutenden Effekt erzielen kann und wird anschließend im Versuch validiert.
 
 
 
-\begin{equation}
-\dot{Q}=\dot{m}\cdot c_p \cdot \Delta \vartheta
-\end{equation}
 
-
-
-\begin{table} %Tabellen und Abbildungen sind FLOATING(flexible) Objekte. Eine Fixierung mit [htb] macht keine Sinn
-	\centering
-	\caption{Das ist eine Testtabelle}\vspace{6pt}
-	\label{tab:Table}
-\begin{tabular}{cr} 
-\toprule
-\textbf{Linke Spalte} & \textbf{Rechte Spalte}\\
-\midrule 
-oben links & oben rechts \\ \midrule 
-unten links & unten rechts \\ 
-\bottomrule 
-\end{tabular}
-\end{table}
-
-
-Reference to figure\,\ref{fig:RWTH-Aachen-Logo}
-\begin{figure} %Tabellen und Abbildungen sind FLOATING(flexible) Objekte. Eine Fixierung mit [htb] macht keine Sinn
-\centering
-\includegraphics[width=0.60\textwidth]{Pictures/RWTHAACHENUNIVERSITY_sw.png}
-\caption{RWTH-Aachen-Logo}
-\label{fig:RWTH-Aachen-Logo}
-\end{figure}
 

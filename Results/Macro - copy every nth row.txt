@@ -1,0 +1,116 @@
+Option Explicit
+
+Sub nthRow()
+    'Variable declaration
+    Dim wksSrc As Worksheet, wksDst, Sheet As Worksheet
+    Dim rngSrcData As Range, c As Range
+    Dim srcSheetExists, tarSheetExists As Boolean
+    Dim lRow As Long, Anz As Long, lCol As Integer
+    Dim SourceSheetName, TargetSheetName As String
+    Dim aDaten()
+    Dim Step As Integer, i As Long, ArrZe As Long
+
+    'SETTINGS TO ADJUST
+    'Source sheet name where the data is stored
+    SourceSheetName = "Consolidated Data"
+   
+    'Target sheet will be generated automatically if not created already
+    TargetSheetName = "Processed Data"
+   
+    'Step settings:
+    '5 to 60 seconds --> step = 12
+    '1 to 5 seconds --> step = 5
+    '1 to 60 seconds --> step = 60
+    Step = 12
+
+   
+   
+    'THERE SHOULD BE NO REASON TO CHANGE ANYTHING BELOW THIS LINE
+    srcSheetExists = False
+    For Each Sheet In Worksheets
+        If SourceSheetName = Sheet.Name Then
+            srcSheetExists = True
+            Exit For
+        End If
+    Next Sheet
+   
+    While srcSheetExists = False
+        SourceSheetName = InputBox("Source sheet name not found. Please enter valid name of existing sheet with source data:", "Source sheet not found!", SourceSheetName)
+        If SourceSheetName <> "" Then
+            For Each Sheet In Worksheets
+                If SourceSheetName = Sheet.Name Then
+                    srcSheetExists = True
+                    Exit For
+                End If
+            Next Sheet
+        Else
+            Exit Sub
+        End If
+    Wend
+  
+    tarSheetExists = False
+   
+CheckTarSheet:
+    For Each Sheet In Worksheets
+        If TargetSheetName = Sheet.Name Then
+            tarSheetExists = True
+            Exit For
+        End If
+    Next Sheet
+    
+    If tarSheetExists = False Then
+        With ThisWorkbook
+            .Sheets.Add(After:=.Sheets(.Sheets.Count)).Name = TargetSheetName
+        End With
+        tarSheetExists = True
+        
+    Else
+   
+    Do While tarSheetExists = True
+            If MsgBox("Target sheet already exists. Do you want to overwrite the existing data?", vbYesNo) = vbYes Then
+                ThisWorkbook.Sheets(TargetSheetName).Cells.Clear
+                Exit Do
+            Else
+                TargetSheetName = InputBox("Please enter a new name for the target data sheet:", "Target data sheet name required!", TargetSheetName + "1")
+                If TargetSheetName <> "" Then
+                    tarSheetExists = False
+                    GoTo CheckTarSheet
+                Else
+                    Exit Sub
+                End If
+            End If
+    Loop
+    
+    End If
+ 
+    Set wksSrc = Sheets(SourceSheetName)
+    Set wksDst = Sheets(TargetSheetName)
+   
+    With wksSrc
+        lRow = .Cells(Rows.Count, 1).End(xlUp).Row
+        lCol = .Cells(1, Columns.Count).End(xlToLeft).Column
+        Set rngSrcData = .Range(.Cells(2, 1), .Cells(lRow, 1))
+        Anz = Int((rngSrcData.Rows.Count) / 4)
+        ReDim aDaten(Anz, lCol)
+        For i = 1 To lCol 'Headlines
+            aDaten(0, i - 1) = .Cells(1, i)
+        Next i
+      
+        i = 1
+        ArrZe = 1
+        For Each c In rngSrcData
+            If (c.Row - 2) Mod Step = 0 Then
+                For i = 1 To lCol
+                    aDaten(ArrZe, i - 1) = .Cells(c.Row, i)
+                Next i
+                ArrZe = ArrZe + 1
+            End If
+        Next c
+    End With
+    wksDst.Range("A1").Resize(Anz + 1, lCol) = aDaten()
+   
+    Set wksSrc = Nothing
+    Set wksDst = Nothing
+    Set rngSrcData = Nothing
+End Sub
+

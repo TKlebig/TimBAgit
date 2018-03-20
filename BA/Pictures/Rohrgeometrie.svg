@@ -14,7 +14,10 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="Rohrgeometrie.pdf">
+   sodipodi:docname="Rohrgeometrie.svg"
+   inkscape:export-filename="C:\Users\TKlebig\Desktop\TimBAgit\BA\Pictures\Rohrgeometrie.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4">
     <marker
@@ -79,13 +82,13 @@
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
      inkscape:cx="346.72612"
-     inkscape:cy="861.95436"
+     inkscape:cy="862.13293"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
-     inkscape:window-x="1912"
+     inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
@@ -312,7 +315,7 @@
            height="218.21428"
            x="195"
            y="101.29076" /></flowRegion><flowPara
-         id="flowPara9066"></flowPara></flowRoot>    <flowRoot
+         id="flowPara9066" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot9070"
        style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Helvetica;font-style:normal;font-weight:normal;font-size:14px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Helvetica;font-stretch:normal;font-variant:normal"><flowRegion
@@ -322,7 +325,7 @@
            height="170.35715"
            x="198.92857"
            y="112.71932" /></flowRegion><flowPara
-         id="flowPara9076"></flowPara></flowRoot>    <flowRoot
+         id="flowPara9076" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot9088"
        style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Helvetica;font-style:normal;font-weight:normal;font-size:14px;line-height:125%;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:Helvetica;font-stretch:normal;font-variant:normal"><flowRegion
@@ -332,7 +335,7 @@
            height="162.14285"
            x="447.85715"
            y="138.43361" /></flowRegion><flowPara
-         id="flowPara9094"></flowPara></flowRoot>    <g
+         id="flowPara9094" /></flowRoot>    <g
        id="g9100"
        style="fill:#d5f6ff">
       <path

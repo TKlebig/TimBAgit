@@ -15,7 +15,10 @@
    id="svg3831"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="ClimateChamber.svg">
+   sodipodi:docname="ClimateChamber1.svg"
+   inkscape:export-filename="C:\Users\TKlebig\Desktop\TimBAgit\BA\Pictures\ClimateChamber1.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs3833">
     <marker
@@ -61,9 +64,9 @@
      borderopacity="0.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="0"
-     inkscape:zoom="0.7"
-     inkscape:cx="281.07846"
-     inkscape:cy="158.98774"
+     inkscape:zoom="1.4"
+     inkscape:cx="604.11751"
+     inkscape:cy="232.9397"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -346,5 +349,35 @@
            inkscape:connector-curvature="0" />
       </g>
     </g>
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1.04651165;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3119"
+       sodipodi:cx="847.85712"
+       sodipodi:cy="635.2193"
+       sodipodi:rx="10.714286"
+       sodipodi:ry="10.714286"
+       d="m 858.5714,635.2193 a 10.714286,10.714286 0 1 1 -21.42857,0 10.714286,10.714286 0 1 1 21.42857,0 z"
+       transform="matrix(1.4333333,0,0,1.4333333,-366.33332,-279.19027)" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#000000;stroke-width:1.04651165;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path3119-1"
+       sodipodi:cx="847.85712"
+       sodipodi:cy="635.2193"
+       sodipodi:rx="10.714286"
+       sodipodi:ry="10.714286"
+       d="m 858.5714,635.2193 a 10.714286,10.714286 0 1 1 -21.42857,0 10.714286,10.714286 0 1 1 21.42857,0 z"
+       transform="matrix(1.4333333,0,0,1.4333333,-756.69041,-84.547364)" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 842.14287,626.64787 0,194.28571 -390.71429,0"
+       id="path3139"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 856.07145,625.93357 0,206.42855 -405.00002,0"
+       id="path3139-7"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

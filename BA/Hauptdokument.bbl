@@ -1,9 +1,26 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{DINDeutschesInstitutfurNormunge.V..}
 {DIN Deutsches Institut f{\"u}r Normung e. V.}
 \newblock {Verkaufsk{\"u}hlm{\"o}bel -- Teil 2: Klassifizierung, Anforderungen
   und Pr{\"u}fbedingungen}.
+
+\bibitem{EUParlamentRat.2006}
+EU-Parlament/Rat.
+\newblock {Richtlinie 2006/40/EG - Emissionen aus Klimaanlagen in
+  Kraftfahrzeugen und zur {\"A}nderung der Richtlinie 70/156/EWG des Rates}.
+
+\bibitem{Huber.2016}
+Karl Huber.
+\newblock {R290-K{\"a}lteanlage mit optimierter F{\"u}llmenge}.
+\newblock 2016.
+
+\bibitem{DINDeutschesInstitutfurNormunge.V..2014b}
+{DIN Deutsches Institut f{\"u}r Normung e.V.}
+\newblock {DIN EN 378-1 - K{\"a}lteanlagen und W{\"a}rmepumpen --
+  Sicherheitstechnische und umweltrelevante Anforderungen -- Teil 1:
+  Grundlegende Anforderungen, Begriffe, Klassifikationen und dra
+  Auswahlkriterien}, 2014.
 
 \bibitem{Klein.2000}
 S.~A. Klein.

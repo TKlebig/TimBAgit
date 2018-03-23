@@ -1,24 +1,33 @@
 \select@language {ngerman}
-\contentsline {chapter}{Nomenklatur}{V}{Hilfszaehler.2}
-\contentsline {chapter}{Abbildungsverzeichnis}{VIII}{Hilfszaehler.3}
-\contentsline {chapter}{Tabellenverzeichnis}{IX}{Hilfszaehler.4}
-\contentsline {chapter}{Vorwort}{X}{Hilfszaehler.5}
+\contentsline {chapter}{Nomenklatur}{VI}{Hilfszaehler.2}
+\contentsline {chapter}{Abbildungsverzeichnis}{IX}{Hilfszaehler.3}
+\contentsline {chapter}{Tabellenverzeichnis}{X}{Hilfszaehler.4}
+\contentsline {chapter}{Vorwort}{XI}{Hilfszaehler.5}
 \contentsline {chapter}{\numberline {1}Motivation}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Technik/Methoden}{2}{chapter.2}
-\contentsline {section}{\numberline {2.1}Das K\IeC {\"u}hlregal}{2}{section.2.1}
-\contentsline {section}{\numberline {2.2}Die Klimakammer}{2}{section.2.2}
-\contentsline {section}{\numberline {2.3}Erfassung von Messdaten}{4}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Messdaten der Klimakammer}{4}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}Messdaten des K\IeC {\"u}hlregals}{5}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Messdaten des Leistungsanalysators}{5}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Testbedingungen nach Norm}{5}{section.2.4}
-\contentsline {section}{\numberline {2.5}Simulationsmodell f\IeC {\"u}r Verschaltung der Verdampferrohre}{7}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Modellierung mit EES}{8}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Berechnung des Druckabfalls in der Zweiphasen-Str\IeC {\"o}mung}{9}{subsection.2.5.2}
-\contentsline {subsection}{\numberline {2.5.3}Berechnung des W\IeC {\"a}rme\IeC {\"u}bergangs}{11}{subsection.2.5.3}
-\contentsline {subsection}{\numberline {2.5.4}Das Modell}{13}{subsection.2.5.4}
+\contentsline {section}{\numberline {2.1}Stand der Technik}{2}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Propan in K\IeC {\"a}lteanlagen}{2}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}K\IeC {\"a}ltemittel\IeC {\"o}le}{2}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Komponenten einer K\IeC {\"a}lteanlage}{2}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.4}Bewertungskenngr\IeC {\"o}ssen}{2}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.2}Das K\IeC {\"u}hlregal}{2}{section.2.2}
+\contentsline {section}{\numberline {2.3}Die Klimakammer}{2}{section.2.3}
+\contentsline {section}{\numberline {2.4}Erfassung von Messdaten}{4}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Messdaten der Klimakammer}{5}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Messdaten des K\IeC {\"u}hlregals}{5}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Messdaten des Leistungsanalysators}{5}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}Testbedingungen nach Norm}{5}{section.2.5}
+\contentsline {section}{\numberline {2.6}Simulationsmodell f\IeC {\"u}r Verschaltung der Verdampferrohre}{7}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Modellierung mit EES}{9}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Berechnung des Druckabfalls in der Zweiphasen-Str\IeC {\"o}mung}{9}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Berechnung des W\IeC {\"a}rme\IeC {\"u}bergangs}{11}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}Das Modell}{13}{subsection.2.6.4}
 \contentsline {chapter}{\numberline {3}Versuchsdurchf\IeC {\"u}hrung}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}Einstellung von Normbedingungen}{15}{section.3.1}
+\contentsline {section}{\numberline {3.2}K\IeC {\"a}ltemittel\IeC {\"o}le}{15}{section.3.2}
+\contentsline {section}{\numberline {3.3}Abtauintervalle}{15}{section.3.3}
+\contentsline {section}{\numberline {3.4}Verdichter}{15}{section.3.4}
+\contentsline {section}{\numberline {3.5}\IeC {\"A}nderung der Verdampferschaltung}{15}{section.3.5}
 \contentsline {chapter}{\numberline {4}Analyse der Messergebnisse}{16}{chapter.4}
 \contentsline {chapter}{\numberline {5}Zusammenfassung}{17}{chapter.5}
 \contentsline {chapter}{Literaturverzeichnis}{18}{Hilfszaehler.6}

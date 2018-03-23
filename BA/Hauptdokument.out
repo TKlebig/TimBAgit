@@ -4,23 +4,32 @@
 \BOOKMARK [0][-]{Hilfszaehler.5}{Vorwort}{}% 4
 \BOOKMARK [0][-]{chapter.1}{Motivation}{}% 5
 \BOOKMARK [0][-]{chapter.2}{Technik/Methoden}{}% 6
-\BOOKMARK [1][-]{section.2.1}{Das K\374hlregal}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.2}{Die Klimakammer}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.3}{Erfassung von Messdaten}{chapter.2}% 9
-\BOOKMARK [2][-]{subsection.2.3.1}{Messdaten der Klimakammer}{section.2.3}% 10
-\BOOKMARK [2][-]{subsection.2.3.2}{Messdaten des K\374hlregals}{section.2.3}% 11
-\BOOKMARK [2][-]{subsection.2.3.3}{Messdaten des Leistungsanalysators}{section.2.3}% 12
-\BOOKMARK [1][-]{section.2.4}{Testbedingungen nach Norm}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.5}{Simulationsmodell f\374r Verschaltung der Verdampferrohre}{chapter.2}% 14
-\BOOKMARK [2][-]{subsection.2.5.1}{Modellierung mit EES}{section.2.5}% 15
-\BOOKMARK [2][-]{subsection.2.5.2}{Berechnung des Druckabfalls in der Zweiphasen-Str\366mung}{section.2.5}% 16
-\BOOKMARK [2][-]{subsection.2.5.3}{Berechnung des W\344rme\374bergangs}{section.2.5}% 17
-\BOOKMARK [2][-]{subsection.2.5.4}{Das Modell}{section.2.5}% 18
-\BOOKMARK [0][-]{chapter.3}{Versuchsdurchf\374hrung}{}% 19
-\BOOKMARK [1][-]{section.3.1}{Einstellung von Normbedingungen}{chapter.3}% 20
-\BOOKMARK [0][-]{chapter.4}{Analyse der Messergebnisse}{}% 21
-\BOOKMARK [0][-]{chapter.5}{Zusammenfassung}{}% 22
-\BOOKMARK [0][-]{Hilfszaehler.6}{Literaturverzeichnis}{}% 23
-\BOOKMARK [0][-]{appendix.A}{Wirklich wichtiger Anhang}{}% 24
-\BOOKMARK [1][-]{section.A.1}{Die Versalien}{appendix.A}% 25
-\BOOKMARK [0][-]{appendix.B}{Wichtiger Anhang}{}% 26
+\BOOKMARK [1][-]{section.2.1}{Stand der Technik}{chapter.2}% 7
+\BOOKMARK [2][-]{subsection.2.1.1}{Propan in K\344lteanlagen}{section.2.1}% 8
+\BOOKMARK [2][-]{subsection.2.1.2}{K\344ltemittel\366le}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.3}{Komponenten einer K\344lteanlage}{section.2.1}% 10
+\BOOKMARK [2][-]{subsection.2.1.4}{Bewertungskenngr\366ssen}{section.2.1}% 11
+\BOOKMARK [1][-]{section.2.2}{Das K\374hlregal}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.3}{Die Klimakammer}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.4}{Erfassung von Messdaten}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.4.1}{Messdaten der Klimakammer}{section.2.4}% 15
+\BOOKMARK [2][-]{subsection.2.4.2}{Messdaten des K\374hlregals}{section.2.4}% 16
+\BOOKMARK [2][-]{subsection.2.4.3}{Messdaten des Leistungsanalysators}{section.2.4}% 17
+\BOOKMARK [1][-]{section.2.5}{Testbedingungen nach Norm}{chapter.2}% 18
+\BOOKMARK [1][-]{section.2.6}{Simulationsmodell f\374r Verschaltung der Verdampferrohre}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.6.1}{Modellierung mit EES}{section.2.6}% 20
+\BOOKMARK [2][-]{subsection.2.6.2}{Berechnung des Druckabfalls in der Zweiphasen-Str\366mung}{section.2.6}% 21
+\BOOKMARK [2][-]{subsection.2.6.3}{Berechnung des W\344rme\374bergangs}{section.2.6}% 22
+\BOOKMARK [2][-]{subsection.2.6.4}{Das Modell}{section.2.6}% 23
+\BOOKMARK [0][-]{chapter.3}{Versuchsdurchf\374hrung}{}% 24
+\BOOKMARK [1][-]{section.3.1}{Einstellung von Normbedingungen}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.2}{K\344ltemittel\366le}{chapter.3}% 26
+\BOOKMARK [1][-]{section.3.3}{Abtauintervalle}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.4}{Verdichter}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.5}{\304nderung der Verdampferschaltung}{chapter.3}% 29
+\BOOKMARK [0][-]{chapter.4}{Analyse der Messergebnisse}{}% 30
+\BOOKMARK [0][-]{chapter.5}{Zusammenfassung}{}% 31
+\BOOKMARK [0][-]{Hilfszaehler.6}{Literaturverzeichnis}{}% 32
+\BOOKMARK [0][-]{appendix.A}{Wirklich wichtiger Anhang}{}% 33
+\BOOKMARK [1][-]{section.A.1}{Die Versalien}{appendix.A}% 34
+\BOOKMARK [0][-]{appendix.B}{Wichtiger Anhang}{}% 35

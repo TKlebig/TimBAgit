@@ -30,6 +30,7 @@
 \makeatother
 
 
+
 %-----------------------------------------------------------------------------
 % Größeninformationen:
 % mit den gewählten Einstellungen beträgt die Textbreite (und damit auch die
@@ -51,6 +52,7 @@
 %\usepackage{svg}
 \usepackage{epstopdf}
 \usepackage[table,xcdraw]{xcolor}
+%\usepackage{subfig} %für mehrere Bilder nebeneinander HACK#42
 
 
         
@@ -75,9 +77,38 @@
   \renewcommand{\labelitemi}{\(\triangleright\)} % re-definition of the bullet-points
   \renewcommand{\labelitemii}{\(\bullet\)}}
 
+%\usepackage{watermark}
+%\usepackage{color}
+%\definecolor{light}{gray}{.50}
+
+\usepackage{eso-pic}
+%\usepackage{graphicx}
+\usepackage{color}
+\usepackage{type1cm}
+\makeatletter
+\AddToShipoutPicture{
+	\setlength{\@tempdimb}{.5\paperwidth}
+	\setlength{\@tempdimc}{.5\paperheight}
+	\setlength{\unitlength}{1pt}
+	\put(\strip@pt\@tempdimb,\strip@pt\@tempdimc){
+		\makebox(0,0){
+			\rotatebox{45}{
+				\textcolor[gray]{0.75}{
+					\fontsize{5cm}{5cm}
+					\selectfont{
+						Vertraulich
+					}
+				}
+			}
+		}
+	}
+}
+\makeatother
+
 %-----------------------------------------------------------------------------
 % Seitenlayout
 %-----------------------------------------------------------------------------
+
 \usepackage[automark, autooneside=false]{scrlayer-scrpage}
 % Für eine genauere Erklärung lies scrguide.pdf, ca. Seite 240
 \automark[chapter]{chapter}
@@ -259,7 +290,7 @@
 \clearpage
 \refstepcounter{Hilfszaehler}
 \addcontentsline{toc}{chapter}{\bibname}
-\protect\bibliographystyle{unsrt} %natdin Dieser Stil ist eine Empfehlung, aber nicht verprlichtend.
+\protect\bibliographystyle{unsrt} %natdin Dieser Stil ist eine Empfehlung, aber nicht verpflichtend.
 \bibliography{Literaturverzeichnis}
 
 %-----------------------------------------------------------------------------

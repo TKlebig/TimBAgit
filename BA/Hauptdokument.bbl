@@ -1,9 +1,8 @@
 \begin{thebibliography}{10}
 
-\bibitem{DINDeutschesInstitutfurNormunge.V..}
+\bibitem{DINDeutschesInstitutfurNormunge.V..b}
 {DIN Deutsches Institut f{\"u}r Normung e. V.}
-\newblock {Verkaufsk{\"u}hlm{\"o}bel -- Teil 2: Klassifizierung, Anforderungen
-  und Pr{\"u}fbedingungen}.
+\newblock {Verkaufsk{\"u}hlm{\"o}bel -- Teil 1: Begriffe}.
 
 \bibitem{EUParlamentRat.2006}
 EU-Parlament/Rat.
@@ -21,6 +20,30 @@ Karl Huber.
   Sicherheitstechnische und umweltrelevante Anforderungen -- Teil 1:
   Grundlegende Anforderungen, Begriffe, Klassifikationen und dra
   Auswahlkriterien}, 2014.
+
+\bibitem{BitzerKuhlmaschinenGmbH.2014}
+{Bitzer K{\"u}hlmaschinen GmbH}.
+\newblock {Technische Informationen - Einsatz von Propan (R290) und Propen
+  (R1270) mit halbhermetischen Verdichtern}.
+
+\bibitem{Huber.2011}
+Karl Huber and J{\"o}rg Rehburg.
+\newblock {Mit Propan wirtschaftlich und umweltfreundlich k{\"u}hlen}.
+\newblock 2011.
+
+\bibitem{ChemturaCorporation.2017}
+{Chemtura Corporation}.
+\newblock {HATCOL 4467 Datenblatt}.
+\newblock 2017.
+
+\bibitem{LubrizolCorporation.2015}
+{Lubrizol Corporation}.
+\newblock {Emkarate RL32-3MAF Datenblatt}.
+
+\bibitem{DINDeutschesInstitutfurNormunge.V..}
+{DIN Deutsches Institut f{\"u}r Normung e. V.}
+\newblock {Verkaufsk{\"u}hlm{\"o}bel -- Teil 2: Klassifizierung, Anforderungen
+  und Pr{\"u}fbedingungen}.
 
 \bibitem{Klein.2000}
 S.~A. Klein.
@@ -55,5 +78,10 @@ Gregory Nellis and Sanford~A. Klein.
 \bibitem{LehrstuhlfurWarmeundStoffubertragung.b}
 {Lehrstuhl f{\"u}r W{\"a}rme- und Stoff{\"u}bertragung}.
 \newblock {W{\"a}rme{\"u}bertrager und Dampferzeuger}.
+
+\bibitem{Universitatpolitecnicadevalencia.2017}
+{Universitat polit{\`e}cnica de val{\`e}ncia}.
+\newblock {Assesing and optimizing the performance of R-290 integral display
+  case}.
 
 \end{thebibliography}

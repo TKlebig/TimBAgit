@@ -2,10 +2,13 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: Hauptdokument.aux
 The style file: unsrt.bst
 A level-1 auxiliary file: bu.aux
 Database file #1: Literaturverzeichnis.bib
+Warning--I didn't find a database entry for "Prof.Dr.Ing.DirkMuller.2016"
 Warning--empty journal in Huber.2016
+Warning--empty journal in Huber.2011
+Warning--empty journal in ChemturaCorporation.2017
 Warning--empty publisher in SpringerVerlagGmbH.2013
 Warning--empty journal in LehrstuhlfurWarmeundStoffubertragung.
 Warning--empty year in LehrstuhlfurWarmeundStoffubertragung.
 Warning--empty journal in LehrstuhlfurWarmeundStoffubertragung.b
 Warning--empty year in LehrstuhlfurWarmeundStoffubertragung.b
-(There were 6 warnings)
+(There were 9 warnings)

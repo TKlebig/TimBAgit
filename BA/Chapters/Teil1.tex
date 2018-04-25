@@ -4,7 +4,7 @@
 \label{cha:Motivation}
 
 Im Fokus der Arbeit steht ein vertikales Supermarktkühlmöbel für Normalkühlung, welches mit Propan (R290) betrieben wird\cite{DINDeutschesInstitutfurNormunge.V..b}. Propan findet vor dem Hintergrund der F-Gas-Verordnung und aufgrund der hohen volumetrischen Kälteleistung immer häufiger Verwendung\cite{EUParlamentRat.2006}\cite{Huber.2016}. Sicherheitsnormen beschränken die maximale Füllmenge eines Kältekreises mit Propan auf \unit{150}{\gram}\cite{DINDeutschesInstitutfurNormunge.V..2014b}. Das AHT-Kühlmöbel für dessen Produktion die Firma Emerson Scrollverdichter liefert ist nicht in der Lage die Zieltemperatur, die zwischen \unit{-1}{\celsius} und \unit{5}{\celsius} liegt, über die gesamte Warenausstellfläche gleichmäßig zu erreichen. Um Gründe für die unzureichende Produktkühlung zu finden und um die Kälteleistung der Kältekreise zu erhöhen werden Untersuchungen in einer Klimakammer durchgeführt. Das Ziel dieser Untersuchungen ist die Identifikation eines optimalen Betriebspunkts durch Zusammenstellung von Komponenten und Maßnahmen, die im Rahmen der durchgeführten Untersuchungen als leistungssteigernd identifiziert wurden, so dass eine ganzheitliche Lösung bestimmt werden kann. 
-Vorausgehende Arbeiten umfassen die Installation von Temperatur- und Drucksensoren am Kältekreis und an den Produktdummys um das Verhalten des Systems erfassen und analysieren zu können sowie den Einbau eines kleineren Plattenwärmeübertragers als Verflüssiger. Letzteres zielt auf eine Reduzierung des internen Volumens der Kältekreise um den Mangel an Kältemittel zu kompensieren. Zudem wurden zur genaueren Regelung der Überhitzung thermische durch elektronische Expansionsventile ersetzt. Eine weitere durchgeführte Veränderung ist der Wechsel eines Glykol-Wasser-Gemischs zu Wasser als Wärmetransportmedium für die Verflüssiger.
+Vorausgehende Arbeiten umfassen die Installation von Temperatur- und Drucksensoren am Kältekreis und an den M-Paketen um das Verhalten des Systems erfassen und analysieren zu können sowie den Einbau eines kleineren Plattenwärmeübertragers als Kondensatoren. Letzteres zielt auf eine Reduzierung des internen Volumens der Kältekreise um den Mangel an Kältemittel zu kompensieren. Zudem wurden zur genaueren Regelung der Überhitzung thermische durch elektronische Expansionsventile ersetzt. Eine weitere durchgeführte Veränderung ist der Wechsel eines Glykol-Wasser-Gemischs zu Wasser als Wärmetransportmedium für die Kondensation.
 Die vorausgehenden Arbeiten bezeichnen die Generationen 1 und 2 des Kühlmöbels.
 Generation 3 umfasst die im Rahmen der Bachelorarbeit durchgeführten Untersuchungen und Umbauten.
 Dabei werden folgende Untersuchungen durchgeführt:
@@ -44,26 +44,24 @@ Um steckerfertige Kühlmöbel ohne spezielle Sicherheitsvorkehrungen betreiben z
 \subsubsection{Verdichter}
 \label{subsubsec:Verdichter}
 
-Mithilfe des Verdichters wird gasförmiges Kältemittel auf ein hohes Druck- und Temperaturniveau verdichtet. Um Kältemittel zu komprimieren finden verschiedene Bauformen Anwendung. Scrollkompressoren zeichnen sich durch hohe Effizienz aus. Diese verfügen über eine sich auf einer kreisförmigen Bahn bewegenden Spirale. Diese Bahn wird durch eine stationäre Spirale verbunden. Durch das bei Rotation zur Spiralmitte kleiner werdende Volumen findet die Verdichtung statt.
+Mithilfe des Verdichters wird gasförmiges Kältemittel auf ein hohes Druck- und Temperaturniveau verdichtet. Im Anwendungsgebiet der Normalkühlung werden vor allem Hubkolben- und Scrollverdichter eingesetzt. Scrollkompressoren zeichnen sich durch hohe Effizienz aus. Diese verfügen über eine sich auf einer kreisförmigen Bahn bewegenden Spirale. Diese Bahn wird durch eine stationäre Spirale vorgegeben. Durch das bei Rotation zur Spiralmitte kleiner werdende Volumen findet die Verdichtung statt. Scrollkompressoren dissipieren wegen der aneinander reibenden Spiralen viel Hitze und können sehr heiß werden. Damit der Verdichter keinen Schaden nimmt muss eine ausreichende Ölschmierung jederzeit gewährleistet sein. 
 
 
-\subsubsection{Verflüssiger}
-\label{subsubsec:Verflüssiger}
+\subsubsection{Kondensator}
+\label{subsubsec:Kondensator}
 
-Im Verflüssiger wird gasförmiges, überhitztes Kältemittel durch Wärmeabgabe an ein anderes Fluid enthitzt, verflüssigt und idealerweise unterkühlt. Neben den klassischen Luft-Kältemittel-Wärmeübertragern finden oft Luft-Wasser-Wärmeübertragers Anwendung. Diese Plattenwärmeübertrager ermöglichen aufgrund der höheren Wärmekapazität von Wasser bzw. Sole gegenüber Luft kleineren Bauraum bei gleicher Leistung.
+Im Kondensator wird gasförmiges, überhitztes Kältemittel durch Wärmeabgabe an ein anderes Fluid enthitzt, kondensiert und idealerweise unterkühlt. Neben den klassischen Luft-Kältemittel-Wärmeübertragern finden oft Wasser-Kältemittel-Wärmeübertrager Anwendung. Diese Plattenwärmeübertrager ermöglichen aufgrund der höheren Wärmekapazität von Wasser bzw. Sole gegenüber Luft kleineren Bauraum bei gleicher Leistung.
 
 \subsubsection{Expansionsventil}
 \label{subsubsec:Expansionsventil}
 
 
-Im Expansionsventil wird der Druck des Kältemittels nach dem Verflüssiger auf ein niedriges Druckniveau gedrosselt. Dies hat ein Absinken der Sättigungstemperatur zur Folge. Die Enthalpie des Kältemittels bleibt dabei konstant. Durch die bei niedrigerem Druck größer werdende Verdampfungsenthalpie hat das Kältemittel nach der Drosselung einen größeren Dampfanteil als vor dem Ventil. Zum Schutz des Expansionsventiles und um ein fehlerfreies Regelverhalten zu garantieren ist es nötig das Kältemittel vor dem Ventil vollständig zu verflüssigen und zu unterkühlen. Gleichzeitig hat das Expansionsventil die Aufgabe die Überhitzung des Kältemittels auf einen vorgegebenen Wert zu regeln und konstant zu halten. Die Temperatur am Austritt des Verdampfers wird durch einen Temperatursensor an der Saugleitung erfasst. Um das Regelverhalten zu verbessern haben diverse Ventile einen zusätzlichen Drucksensor in der Saugleitung. Dadurch wird eine Verfälschung der Überhitzungsregelung durch Druckabfall über den Verdampfer eliminiert. Elektronische Expansionsventile ermöglichen ein sehr präzises und schnelle Regelverhalten. 
+Im Expansionsventil wird der Druck des Kältemittels nach dem Kondensator auf ein niedriges Druckniveau gedrosselt. Dies hat ein Absinken der Sättigungstemperatur zur Folge. Die Enthalpie des Kältemittels bleibt dabei konstant. Durch die bei sinkendem Druck größer werdende Verdampfungsenthalpie hat das Kältemittel nach der Drosselung einen größeren Dampfanteil als vor dem Ventil. Zum Schutz des Expansionsventiles vor Beschädigung durch Gasblasen und um ein fehlerfreies Regelverhalten zu garantieren ist es nötig das Kältemittel vor dem Ventil vollständig zu kondensieren und zu unterkühlen. Gleichzeitig hat das Expansionsventil die Aufgabe die Überhitzung des Kältemittels auf einen vorgegebenen Wert zu regeln und konstant zu halten. Die Überhitzung ist die Differenz zwischen der Sättigungstemperatur des Kältemittels und dessen tatsächlicher Temperatur. Die Temperatur am Austritt des Verdampfers wird durch einen Temperatursensor an der Saugleitung erfasst. Um das Regelverhalten zu verbessern haben diverse Ventile einen zusätzlichen Drucksensor in der Saugleitung. Dadurch wird eine Verfälschung der Überhitzungsregelung durch Druckabfall über den Verdampfer eliminiert. Elektronische Expansionsventile ermöglichen gegenüber thermostatischen Ventilen ein sehr präzises und schnelles Regelverhalten. 
 
 \subsubsection{Verdampfer}
 \label{subsubsec:Verdampfer}
 
 Im Verdampfer nimmt das Kältemittel bei niedrigem Druck und entsprechend niedriger Sättigungstemperatur die Wärme des zu kühlenden Fluids auf und verdampft dabei. Die Verdampfungstemperatur soll dabei etwa \unit{10}{\kelvin} unter der Zielprodukttemperatur liegen. In steckerfertigen Kühlmöbeln finden ausschließlich Luft-Kältemittel-Wärmeübertrager Anwendung. Um die wärmeübertragende Fläche zu vergrößern sind die Verdampferrohre mit Lamellen aus Aluminium bestückt. Diese haben für den Einsatzbereich der Normalkühlung Abstände von \unit{4}{\milli\metre} bis \unit{5}{\milli\metre}. Damit verhindert wird, dass flüssiges Kältemittel den Verdichter schädigt wird das Kältemittel um etwa \unit{8}{\kelvin} überhitzt.
-
-
 
 
 \subsection{Kältemittelöle}
@@ -110,17 +108,18 @@ Gleichung~\ref{eq:2} ermöglicht eine Berechnung der Löslichkeit des Kältemitt
 
 Eine iterative Berechnung liefert eine Lösung für das Gleichungssystem.
 
+\subsection{Abtauung}
+\label{subsec:Abtauung}
 
-
-
-
+Die Abtauregelung eines Kühlmöbels erfüllt den Zweck dessen Verdampfer in regelmäßigen Abständen zu enteisen. Man unterscheidet zwischen elektrischer Abtauung, Heißgasabtauung und Umluftabtauung. Bei einer elektrischen Abtauung wird das Eis mithilfe von Heizwiderständen im Verdampferpaket abgetaut. Eine Heißgasabtauung erfolgt mittels einer Systemumkehr des Kältekreises. Hierbei wird überhitztes Kältemittel in den Verdampfer geleitet und taut das Eis effektiv vom Entstehungspunkt ab. Die Umluftabtauung bezeichnet die einfachste Abtauregelung. Hierbei werden die Verdichter ausgeschaltet während die Verdampferlüfter weiterlaufen. Durch die wärmer werdende Luft wird das Eis langsam entfernt. Mittels einer Kondensatpumpe wird das aufgetaute Eis aus dem Kühlmöbel entfernt. \newline
+Der Abtauung wird entweder in einem vorgegebenen Zeitintervall oder mittels einer Bedarfsdetektion eingeleitet. Bei einer bedarfsgerechten Abtauung wird die Temperaturdifferenz der Luft über den Verdampfer erfasst. Sinkt diese innerhalb des vorgegebenen Abtauintervalls unter einen bestimmten Wert, wird die Abtauung zu diesem Zeitpunkt eingeleitet.
 
 
 \section{Das Kühlregal}
 \label{sec:Das Kühlregal}
 
 Der Mittelpunkt der durchgeführten Untersuchungen ist ein vertikales Verkaufskühlmöbel der Firma AHT.
-Es umfasst auf einer Länge von \unit{3,75}{\metre} vier Regalböden um Produkte zu kühlen und auszustellen. Ein von oben herabfallender Luftschleier ermöglicht ein türloses Design des Regals. Ein Nachtbetrieb mit geschlossener Jalousie ist möglich. Die Kälteerzeugung wird, wie in Abbildung~\ref{fig:IDC150} ersichtlich, durch drei seperate Kältekreisläufe gewährleistet. Das verwendete Kältemittel ist Propan (R290). Jeder Kreis besitzt eine Kältemittelfüllmenge von \unit{150}{\gram} und eine Ölfüllmenge von \unit{470}{\gram}. Um die Kältemittelfüllmenge zu reduzieren wurden bereits vor Beginn der Untersuchungen kältetechnische Komponenten mit geringerem internen Volumen eingebaut. Die Verdichter sind Scrollkompressoren der Firma Emerson.  Im Rahmen der Untersuchungen finden zwei Ausführungen desselben Verdichtermodells Anwendung. Das von Emerson gefertigte Modell ZB09KAU-TFD in Hybridausführung besitzt eine Motorwicklung aus Aluminium. Dasselbe Modell in Standardausführung besitzt eine Kupferwicklung. Drei Plattenwärmeübertrager der Firma SWEP dienen als Verflüssiger. Sie besitzen je 20 Platten und eine Nennleistung von je \unit{2,7}{\kilo\watt}. Die Expansionsventile der Firma Alco sind elektronisch regelbar und besitzen einen Temperatur- sowie Drucksensor in der Saugleitung. Die drei Kreisläufe durchlaufen mit je sechs Durchgängen einen gemeinsamen Verdampfer dessen Lamellenabstand \unit{5}{\milli\metre} beträgt. Sechs Lüftermotoren der Firma EBM Pabst befördern die Luft mit einer konstanten Drehzahl von \unit{1400}{U\per\min} durch den Verdampfer.
+Es umfasst auf einer Länge von \unit{3,75}{\metre} vier Regalböden um Produkte zu kühlen und auszustellen. Ein von oben herabfallender Luftschleier ermöglicht ein türloses Design des Regals. Ein Nachtbetrieb mit geschlossener Jalousie ist möglich. Abbildung~\ref{fig:IDC150} zeigt die Kältekreise des Kühlmöbels und die Positionen der Sensoren. Die Kälteerzeugung wird durch drei seperate Kältekreisläufe gewährleistet. Das verwendete Kältemittel ist Propan (R290). Jeder Kreis besitzt eine Kältemittelfüllmenge von \unit{150}{\gram} und eine Ölfüllmenge von \unit{470}{\gram}. Um die Kältemittelfüllmenge zu reduzieren wurden bereits vor Beginn der Untersuchungen kältetechnische Komponenten mit geringerem internen Volumen eingebaut. Die Verdichter sind Scrollkompressoren der Firma Emerson.  Im Rahmen der Untersuchungen finden zwei Ausführungen desselben Verdichtermodells Anwendung. Das von Emerson gefertigte Modell ZB09KAU-TFD in Hybridausführung besitzt eine Motorwicklung aus Aluminium. Dasselbe Modell in Standardausführung besitzt eine Kupferwicklung. Drei Plattenwärmeübertrager der Firma SWEP dienen als Kondensatoren. Sie besitzen je 20 Platten und eine Nennleistung von je \unit{2,7}{\kilo\watt}. Die Expansionsventile der Firma Alco sind elektronisch regelbar und besitzen einen Temperatur- sowie Drucksensor in der Saugleitung. Die drei Kreisläufe durchlaufen mit je sechs Durchgängen einen gemeinsamen Verdampfer dessen Lamellenabstand \unit{5}{\milli\metre} beträgt. Sechs Lüftermotoren der Firma EBM Pabst befördern die Luft mit einer konstanten Drehzahl von \unit{1400}{U\per\min} durch den Verdampfer.
 
 \begin{figure} %[!htb]
 \centering
@@ -134,9 +133,10 @@ Es umfasst auf einer Länge von \unit{3,75}{\metre} vier Regalböden um Produkte
 \label{sec:Die Klimakammer}
 
 Um während den Untersuchungen gleichbleibende Umgebungsbedingungen zu generieren und  reproduzierbare Ergebnisse zu erzielen, wird das Kühlregal in einer Klimakammer betrieben.
-Wie in Abbildung~\ref{fig:Klimakammer} zu erkennen besteht die Klimakammer aus zwei kleineren Kammern mit eigenständigen Zuluftregelungen. Aufgrund der Größe des Regals wurde die Trennwand zwischen den Kammern entfernt. Die Zuluftaufbereitung übernimmt dabei die Klimaanlage der Kammer B. Damit die aufbereitete Luft den Raum über dessen gesamte Länge durchströmt wurde die Ansaugöffnung von Kammer B mit einer Decke, die bis zum Ende des Raums reicht, abgedeckt. Vor den Luftauslassgittern besitzen die Kammern Umlenkbleche. Diese sollen eine gleichmäßige Verteilung des Luftmassenstroms über den Austrittquerschnitt erzielen. Die Klimaanlagen sind in der Lage die angesaugte Raumluft zu kühlen, aufzuheizen sowie zu be- und entfeuchten. Die Regelung findet dabei über einen Computer statt. Mithilfe des Programms LabView, welches eine intuitive Benutzeroberfläche bietet, lässt sich Einfluss auf die Soll-Werte, die Dauer der jeweiligen Untersuchung und die Einstellung der Regelparameter nehmen. 
+Abbildung~\ref{fig:Klimakammer} zeigt den Aufbau der Klimakammer und die Position des Kühlmöbels in dieser.
+Die Klimakammer besteht aus zwei kleineren Kammern mit eigenständigen Zuluftregelungen. Aufgrund der Größe des Regals wurde die Trennwand zwischen den Kammern entfernt. Die Zuluftaufbereitung übernimmt dabei die Klimaanlage der Kammer B. Damit die aufbereitete Luft den Raum über dessen gesamte Länge durchströmt wurde die Ansaugöffnung von Kammer B mit einer Decke, die bis zum Ende des Raums reicht, abgedeckt. Vor den Luftauslassgittern besitzen die Kammern Umlenkbleche. Diese sollen eine gleichmäßige Verteilung des Luftmassenstroms über den Austrittquerschnitt erzielen. Die Klimaanlagen sind in der Lage die angesaugte Raumluft zu kühlen, aufzuheizen sowie zu be- und entfeuchten. Die Regelung findet dabei über einen Computer statt. Mithilfe des Programms LabView, welches eine intuitive Benutzeroberfläche bietet, lässt sich Einfluss auf die Soll-Werte, die Dauer der jeweiligen Untersuchung und die Einstellung der Regelparameter nehmen. 
 Jede Kammer besitzt zudem einen Wasseranschluss dessen Vorlauftemperatur regulierbar ist.
-Die Verflüssiger des Kühlregals werden mit temperiertem Wasser der Regelung von Kammer A beaufschlagt. Die Regelung der Verflüssigungstemperatur geschieht mittels zwei Pumpen in einem primären und einem sekundären Wasserkreislauf. Die Pumpe im primären Wasserkreislauf beaufschlagt die Verflüssiger mit Wasser und hält eine Temperaturdifferenz von \unit{5}{\kelvin} über diesen konstant. Die Pumpe des sekundären Wasserkreislaufs regelt über einen Wärmeübertrager zwischen den beiden Kreisen die Temperatur des Wassers am Eintritt des Verflüssigers auf \unit{35}{\celsius}.
+Die Kondensatoren des Kühlregals werden mit temperiertem Wasser der Regelung von Kammer A beaufschlagt. Die Regelung der Kondensationstemperatur geschieht mittels zwei Pumpen in einem primären und einem sekundären Wasserkreislauf. Die Pumpe im primären Wasserkreislauf beaufschlagt die Kondensatoren mit Wasser und hält eine Temperaturdifferenz von \unit{5}{\kelvin} über diesen konstant. Die Pumpe des sekundären Wasserkreislaufs regelt über einen Wärmeübertrager zwischen den beiden Kreisen die Temperatur des Wassers am Eintritt des Kondensators auf \unit{35}{\celsius}.
 
 
 \begin{figure}[htb]
@@ -182,14 +182,14 @@ Der an einem Wärmeübertrager übertragene Wärmestrom lässt sich mit Gleichun
 \dot{Q}= kA(T_A - T_B) = \dot{M}_{A}(h_{WÜ,aus} - h_{WÜ,ein})
 \end{equation}
 
-Die am Verflüssiger übertragene Leistung berechnet sich auf Basis der Temperaturen und des Massenstroms des Wassers nach Gleichung~\ref{eq:5}.
+Die am Kondensator übertragene Leistung berechnet sich auf Basis der Temperaturen und des Massenstroms des Wassers nach Gleichung~\ref{eq:5}.
 
 \begin{equation}
 \label{eq:5}
 \dot{Q}_{cd}= \frac{\dot{M}_{W}}{3} c_{p,W} (T_{W,aus} - T_{W,ein})
 \end{equation}
 
-Da unter den Testbedingungen nicht immer eine Unterkühlung des Kältemittels und damit ein Verlassen des Zweiphasengebietes stattfindet, wird die Enthalpie am Verflüssigeraustritt bzw. am Verdampfereintritt mithilfe der erfassten Messdaten am Verflüssigereintritt und der zuvor berechneten Verlüssigerleistung nach Gleichung~\ref{eq:6} berechnet.
+Da unter den Testbedingungen nicht immer eine Unterkühlung des Kältemittels und damit ein Verlassen des Zweiphasengebietes stattfindet, wird die Enthalpie am Kondensatoraustritt bzw. am Verdampfereintritt mithilfe der erfassten Messdaten am Kondensatoreintritt und der zuvor berechneten Kondensatorleistung nach Gleichung~\ref{eq:6} berechnet.
 
 \begin{equation}
 \label{eq:6}
@@ -227,12 +227,11 @@ EER = \frac{\dot{Q}_{ev}}{P_{el}}
 \section{Testbedingungen nach Norm}
 \label{sec:Testbedingungen nach Norm}
 
-Die Norm DIN EN ISO 23953-2 liefert Vorgaben zum Aufbau des Prüfstandes, zur Position der Messtechnik und zu Berechnungsmethoden. Bei allen Tätigkeiten wurde sich an dieser orientiert um reproduzierbare sowie vergleichbare Ergebnisse zu erzielen. Rahmenbedingung ist, dass alle Untersuchungen, nach Tabelle~\ref{tab:Klimaklassen}, bei Klimaklasse 3 durchgeführt werden. Die erzielten Produkttemperaturen des Kühlmöbels müssen dabei, gemäß Tabelle~\ref{tab:Temperaturklassen}, zwischen \unit{5}{\celsius} und \unit{-1}{\celsius} liegen.
-Um Kühlgut möglichst genau zu simulieren, werden je \unit{1}{\kilogram} schwere M-Pakete aus Silikon verwendet.
-Diese werden entsprechend Abbildung~\ref{fig:Anordnung der M-Pakete} positioniert und jene die mit einem X gekennzeichnet sind mit Temperatursensoren versehen.
-Der Messpunkt für die Temperatur und die relative Luftfeuchte muss mittig der Länge der Kühlmöbels und \unit{300}{\milli\metre} vor dessen Oberkante liegen.
-Voraussetzung für eine normgerechte Messung ist zudem, dass eine Bewegung der Luft vorhanden ist. Deren Geschwindigkeit muss an den drei Messpunkten auf der Linie A-A in Abbildung~\ref{fig:Messpunkte} zwischen \unit{0,1}{\meter\per\second} und \unit{0,2}{\meter\per\second} liegen\cite{DINDeutschesInstitutfurNormunge.V..}.
-
+Die Norm DIN EN ISO 23953-2 liefert Vorgaben zum Aufbau des Prüfstandes, zur Position der Messtechnik und zu Berechnungsmethoden. Bei allen Tätigkeiten wird sich an dieser orientiert um reproduzierbare sowie vergleichbare Ergebnisse zu erzielen.
+Tabelle~\ref{tab:Klimaklassen} zeigt die genormten Klimaklassen mit deren Klassikation nach Trockenkugeltemperatur, relativer Luftfeuchtigkeit, Taupunkt und dem Wasserdampfgehalt der Luft. Tabelle~\ref{tab:Temperaturklassen} zeigt die Temperaturklassen der M-Pakete mit der jeweils niedrigsten und höchsten erlaubten Temperatur. Rahmenbedingung ist, dass alle Untersuchungen bei Klimaklasse 3 durchgeführt werden. Die erzielten Produkttemperaturen des Kühlmöbels müssen dabei zwischen \unit{5}{\celsius} und \unit{-1}{\celsius} liegen. \newline
+Um Kühlgut möglichst genau zu simulieren, werden je \unit{1}{\kilogram} schwere M-Pakete aus Silikon verwendet. Abbildung~\ref{fig:Anordnung der M-Pakete} zeigt die vorgeschriebene Anordnung dieser M-Pakete in den Regalreihen des Kühlmöbels. Die mit einem X gekennzeichneten Pakete werden mit Temperatursensoren versehen.
+Der Messpunkt für die Temperatur und die relative Luftfeuchte muss mittig der Länge der Kühlmöbels und \unit{300}{\milli\metre} vor dessen Oberkante liegen. \newline
+Voraussetzung für eine normgerechte Messung ist zudem, dass eine Bewegung der Luft vorhanden ist. Abbildung~\ref{fig:Messpunkte} zeigt die vorgeschriebenen Messpunkte für die Erfassung der Luftgeschwindigkeit. Diese muss an den drei Messpunkten auf der Linie A-A in Abbildung~\ref{fig:Messpunkte} zwischen \unit{0,1}{\meter\per\second} und \unit{0,2}{\meter\per\second} liegen\cite{DINDeutschesInstitutfurNormunge.V..}. \newline
 Die erfassten Messwerte und die auf deren Basis berechneten Leistungen sowie Bewertungsgrößen werden über die letzten \unit{75}{\%} des letzten Kühlzyklus in einem Untersuchungszeitraum von \unit{24}{\hour} gemittelt.
 
 
@@ -249,7 +248,7 @@ Die erfassten Messwerte und die auf deren Basis berechneten Leistungen sowie Bew
 \begin{tabular}{|c|c|c|c|c|}
 \hline
 \textbf{\begin{tabular}[c]{@{}c@{}}Klimaklasse des \\ Prüfraums\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Trockenkugel-\\ temperatur\end{tabular}} & \textbf{\begin{tabular}[c]{@{}c@{}}Relative \\ Luftfeuchte\end{tabular}} & \textbf{Taupunkt} & \textbf{\begin{tabular}[c]{@{}c@{}}Wasserdampf-\\ gehalt \\ in trockener Luft\end{tabular}} \\
-                                                                              &                                                                             & \%                                                                       & °C                & g/kg                                                                                        \\ \hline
+                                                                           & °C                                                                       & \%                                                                       & °C                & g/kg                                                                                        \\ \hline
 0                                                                             & 20                                                                          & 50                                                                       & 9,3               & 7,3                                                                                         \\ \hline
 1                                                                             & 16                                                                          & 80                                                                       & 12,6              & 9,1                                                                                         \\ \hline
 8                                                                             & 23,9                                                                        & 55                                                                       & 14,3              & 10,2                                                                                        \\ \hline
@@ -308,14 +307,14 @@ S               & \multicolumn{2}{c|}{Sonderklasse}                             
 \section{Simulationsmodell für Verschaltung der Verdampferrohre}
 \label{sec:Simulationsmodell}
 
-Mithilfe des Programms EES (Engineering Equation Solver) wurde im Rahmen der Untersuchungen ein Modell erstellt, welches es ermöglicht den Effekt einer anderen Verschaltung der kältemittelführenden Leitungen innerhalb des Verdampfers auf dessen Kälteleistung zu simulieren. Grundidee hinter dem Modell ist den, durch den hohen Kältemittelmassenstrom bei gleichzeitig geringem Durchmesser der Verdampferrohre bedingten, Druckabfall und das damit einhergehende Absinken der Sättigungstemperatur zur Erhöhung der Kälteleistung zu nutzen. Im Ausgangsmodell durchströmt das Kältemittel den Verdampfer im Gegenstromprinzip. Aufgrund des Druckabfalls verhält sich diese Anordung wie eine Kombination aus Gleich- und Gegenstrom. Wird nun die Anordnung der Rohre dahingehend geändert, dass das Kältemittel den Verdampfer von dessen Mitte aus im Gleichstrom mit der Luft nach oben durchströmt, aber die überhitzten Rohrreihen noch immer beim Lufteintritt sind, so erzielt man den gegenteiligen Effekt: Der Wärmeübertrager bietet eine Kombination aus Gleich- und Gegenstrom, verhält sich aber wie ein reiner Gegenstromverdampfer. Hierbei ist am Verdampferaustritt der Luft eine höhere Temperaturdifferenz zum Kältemittel zu erwarten. Den Vergleich zeigt Abbildung~\ref{fig:Vergleich der Verdampferschaltungen}.
+Mithilfe des Programms EES (Engineering Equation Solver) wurde im Rahmen der Untersuchungen ein Modell erstellt, welches es ermöglicht den Effekt einer anderen Verschaltung der kältemittelführenden Leitungen innerhalb des Verdampfers auf dessen Kälteleistung zu simulieren. Grundidee hinter dem Modell ist den, durch den hohen Kältemittelmassenstrom bei gleichzeitig geringem Durchmesser der Verdampferrohre bedingten, Druckabfall und das damit einhergehende Absinken der Sättigungstemperatur zur Erhöhung der Kälteleistung zu nutzen. Im Ausgangsmodell durchströmt das Kältemittel den Verdampfer im Gegenstromprinzip. Aufgrund des Druckabfalls verhält sich diese Anordung wie eine Kombination aus Gleich- und Gegenstrom. Wird nun die Anordnung der Rohre dahingehend geändert, dass das Kältemittel den Verdampfer von dessen Mitte aus im Gleichstrom mit der Luft nach oben durchströmt, aber die überhitzten Rohrreihen noch immer beim Lufteintritt sind, so erzielt man den gegenteiligen Effekt: Der Wärmeübertrager bietet eine Kombination aus Gleich- und Gegenstrom, verhält sich aber wie ein reiner Gegenstromverdampfer. Hierbei ist am Verdampferaustritt der Luft eine höhere Temperaturdifferenz zum Kältemittel zu erwarten. Abbildung~\ref{fig:Vergleich der Verdampferschaltungen} zeigt schematisch für beide Verschaltungen die Reihenfolge in der das Kältemittel durch den Verdampfer strömt. Die Graphen darunter zeigen die zu erwartenden Temperaturgradienten der Luft und des Kältemittels über die Höhe des Verdampfers. \newline
 Das Modell soll zeigen ob diese Maßnahme einen bedeutenden Effekt erzielen kann und wird anschließend im Versuch validiert.
 
 
 \begin{figure}[htb]
 \centering
-	\subfigure[Ausgangsschaltung]{\includegraphics[scale=0.4]{Pictures/Verdampfer_Gegenstrom.pdf}}
-	\subfigure[veränderte Schaltung]{\includegraphics[scale=0.4]{Pictures/Verdampfer_Gleich-Gegenstrom.pdf}}
+	\subfigure[Ausgangsschaltung]{\includegraphics[scale=0.39]{Pictures/Verdampfer_Gegenstrom.pdf}}
+	\subfigure[veränderte Schaltung]{\includegraphics[scale=0.39]{Pictures/Verdampfer_Gleich-Gegenstrom.pdf}}
 \caption{Vergleich der Verdampferschaltungen.}
 \label{fig:Vergleich der Verdampferschaltungen}
 \end{figure}
@@ -333,14 +332,14 @@ Weitere Programmfunktionen erlauben die Erstellung einer Benutzeroberfläche sow
 \label{subsec:Berechnung des Druckabfalls in der Zweiphasen-Strömung}
 
 Die Ausgangsberechnung auf der alle weiteren Berechnung basieren, ist die des Druckabfalls innerhalb der Kältemittelströmung.
-Der gesamte Druckabfall setzt sich aus einem Reibungsanteil, einem Beschleunigungsanteil und einem statischen Anteil zusammen\cite{SpringerVerlagGmbH.2013}:
+Nach Gleichung~\ref{eq:10} setzt sich der gesamte Druckabfall $\Delta p$ aus einem Reibungsanteil $\Delta p_{Reibung}$, einem Beschleunigungsanteil $\Delta p_{Beschleunigung}$ und einem statischen Anteil $\Delta p_{statisch}$ zusammen\cite{SpringerVerlagGmbH.2013}:
 
 \begin{equation}
 \label{eq:10}
 \Delta p =  \Delta p_{Reibung} \pm \Delta p_{statisch} \pm \Delta p_{Beschleunigung}
 \end{equation}
 
-Der statische Anteil, sowie der Beschleunigungsanteil sind von einer viel kleineren Dimension und werden deshalb als vernachlässigbar angenommen. Um den durch Reibung bedingten Druckabfall zu berechnen muss zunächst bestimmt werden ob die Gasphase dispers oder kontinuierlich ist, d.h. ob Gasblasen getrennt und verteilt in der Flüssigkeit transportiert werden oder zusammenhängend strömen.
+Der statische Anteil, sowie der Beschleunigungsanteil sind von einer viel kleineren Dimension und werden deshalb als vernachlässigbar angenommen. Um den durch Reibung bedingten Druckabfall zu berechnen muss zunächst bestimmt werden ob die Gasphase dispers oder kontinuierlich ist, d.h. ob Gasblasen getrennt und verteilt in der Flüssigkeit transportiert werden oder zusammenhängend strömen. Nach Gleichung~\ref{eq:11} ist der Reibungsanteil des Druckverlustes das Integral der längenbezogenen Druckänderung über die Länge der Verdampferrohres.
 
 \begin{equation}
 \label{eq:11}
@@ -348,35 +347,35 @@ Der statische Anteil, sowie der Beschleunigungsanteil sind von einer viel kleine
 \end{equation}
 
 
-Die Gasphase ist dispers, wenn gilt:
+Die Gasphase ist dispers, wenn Gleichung~\ref{eq:12} gilt. Hierbei bezeichnet $\beta$ das Verhältnis der Volumenströme der flüssigen Phase $\dot{V}_F$ und der Gasphase $\dot{V}_G$. $x$ ist der Dampfanteil des Kältemittels, $\rho_F$ die Dichte der flüssigen Phase, $\rho_D$ die Dichte der Dampfphase und $Fr$ die Froudezahl.
 
 \begin{equation}
 \label{eq:12}
-\frac{1}{\beta} = \frac{\dot{V_G}}{\dot{V_F}} = \frac{x\rho_F}{(1-\dot{x})\rho_D} \leq \frac{12\sqrt{Fr}}{1+\frac{\sqrt{Fr}}{7}}
+\frac{1}{\beta} = \frac{\dot{V}_G}{\dot{V}_F} = \frac{x\rho_F}{(1-x)\rho_D} \leq \frac{12\sqrt{Fr}}{1+\frac{\sqrt{Fr}}{7}}
 \end{equation}
 
-und als kontinuierlich, wenn gilt:
+und als kontinuierlich, wenn wenn Gleichung~\ref{eq:13} gilt:
 
 \begin{equation}
 \label{eq:13}
-\frac{1}{\beta} = \frac{\dot{V_G}}{\dot{V_F}} = \frac{x\rho_F}{(1-\dot{x})\rho_D} > \frac{12\sqrt{Fr}}{1+\frac{\sqrt{Fr}}{7}}
+\frac{1}{\beta} = \frac{\dot{V}_G}{\dot{V}_F} = \frac{x\rho_F}{(1-x)\rho_D} > \frac{12\sqrt{Fr}}{1+\frac{\sqrt{Fr}}{7}}
 \end{equation}
 
-In allen durchgeführten Berechnungen ist die Dampfphase als kontinuierlich zu betrachten, daher wird sich im Rahmen dieser Ausführungen auf die Gleichungen dieser Annahme beschränkt. Der Reibungsdruckabfall wird wesentlich durch einen intensiven Impulsaustausch zwischen den beiden Phasen beeinflusst. In den Gleichungen wird die Zweiphasenströmung wie eine Dampfströmung behandelt und der Einfluss der flüssigen Phase durch eine Korrekturgröße $\gamma$ berücksichtigt:
+In allen durchgeführten Berechnungen ist die Dampfphase als kontinuierlich zu betrachten, daher wird sich im Rahmen dieser Ausführungen auf die Gleichungen dieser Annahme beschränkt. Der Reibungsdruckabfall wird wesentlich durch einen intensiven Impulsaustausch zwischen den beiden Phasen beeinflusst. In Gleichung~\ref{eq:14} wird die Zweiphasenströmung wie eine Dampfströmung behandelt und der Einfluss der flüssigen Phase durch eine Korrekturgröße $\gamma$ berücksichtigt. Hierbei ist $\dot{m}$ der auf die Rohrquerschnittsfläche bezogene Massenstrom.
 
 \begin{equation}
 \label{eq:14}
 \left( \frac{dp}{dl} \right)_{Reibung} = \xi_D \frac{\dot{m}^2 x^2}{4\rho_D} \left(\frac{1}{1-\gamma} \right)^2
 \end{equation}
 
-Dabei ist $\xi_D$ der Reibungsbeiwert:
+$\xi_D$ der Reibungsbeiwert und lässt sich mit Gleichung~\ref{eq:15} bestimmen.
 
 \begin{equation}
 \label{eq:15}
 \frac{1}{\xi_D} = 2\log(Re_D \sqrt{\xi_D})-0.8
 \end{equation}
 
-mit der Reynoldszahl der dampfförmigen Phase:
+Dafür muss mit Gleichung~\ref{eq:16} die Reynoldszahl der dampfförmigen Phase berechnet werden. $\eta_D$ ist die dynamische Viskosität der Dampfphase und $d$ der Innendurchmesser des Verdampferrohrs.
 
 \begin{equation}
 \label{eq:16}
@@ -384,20 +383,21 @@ Re_D = \frac{\dot{m} x d}{\eta_D}
 \end{equation}
 
 Die Korrekturgröße $\gamma$ ist als effektive Querschnittsverengung für den Dampfstrom, verursacht durch die Flüssigkeit, zu interpretieren und kann als Versperrungsfaktor bezeichnet werden. Abhängig von den Geschwindigkeiten und den Dichteverhältnissen muss abschnittsweise zwischen verschiedenen Strömungsformen unterschieden werden. Bei kleinen Massenstromdichten ist die Strömung eben und geschichtet. Bei gesteigertem Durchsatz wird sie wellig und es treten Schwalle auf, durch die der Rohrumfang vollständig von Flüssigkeit benetzt ist. Bei noch höheren Durchsätzen wird die Flüssigkeit tropfenförmig im Gaskern mitgerissen. Durch erhebliche Expansionseffekte bei hohen Geschwindigkeiten findet eine Beschleunigung der Dampfphase statt und es stellt sich ein Schlupf zwischen den beiden Phasen ein\cite{Kesper.1976}.
+Gleichung~\ref{eq:17} ermöglicht die Berechnung der Korrekturgröße $\gamma$.
 
 \begin{equation}
 \label{eq:17}
 \gamma = \gamma_F(1-E) + \gamma_E E
 \end{equation}
 
-Hierbei ist der Verperrungsfaktor für ebene Strömung:
+Dabei ist der Verperrungsfaktor für ebene Strömung $\gamma_E$. Dieser lässt sich mithilfe von Gleichung~\ref{eq:18} bestimmen.
 
 \begin{equation}
 \label{eq:18}
 \gamma_E = 1 - \left( 1+0.15 \left( \frac{1-x}{x} \right)^{0.45} \left( \frac{\eta_f}{\eta_D}-1 \right)^{0.25} (1 + 3x^4)\right)^{-1}
 \end{equation}
 
-der Versperrungsfaktor für Ringströmung mit Schwallen:
+Der Versperrungsfaktor für Ringströmung mit Schwallen $\gamma_F$ lässt sich mit Gleichung~\ref{eq:19} berechnen. $\eta_F$ ist die dynamische Viskosität der flüssigen Phase.
 
 \begin{equation}
 \label{eq:19}
@@ -405,15 +405,15 @@ der Versperrungsfaktor für Ringströmung mit Schwallen:
 \end{equation}
 
 
-und $E$ ein Verteilparameter:
+Gleichung~\ref{eq:20} erlaubt die Berechnung des Verteilparameters $E$. $c_D$ bezeichnet die Schallgeschwindigkeit in der Dampfphase.
 
 \begin{equation}
 \label{eq:20}
-E = 1.857 + 0.815 \log\left[\left(\frac{\dot{m} x}{\rho_D c_G}\right)^2 \left( 1+ \frac{4575 \rho_D^2}{\rho_F^2} \right)\right]
+E = 1.857 + 0.815 \log\left[\left(\frac{\dot{m} x}{\rho_D c_D}\right)^2 \left( 1+ \frac{4575 \rho_D^2}{\rho_F^2} \right)\right]
 \end{equation}
 
 $E$ darf immer nur Werte zwischen 0 und 1 annehmen. Liegt ein Ergebnis außerhalb dieses Bereichs wird E mithilfe einer Bedingung auf 0 bzw. 1 gesetzt. Bei $E=0$ ist die Strömungsform Ringschwallströmung, bei $E=1$ beschleunigte Strömung.
-Für die Berechnung von $\gamma_F$ ist außerdem die Berechnung der Hilfsgrößen $\epsilon$ und $\psi$ nötig:
+Für die Berechnung von $\gamma_F$ ist zudem die Berechnung der Hilfsgrößen $\epsilon$ und $\psi$ mithilfe der Gleichungen~\ref{eq:21} bis \ref{eq:24} nötig. $Re_F$ und $Fr_F$ bezeichnen die Reynoldszahl bzw. die Froudezahl der flüssigen Phase.
 
 \begin{equation}
 \label{eq:21}
@@ -444,35 +444,35 @@ sowie
 \subsection{Berechnung des Wärmeübergangs}
 \label{subsec:Berechnung des Wärmeübergangs}
 
-Die Ausgangsgröße der Temperatur von Luft und Kältemittel nach jeder Zelle wurde mittels der $\epsilon-NTU$-Methode berechnet\cite{SpringerVerlagGmbH.2013}\cite{Bergman.2011}\cite{Nellis.2009}. $NTU$ (dt. Anzahl der Übertragungseinheiten) und $\epsilon$ bezeichnen dimensionslose Kennzahlen. Diese Methode ist ein Verfahren, das oft bei der Auslegung von Wärmetauschern verwendet wird, da es teils schwierige Berechnungsschritte erspart. Zunächst ist es erforderlich die Wärmekapazitätsströme der beiden Fluide zu bestimmen. Für den Wärmekapazitätsstrom der Luft gilt:
+Die Ausgangsgröße der Temperatur von Luft und Kältemittel nach jeder Zelle wurde mittels der $\epsilon-NTU$-Methode berechnet\cite{SpringerVerlagGmbH.2013}\cite{Bergman.2011}\cite{Nellis.2009}. $NTU$ (dt. Anzahl der Übertragungseinheiten) und $\epsilon$ bezeichnen dimensionslose Kennzahlen. Diese Methode ist ein Verfahren, das oft bei der Auslegung von Wärmetauschern verwendet wird, da es teils schwierige Berechnungsschritte erspart. Zunächst ist es erforderlich den minimalen und maximalen Wärmekapazitätsstrom $\dot{C}_{min}$ und $\dot{C}_{max}$ der beiden Fluide zu bestimmen. Für den Wärmekapazitätsstrom der Luft gilt Gleichung~\ref{eq:25}.
 
 \begin{equation}
 \label{eq:25}
 \dot{C}_{min} = \dot{m}_h c_{p,h}
 \end{equation} 
 
-Für den Wärmekapazitätsstrom des Kältemittels gilt:
+Für den Wärmekapazitätsstrom des Kältemittels gilt Gleichung~\ref{eq:26}.
 
 \begin{equation}
 \label{eq:26}
 \dot{C}_{max} = \dot{m}_k c_{p,k}
 \end{equation}
  
-Das Wärmekapazitätsverhältnis $C_r$ ist damit:
+Das Wärmekapazitätsverhältnis $C_r$ ist damit nach Gleichung~\ref{eq:27}.
  
 \begin{equation}
 \label{eq:27}
 C_r = \frac{\dot{C}_{min}}{\dot{C}_{max}}
 \end{equation}
 
-Zudem ist es notwendig den Wärmedurchgangskoeffizienten $k$ zu berechnen\cite{LehrstuhlfurWarmeundStoffubertragung.}. Dieser setzt sich aus den Wärmeleitwiderständen der einzelnen Rohrschichten und Übergängen zusammen. Um flexibel bei der Anpassung der Parameter des Modells an die Realität zu sein wurde hierbei auf eine Analogie zu Widerständen in Reihenschaltung aus der Elektrotechnik zurückgegriffen und die wärmeübertragende Fläche $A$ direkt mit einbezogen. Somit ist:
+Zudem ist es notwendig den Wärmedurchgangskoeffizienten $k$ zu berechnen\cite{LehrstuhlfurWarmeundStoffubertragung.}. Dieser setzt sich aus den Wärmeleitwiderständen $W$ der einzelnen Rohrschichten und Übergängen zusammen. Um flexibel bei der Anpassung der Parameter des Modells an die Realität zu sein wurde hierbei auf eine Analogie zu Widerständen in Reihenschaltung aus der Elektrotechnik zurückgegriffen und die wärmeübertragende Fläche $A$ direkt mit einbezogen. Somit gilt nach Gleichung~\ref{eq:UA}:
 
 \begin{equation}
 \label{eq:UA}
 kA = \frac{1}{W_{L} + W_{Al} + W_{Cu} + W_{Km}}
 \end{equation}
  
-samt der einzelnen Wärmeleitwiderstände:
+Die einzelnen Wärmeleitwiderstände lassen sich mithilfe der Gleichungen~\ref{eq:28} bis \ref{eq:31} berechnen.
 
 \begin{equation}
 \label{eq:28}
@@ -495,7 +495,7 @@ W_{Km} = \frac{1}{\alpha_{Km} d_{i} \pi l}
 \end{equation}
 
 Die Rohrgeometrie ist dabei wie in Abbildung~\ref{fig:Geometrie} dargestellt.
-Die Wärmeübergangszahlen wurden mit Orientierung am realen Modell bestimmt. Näheres dazu in Kapitel~\ref{cha:Durchgeführte Untersuchungen}.
+Die Wärmeübergangszahlen werden mit Orientierung am realen Modell bestimmt.
 
 \begin{figure}[h]
 \centering
@@ -504,37 +504,37 @@ Die Wärmeübergangszahlen wurden mit Orientierung am realen Modell bestimmt. N�
 \label{fig:Geometrie}
 \end{figure}
 
-Mit diesen Größen lässt sich nun der $NTU$-Wert berechnen:
+Mit diesen Größen lässt sich gemäß Gleichung~\ref{eq:32} der $NTU$-Wert berechnen.
 
 \begin{equation}
 \label{eq:32}
 NTU = \frac{kA}{\dot{C}_{min}}
 \end{equation}
 
-Damit lässt sich nun die Effektivität des Wärmeübertragers $\epsilon$ bestimmen.
+Damit lässt sich die Effektivität des Wärmeübertragers $\epsilon$ bestimmen.
 Dabei muss zwischen sensibler und latenter Wärmeaufnahme des Fluids unterschieden werden.
-Findet ein Verdampfungsprozess statt so gilt $C_{max}\longrightarrow\infty$ und damit $C_r =0$. Für diesen Fall gilt:
+Findet ein Verdampfungsprozess statt so gilt $C_{max}\longrightarrow\infty$ und damit $C_r =0$. Für diesen Fall gilt Gleichung~\ref{eq:33}.
 
 \begin{equation}
 \label{eq:33}
 \epsilon = 1- \exp{(-NTU)}
 \end{equation}
 
-Für den Fall überhitzenden Kältemittels und reinem Kreuzstrom gilt:
+Für den Fall überhitzenden Kältemittels und reinem Kreuzstrom gilt Gleichung~\ref{eq:34}.
 
 \begin{equation}
 \label{eq:34}
 \epsilon = 1- exp{\left[\left(\frac{1}{C_r}\right)(NTU)^{0.22}(exp{[-C_r(NTU)^{0.78}]}-1)\right]}
 \end{equation}
 
-Mit diesen Größen ist es nun möglich den übertragenen Wärmestrom zu berechnen:
+Im Anschluss ist es  möglich den übertragenen Wärmestrom $\dot{Q}$ gemäß Gleichung~\ref{eq:35} zu berechnen. $T_{L,ein}$ bezeichnet die Eintrittstemperatur der Luft in und $T_{Km,ein}$ die Eintrittstemperatur des Kältemittels in die berechnete Zelle.
 
 \begin{equation}
 \label{eq:35}
 \dot{Q} = \epsilon \dot{C}_{min} (T_{L,ein} - T_{Km,ein})
 \end{equation}
 
-Hierbei ist die Eintrittstemperatur des Kältemittels die Sättigungstemperatur bei Eingangsdruck. Aus der Energiebilanz lassen sich dann Kältemittelaustrittsenthalpie sowie Luftaustrittstemperatur bestimmen:
+Die Eintrittstemperatur des Kältemittels ist die Sättigungstemperatur bei Eingangsdruck. Aus der Energiebilanz in Gleichung~\ref{eq:36} lassen sich dann Kältemittelaustrittsenthalpie $h_{Km,aus}$ sowie Luftaustrittstemperatur $T_{L,aus}$ bestimmen. $\dot{M}$ bezeichnet den Massenstrom des jeweiligen Fluids. Die Eintrittsenthalpie des Kältemittels $h_{Km,ein}$ ist durch Eingangsdruck und Dampfanteil gegeben.
 
 \begin{equation}
 \label{eq:36}
@@ -585,23 +585,24 @@ In diesem Kapitel wird die Durchführung der Untersuchung sowie die erzielten Er
 \hline
 Test Nr.              & r. F.                     & Überhitzung              & Öl                               & Abtauintervall          & Verdichter                           & Verdampfer \\ \hline
 \multicolumn{1}{|c|}{35} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{3MAF}        & \multicolumn{1}{c|}{4h} & \multicolumn{1}{c|}{ZB09KAU-TFD Hyb} & AHT        \\
-\multicolumn{1}{|c|}{50} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HATCOL 4467} & \multicolumn{1}{c|}{4h} & \multicolumn{1}{c|}{ZB09KAU-TFD Hyb} & AHT        \\
-\multicolumn{1}{|c|}{51} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HATCOL 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD Hyb} & AHT        \\
-\multicolumn{1}{|c|}{54} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HATCOL 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & AHT        \\
-\multicolumn{1}{|c|}{58} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HATCOL 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V1    \\
-\multicolumn{1}{|c|}{60} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HATCOL 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V1    \\
-\multicolumn{1}{|c|}{61} & \multicolumn{1}{c|}{0\%}  & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HATCOL 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V1    \\
-\multicolumn{1}{|c|}{63} & \multicolumn{1}{c|}{0\%}  & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HATCOL 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V2    \\
-\multicolumn{1}{|c|}{64} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HATCOL 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V2    \\ \hline
+\multicolumn{1}{|c|}{50} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HC 4467} & \multicolumn{1}{c|}{4h} & \multicolumn{1}{c|}{ZB09KAU-TFD Hyb} & AHT        \\
+\multicolumn{1}{|c|}{51} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HC 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD Hyb} & AHT        \\
+\multicolumn{1}{|c|}{54} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HC 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & AHT        \\
+\multicolumn{1}{|c|}{58} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HC 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V1    \\
+\multicolumn{1}{|c|}{60} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HC 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V1    \\
+\multicolumn{1}{|c|}{61} & \multicolumn{1}{c|}{0\%}  & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HC 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V1    \\
+\multicolumn{1}{|c|}{63} & \multicolumn{1}{c|}{0\%}  & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HC 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V2    \\
+\multicolumn{1}{|c|}{64} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HC 4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V2    \\ \hline
 \end{tabular}
 \end{table}
 
 
 
 \section{Einstellung von Normbedingungen}
-\label{sec:Einstellung von Normbedingungen}
+\label{sec:EinstellungvonNormbedingungen1}
 
-Vor Durchführung der einzelnen Untersuchungen ist es notwendig zu prüfen ob die Umgebungsbedingungen konstant sind und sich an der Norm (siehe Abschnitt~\ref{sec:Einstellung von Normbedingungen}) orientieren, um reproduzierbare Ergebnisse zu erzielen. Zu diesem Zweck werden entsprechend Abbildung~\ref{fig:Messpunkte} Sensoren positioniert. Diese zeichnen Temperatur und Geschwindigkeit der Luft über einen Zeitraum von \unit{10}{\min} auf. Mithilfe eines elektrischen Dampferzeugers wird die Luftströmung in der Klimakammer sichtbar gemacht. Damit ist es möglich ein Strömungsbild zu visualisieren und mögliche Ansatzpunkte zum Erreichen der Normbedingungen zu identifizieren. Um die Raumströmung zu verändern werden die Leistung und die Anzahl der laufenden Lüftermotoren über die Kammersteuerungssoftware verändert. Es wird zudem der Spalt in der abgehangenen Decke verdeckt und geprüft ob dies einen Einfluss auf das Strömungsbild der Luft hat. Dadurch ist die Luft gezwungen entgegen der vorgesehenen Strömungsrichtung durch die abgeschaltete Lüftungsanlage von Kammer A statt nach oben durch die Öffnung in der Decke zu strömen.  Die sich als förderlich erwiesenen Änderungen werden anschließend für alle nachfolgenden Untersuchungen angewandt.
+In diesem Abschnitt werden die für die Einstellung von Normbedingungen durchgeführten Untersuchungen beschrieben.
+Vor Durchführung der einzelnen Untersuchungen ist es notwendig zu prüfen ob die Umgebungsbedingungen konstant sind und sich an der Norm (siehe Abschnitt~\ref{sec:Einstellung von Normbedingungen}) orientieren, um reproduzierbare Ergebnisse zu erzielen. Zu diesem Zweck werden entsprechend Abbildung~\ref{fig:Messpunkte} Sensoren positioniert. Diese zeichnen Temperatur und Geschwindigkeit der Luft über einen Zeitraum von \unit{10}{\min} auf. Mithilfe eines elektrischen Dampferzeugers wird die Luftströmung in der Klimakammer sichtbar gemacht. Damit ist es möglich ein Strömungsbild zu visualisieren und mögliche Ansatzpunkte zum Erreichen der Normbedingungen zu identifizieren. Um die Raumströmung zu verändern werden die Leistung und die Anzahl der laufenden Lüftermotoren über die Kammersteuerungssoftware verändert. Es wird zudem die Öffnung in der abgehangenen Decke verdeckt und geprüft ob dies einen Einfluss auf das Strömungsbild der Luft hat. Dadurch ist die Luft gezwungen entgegen der vorgesehenen Strömungsrichtung durch die abgeschaltete Lüftungsanlage von Kammer A statt nach oben durch die Öffnung in der Decke zu strömen. Die sich als förderlich erwiesenen Änderungen werden anschließend für alle nachfolgenden Untersuchungen angewandt.
 
 \begin{table}[h!]
 \centering
@@ -622,22 +623,20 @@ Lüfteranzahl            & Lüfterleistung          & Decke       \\
 \end{tabular}
 \end{table}
 
-Die Abbildungen~\ref{fig:10pctOC} - \ref{fig:30pctCC} zeigen den zeitlichen Verlauf der gemessenen Luftgeschwindigkeiten an den Positionen 1 - 3. Auf der y-Achse ist die Luftgeschwindigkeit in $\frac{m}{s}$ abzulesen, auf der x-Achse die Zeit in $h$. Die grünen Markierungen grenzen den Bereich der Luftgeschwindigkeit ein, der durch die Norm vorgeschrieben ist. Die gestrichelten Linien markieren den zeitlichen Mittelwert des jeweiligen Messwertes. \
-Bei \unit{30}{\%} Lüfterleistung liegen die Geschwindigkeiten an den Messpunkten 1 und 2 über dem Sollwert. Die Geschwindigkeit an Position 3 liegt darunter. Die maximale Geschwindigkeit wird an Position 2, auf mittlerer Höhe des Kühlmöbels, gemessen.
-Bei \unit{10}{\%} Lüfterleistung liegt der Mittelwert der gemessenen Geschwindigkeit an Position 2 immer innerhalb des vorgeschriebenen Bereichs. Die Geschwindigkeit an Position 1 liegt darüber, die Geschwindigkeit an Position 3 darunter. \
-Abbildung~\ref{fig:10pctOC_temp} und \ref{fig:30pctOC_temp} stellen jeweils den zeitlichen Verlauf der Lufttemperatur an den Positionen 1 - 3 dar.
-Während die Temperatur an den Positionen 1 und 2 circa im angestrebten Bereich um \unit{25}{\celsius} liegt ist auffällig, dass die Temperatur in Position 3 stark nach unten abweicht.\
-
+Die Abbildungen~\ref{fig:10pctOC} - \ref{fig:30pctCC} zeigen den zeitlichen Verlauf der gemessenen Luftgeschwindigkeiten an den Positionen 1 - 3. Auf der y-Achse ist die Luftgeschwindigkeit in $\frac{m}{s}$ abzulesen, auf der x-Achse die Zeit in $h$. Die grünen Markierungen grenzen den Bereich der Luftgeschwindigkeit ein, der durch die Norm vorgeschrieben ist. Die gestrichelten Linien markieren den zeitlichen Mittelwert des jeweiligen Messwertes. \newline
+Bei \unit{30}{\%} Lüfterleistung liegen die Geschwindigkeiten an den Messpunkten 1 und 2 über dem Sollwert. Die Geschwindigkeit an Position 3 liegt darunter. Die maximalen Geschwindigkeiten werden an Position 2, auf mittlerer Höhe des Kühlmöbels, gemessen. Diese betragen \unit{0.35}{\metre\per\second} bei offener Decke und \unit{0.3}{\metre\per\second} bei geschlossener Decke 
+Bei \unit{10}{\%} Lüfterleistung liegt der Mittelwert der gemessenen Geschwindigkeit an Position 2 immer innerhalb des vorgeschriebenen Bereichs. Die Geschwindigkeit an Position 1 liegt darüber, die Geschwindigkeit an Position 3 darunter. Die maximalen Geschwindigkeiten betragen \unit{0.35}{\metre\per\second} bei offener Decke und \unit{0.3}{\metre\per\second} bei geschlossener Decke und werden an Position 1 gemessen. \newline
+Abbildungen~\ref{fig:10pctOC_temp} und \ref{fig:30pctOC_temp} stellen jeweils den zeitlichen Verlauf der Lufttemperatur an den Positionen 1 - 3 während der Untersuchungen mit \unit{10}{\%} und \unit{30}{\%} Lüfterleistung bei offener Decke dar.
+Während die Temperatur an den Positionen 1 und 2 circa im angestrebten Bereich um \unit{25}{\celsius} liegt ist auffällig, dass die Temperatur in Position 3 nach unten abweicht. Beim Betrieb mit \unit{10}{\%} Lüfterleistung ist die Abweichung mit \unit{7}{\kelvin} sehr groß. Bei \unit{30}{\%} Lüfterleistung ist diese nur \unit{1.5}{\kelvin}groß. \newline
 Die Abbildungen~\ref{fig:Klimakammer_offeneDecke} und \ref{fig:Klimakammer_geschlosseneDecke} visualisieren den Strömungsverlauf der Luft in der Kammer. Die roten Pfeile stellen dabei eine sichtbare Luftbewegung dar.
-Bei geöffneter Decke ist zu erkennen, dass die Luft quer über das Kühlmöbel Richtung Deckenöffung strömt.
-Bei geschlossener Decke ist der Strömungsverlauf parallel zum Kühlmöbel.
+Bei geöffneter Decke ist zu erkennen, dass die Luft quer über das Kühlmöbel Richtung Deckenöffung strömt. Bei geschlossener Decke ist der Strömungsverlauf parallel zum Kühlmöbel.
 
 
 
 
 \begin{figure}[h!tb]
 \centering
-\includegraphics[scale=.45]{Pictures/10pctOC.pdf}
+\includegraphics[scale=.8]{Pictures/AV10pctOC.pdf}
 \caption{Luftgeschwindigkeiten bei 10\% Lüfterleistung und offener Decke.}
 \label{fig:10pctOC}
 \end{figure}
@@ -645,7 +644,7 @@ Bei geschlossener Decke ist der Strömungsverlauf parallel zum Kühlmöbel.
 
 \begin{figure}[h!tb]
 \centering
-\includegraphics[scale=.45]{Pictures/10pctCC.pdf}
+\includegraphics[scale=.8]{Pictures/AV10pctCC.pdf}
 \caption{Luftgeschwindigkeiten bei 10\% Lüfterleistung und geschlossener Decke.}
 \label{fig:10pctCC}
 \end{figure}
@@ -653,7 +652,7 @@ Bei geschlossener Decke ist der Strömungsverlauf parallel zum Kühlmöbel.
 
 \begin{figure}[h!tb]
 \centering
-\includegraphics[scale=.45]{Pictures/30pctOC.pdf}
+\includegraphics[scale=.8]{Pictures/AV30pctOC.pdf}
 \caption{Luftgeschwindigkeiten bei 30\% Lüfterleistung und offener Decke.}
 \label{fig:30pctOC}
 \end{figure}
@@ -661,14 +660,14 @@ Bei geschlossener Decke ist der Strömungsverlauf parallel zum Kühlmöbel.
 
 \begin{figure}[h!tb]
 \centering
-\includegraphics[scale=.45]{Pictures/30pctCC.pdf}
+\includegraphics[scale=.8]{Pictures/AV30pctCC.pdf}
 \caption{Luftgeschwindigkeiten bei 30\% Lüfterleistung und geschlossener Decke.}
 \label{fig:30pctCC}
 \end{figure}
 
 \begin{figure}[h!tb]
 \centering
-\includegraphics[scale=.45]{Pictures/10pctOC_temp.pdf}
+\includegraphics[scale=.8]{Pictures/AT10pctOC.pdf}
 \caption{Lufttemperaturen bei 10\% Lüfterleistung und offener Decke.}
 \label{fig:10pctOC_temp}
 \end{figure}
@@ -676,7 +675,7 @@ Bei geschlossener Decke ist der Strömungsverlauf parallel zum Kühlmöbel.
 
 \begin{figure}[h!tb]
 \centering
-\includegraphics[scale=.45]{Pictures/30pctOC_temp.pdf}
+\includegraphics[scale=.8]{Pictures/AT30pctOC.pdf}
 \caption{Lufttemperaturen bei 30\% Lüfterleistung und offener Decke.}
 \label{fig:30pctOC_temp}
 \end{figure}
@@ -709,14 +708,16 @@ Bei geschlossener Decke ist der Strömungsverlauf parallel zum Kühlmöbel.
 
 
 
-\section{Der Einfluss von unterschiedlichen Kältemittelölen auf das Systemverhalten}
+\section{Kältemittelöle}
 \label{sec:EinflussÖl}
 
-Simulationen belegen einen nicht zu vernachlässigenden Anteil im Öl gelösten Kältemittels, was zu einer Minderung der Verdampferleistung führt \cite{Universitatpolitecnicadevalencia.2017}, da dieses nicht verdampft. Diese führen zu dem Schluss, dass ein hoher Anteil des Öles sich im Umlauf befinden muss. Mit der Annahme, dass der Ölrücktransport nicht einwandfrei gewährleistet werden kann und dass somit, konservativ abgeschätzt, \unit{20}{\%} des Öles sich in den Wärmeübertragern befinden, berechnet sich die Menge des im Öl gelösten Kältemittels wie in Tabelle~\ref{tab:LöslichkeitHC3M} dargestellt.
+In diesem Abschnitt werden die Untersuchungen des Betriebs mit den Kältemittelölen 3MAF und HATCOL 4467 beschrieben und die Untersuchungsergebnisse miteinander verglichen.
+Simulationen belegen einen nicht zu vernachlässigenden Anteil im Öl gelösten Kältemittels, was zu einer Minderung der Verdampferleistung führt \cite{Universitatpolitecnicadevalencia.2017}. Diese führen zu dem Schluss, dass ein hoher Anteil des Öles sich in den Wärmeübertragern befinden muss. Es wird die Annahme gemacht, dass der Ölrücktransport nicht einwandfrei sichergestellt werden kann und dass sich demnach, konservativ abgeschätzt, \unit{20}{\%} des Öles in den Wärmeübertragern befinden. Damit berechnet sich die Menge des im Öl gelösten Kältemittels wie in Tabelle~\ref{tab:LöslichkeitHC3M} dargestellt.
 Die berechneten Werte beziehen sich exemplarisch auf einen Kältekreis und basieren auf den Versuchsdaten der Untersuchung von 3MAF.
-Mittels der Gleichungen~\ref{eq:1}, \ref{eq:3} und \ref{eq:2} werden die Viskosität, die Dichte und die Löslichkeit des Kältemittels im jeweiligen Öl berechnet. Es ist zu erkennen, dass Propan in 3MAF eine höhere Löslichkeit besitzt als in HATCOL 4467 und dieses folglich mehr Kältemittel aufnehmen kann. In den Wärmeübertragern ist die Löslichkeit höher als im Verdichter.
-In Tabelle~\ref{tab:VergleichKMOele} sind die berechneten Daten der jeweiligen Untersuchungen mit den Ölen 3MAF und HATCOL 4467 aufgeführt. Dabei beziehen sich die Daten im ersten und letzten Abschnitt auf das ganze System und die Daten in den anderen Abschnitten auf die jeweiligen Kältekreise des Kühlmöbels.
-Der Vergleich zeigt einen leichten Anstieg der elektrischen Leistung um etwa \unit{100}{\watt}. Verdampferleistung und EER verzeichnen ebenfalls einen leichten Anstieg. Die Verdampfungstemperaturen sowie die Überhitzungen in allen drei Kältekreisen sinken tendenziell. Die Änderung ist sehr gering und bewegt sich im Rahmen der Messungenauigkeit. Auffällig ist ein Anstieg der Verflüssigungstemperatur. Diese erreicht in Test~35 nicht die eingestellten \unit{35}{\celsius} pegelt sich aber im Rahmen der Vergleichsuntersuchung auf diese ein. Ein geringes Absinken des Druckabfalls über den Verdampfer ist zu beobachten. Der Kältemittelmassenstrom sinkt in allen Kreisen sehr gering. In Kreis 1 ist die Reduktion des Massenstroms am deutlichsten. Die Dampfanteile vor den Expansionsventilen sind beim Betrieb mit HATCOL 4467 in allen Kreisen geringer als beim Betrieb mit 3MAF. Wieder wird dieser Effekt in Kreis 1 am deutlichsten. 
+Mittels der Gleichungen~\ref{eq:1}, \ref{eq:3} und \ref{eq:2} werden die Viskosität, die Dichte und die Löslichkeit des Kältemittels im jeweiligen Öl berechnet. Es ist zu erkennen, dass Propan in 3MAF eine höhere Löslichkeit besitzt als in HATCOL 4467 und dieses folglich mehr Kältemittel aufnehmen kann. In den Wärmeübertragern ist die berechnete Löslichkeit höher als im Verdichter. \newline
+In Tabelle~\ref{tab:VergleichKMOele} sind die berechneten Daten der jeweiligen Untersuchungen mit den Ölen 3MAF und HATCOL 4467 aufgeführt. Dabei beziehen sich die Daten im ersten und letzten Abschnitt der Tabelle auf das ganze System und die Daten in den mittleren Abschnitten auf die jeweiligen Kältekreise des Kühlmöbels.
+Der Vergleich der Daten beider Untersuchungen zeigt eine um etwa \unit{100}{\watt} höhere elektrische Leistungsaufnahme beim Betrieb mit HATCOL 4467, sowie eine um etwa \unit{60}{\watt} höhere Verdampfungsleistung. Die Kondensationsleistung ist um etwa \unit{300}{\watt} höher. Der EER verzeichnet jedoch eine Reduktion um circa \unit{3}{\%}. Die Verdampfungstemperaturen sowie die Überhitzungen in allen drei Kältekreisen sinken tendenziell. Die Änderung ist sehr gering und bewegt sich im Rahmen der Messungenauigkeit. \newline
+Auffällig ist ein Anstieg der Kondensationstemperatur um bis zu \unit{3}{\kelvin}. Diese erreicht in Test~35 nicht die eingestellten \unit{35}{\celsius}. Ein geringes Absinken des Druckabfalls um bis zu \unit{0.05}{\bbar} über den Verdampfer ist zu beobachten. Der Kältemittelmassenstrom sinkt in allen Kreisen sehr gering. In Kreis 1 ist die Reduktion des Massenstroms am deutlichsten. Die Dampfanteile vor den Expansionsventilen sind beim Betrieb mit HATCOL 4467 in allen Kreisen geringer als beim Betrieb mit 3MAF. Dieser Effekt wird in Kreis 1 am deutlichsten. 
 Luft- und Produkttemperaturseitig ist keine eindeutige Veränderung zu erkennen. 
 Nur die Einlasstemperatur der Luft ist beim Betrieb mit HATCOL 4467 \unit{1}{\kelvin} höher als beim Betrieb mit 3MAF und damit der größte abweichende Wert. 
 
@@ -724,11 +725,11 @@ Zuletzt wird mithilfe eines Spülsystems für Kälteanlagen geprüft ob sich zur
 
 \begin{table}[h!]
 \centering
-\caption{Löslichkeitsverhalten von Hatcol 4467 und 3MAF.}
+\caption{Löslichkeitsverhalten von HATCOL 4467 und 3MAF.}
 \label{tab:LöslichkeitHC3M}
 \begin{tabular}{|cccc|}
 \hline
-                                           & 10\% Öl im Verdampfer      & 80\% Öl im Verdichter     & 10\% Öl im Verflüssiger \\ \hline
+                                           & 10\% Öl im Verdampfer      & 80\% Öl im Verdichter     & 10\% Öl im Kondensator \\ \hline
 \multicolumn{1}{|l}{}                      & \multicolumn{3}{c|}{HATCOL 4467}                                                  \\ \hline
 \multicolumn{1}{|c|}{Viskosität {[}cSt{]}} & \multicolumn{1}{c|}{3.29}  & \multicolumn{1}{c|}{38.66} & 0.89                    \\
 \multicolumn{1}{|c|}{Dichte {[}g/cm³{]}}   & \multicolumn{1}{c|}{0.79}  & \multicolumn{1}{c|}{0.94}  & 0.73                    \\
@@ -758,24 +759,24 @@ Zuletzt wird mithilfe eines Spülsystems für Kälteanlagen geprüft ob sich zur
                                                                 & 3MAF                        & HATCOL 4467 \\ \hline
 \multicolumn{1}{|c|}{el. Leistung Verdichter {[}W{]}}           & \multicolumn{1}{c|}{2436}   & 2542        \\
 \multicolumn{1}{|c|}{Leistung Verdampfer {[}W{]}}               & \multicolumn{1}{c|}{5383}   & 5442        \\
-\multicolumn{1}{|c|}{Leistung Verflüssiger {[}W{]}}             & \multicolumn{1}{c|}{7589}   & 7882        \\
+\multicolumn{1}{|c|}{Leistung Kondensator {[}W{]}}             & \multicolumn{1}{c|}{7589}   & 7882        \\
 \multicolumn{1}{|c|}{EER}                                       & \multicolumn{1}{c|}{2.21}   & 2.14        \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K1) {[}°C{]}}      & \multicolumn{1}{c|}{-9.46}  & -9.96       \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K1) {[}°C{]}}    & \multicolumn{1}{c|}{31.82}  & 34.51       \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K1) {[}°C{]}}    & \multicolumn{1}{c|}{31.82}  & 34.51       \\
 \multicolumn{1}{|c|}{Überhitzung (K1) {[}K{]}}                  & \multicolumn{1}{c|}{8.21}   & 7.77        \\
 \multicolumn{1}{|c|}{Unterkühlung (K1) {[}K{]}}                 & \multicolumn{1}{c|}{0}      & 0           \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K1) {[}\%{]}}          & \multicolumn{1}{c|}{26}     & 20          \\
 \multicolumn{1}{|c|}{Massenstrom (K1) {[}g/s{]}}                & \multicolumn{1}{c|}{8.34}   & 8.18        \\
 \multicolumn{1}{|c|}{Druckabfall über Verdampfer (K1) {[}Pa{]}} & \multicolumn{1}{c|}{64531}  & 59450       \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K2) {[}°C{]}}      & \multicolumn{1}{c|}{-10.24} & -10.42      \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K2) {[}°C{]}}    & \multicolumn{1}{c|}{33.82}  & 35.14       \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K2) {[}°C{]}}    & \multicolumn{1}{c|}{33.82}  & 35.14       \\
 \multicolumn{1}{|c|}{Überhitzung (K2) {[}K{]}}                  & \multicolumn{1}{c|}{8.19}   & 7.93        \\
 \multicolumn{1}{|c|}{Unterkühlung (K2) {[}K{]}}                 & \multicolumn{1}{c|}{0}      & 0           \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K2) {[}\%{]}}          & \multicolumn{1}{c|}{16}     & 15          \\
 \multicolumn{1}{|c|}{Massenstrom (K2) {[}g/s{]}}                & \multicolumn{1}{c|}{8.06}   & 8.03        \\
 \multicolumn{1}{|c|}{Druckabfall über Verdampfer (K2) {[}Pa{]}} & \multicolumn{1}{c|}{63828}  & 62899       \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K3) {[}°C{]}}      & \multicolumn{1}{c|}{-10.25} & -10.54      \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K3) {[}°C{]}}    & \multicolumn{1}{c|}{33.25}  & 34.67       \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K3) {[}°C{]}}    & \multicolumn{1}{c|}{33.25}  & 34.67       \\
 \multicolumn{1}{|c|}{Überhitzung (K3) {[}K{]}}                  & \multicolumn{1}{c|}{8.53}   & 8.90        \\
 \multicolumn{1}{|c|}{Unterkühlung (K3) {[}K{]}}                 & \multicolumn{1}{c|}{0}      & 0           \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K3) {[}\%{]}}          & \multicolumn{1}{c|}{20}     & 16          \\
@@ -808,15 +809,14 @@ Zuletzt wird mithilfe eines Spülsystems für Kälteanlagen geprüft ob sich zur
 \section{Abtauintervalle}
 \label{sec:Abtauintervalle}
 
-Um einem Absinken der Energieeffizienz des Kühlmöbels durch die Bildung einer Eisschicht im Verdampfer entgegenzuwirken ist es nötig diesen in geeigneten Intervallen abzutauen.
-Das Kühlmöbel wurde bisher mit einem Abtauintervall von \unit{4}{\hour} betrieben.
-Im Folgenden wird der Betrieb des Möbels mit diesem Intervall mit einem verkürzten Abtauintervall von \unit{3}{\hour} gegenübergestellt. Tabelle~\ref{tab:Vergleich4h3h} zeigt die Ergebnisse der beiden Untersuchungen.
-Während die elektrische Leistungsaufnahme in etwa gleich bleibt vergrößern sich die übertragenen Wärmeströme an den Wärmeübertragern, und damit der EER, deutlich.
-Es ist ein Anstieg der Verdampfungstemperaturen in allen drei Kältekreisen um circa \unit{2}{\kelvin} erkennbar. Der Massenstrom des Kältemittels steigt um etwa
-\unit{0.7}{\gram\per\second}. Der Druckabfall über den Verdampfer steigt um etwa unit{0.05}{\bbar}. Der Dampfanteil des Kältemittels am Verlüssigeraustritt steigt um \unit{3}{\%} bis \unit{5}{\%}. Die Auslasstemperatur der Luft steigt um fast \unit{1}{\kelvin} während die Einlasstemperatur der Luft und die Produkttemperaturen unverändert bleiben.
+In diesem Abschnitt werden die Untersuchungen des Betriebs mit einem \unit{4}{\hour} Abtauintervall und mit bedarfsgerechter Abtauung beschrieben und deren Ergebnisse miteinander verglichen. 
+Es ist auffällig, dass das Intervall bei bedarfsgerechter Abtauung genau \unit{3}{\hour} lang ist. Dies lässt vermuten, dass die Regelung der Abtauung diese nicht nach Bedarf sondern nach dem eingestellten Intervall von \unit{3}{\hour} einleitet. Daher ist die genaue Ursache für die Abtauung zu prüfen. \newline
+Tabelle~\ref{tab:Vergleich4h3h} zeigt die Ergebnisse der beiden Untersuchungen.
+Während die elektrische Leistungsaufnahme in etwa gleich ist vergrößern sich beim bedarfsgerechter Abtauung die übertragenen Wärmeströme an den Wärmeübertragern deutlich um circa \unit{350}{\watt}. Dies verursacht eine Steigerung des EER von \unit{2.14}{} auf \unit{2.26}{}.
+Es ist ein Anstieg der Verdampfungstemperaturen in allen drei Kältekreisen um circa \unit{2}{\kelvin} erkennbar. Die Kondensationstemperaturen sind unverändert. Der Massenstrom des Kältemittels steigt um etwa \unit{0.7}{\gram\per\second}. Der Druckabfall über den Verdampfer steigt um etwa \unit{0.05}{\bbar}. Der Dampfanteil des Kältemittels am Verlüssigeraustritt steigt um \unit{3}{\%} bis \unit{5}{\%}. Die Auslasstemperatur der Luft steigt um fast \unit{1}{\kelvin} während die Einlasstemperatur der Luft und die Produkttemperaturen unverändert bleiben. \newline
+Es ist zu untersuchen, warum eine Verkürzung des Abtauintervalls einen großen Effizienzgewinn verursacht.
 
-
-
+ 
 
 
 \begin{table}[h!]
@@ -825,27 +825,27 @@ Es ist ein Anstieg der Verdampfungstemperaturen in allen drei Kältekreisen um c
 \label{tab:Vergleich4h3h}
 \begin{tabular}{|ccc|}
 \hline
-                                                                & 4h Abtauintervall           & 3h Abtauintervall \\ \hline
+                                                                & 4h Abtauintervall           & Bedarfsabtauung \\ \hline
 \multicolumn{1}{|c|}{el. Leistung Verdichter {[}W{]}}           & \multicolumn{1}{c|}{2542}   & 2554              \\
 \multicolumn{1}{|c|}{Leistung Verdampfer {[}W{]}}               & \multicolumn{1}{c|}{5442}   & 5770              \\
-\multicolumn{1}{|c|}{Leistung Verflüssiger {[}W{]}}             & \multicolumn{1}{c|}{7882}   & 8230              \\
+\multicolumn{1}{|c|}{Leistung Kondensator {[}W{]}}             & \multicolumn{1}{c|}{7882}   & 8230              \\
 \multicolumn{1}{|c|}{EER}                                       & \multicolumn{1}{c|}{2.14}   & 2.26              \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K1) {[}°C{]}}      & \multicolumn{1}{c|}{-9.96}  & -7.71             \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K1) {[}°C{]}}    & \multicolumn{1}{c|}{34.51}  & 34.71             \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K1) {[}°C{]}}    & \multicolumn{1}{c|}{34.51}  & 34.71             \\
 \multicolumn{1}{|c|}{Überhitzung (K1) {[}K{]}}                  & \multicolumn{1}{c|}{7.77}   & 8.06              \\
 \multicolumn{1}{|c|}{Unterkühlung (K1) {[}K{]}}                 & \multicolumn{1}{c|}{0}      & 0                 \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K1) {[}\%{]}}          & \multicolumn{1}{c|}{20}     & 23                \\
 \multicolumn{1}{|c|}{Massenstrom (K1) {[}g/s{]}}                & \multicolumn{1}{c|}{8.18}   & 8.88              \\
 \multicolumn{1}{|c|}{Druckabfall über Verdampfer (K1) {[}Pa{]}} & \multicolumn{1}{c|}{59450}  & 64649             \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K2) {[}°C{]}}      & \multicolumn{1}{c|}{-10.42} & -7.95             \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K2) {[}°C{]}}    & \multicolumn{1}{c|}{35.14}  & 35.30             \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K2) {[}°C{]}}    & \multicolumn{1}{c|}{35.14}  & 35.30             \\
 \multicolumn{1}{|c|}{Überhitzung (K2) {[}K{]}}                  & \multicolumn{1}{c|}{7.93}   & 8.06              \\
 \multicolumn{1}{|c|}{Unterkühlung (K2) {[}K{]}}                 & \multicolumn{1}{c|}{0}      & 0                 \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K2) {[}\%{]}}          & \multicolumn{1}{c|}{15}     & 20                \\
 \multicolumn{1}{|c|}{Massenstrom (K2) {[}g/s{]}}                & \multicolumn{1}{c|}{8.03}   & 8.79              \\
 \multicolumn{1}{|c|}{Druckabfall über Verdampfer (K2) {[}Pa{]}} & \multicolumn{1}{c|}{62899}  & 68890             \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K3) {[}°C{]}}      & \multicolumn{1}{c|}{-10.54} & -8.20             \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K3) {[}°C{]}}    & \multicolumn{1}{c|}{34.67}  & 34.77             \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K3) {[}°C{]}}    & \multicolumn{1}{c|}{34.67}  & 34.77             \\
 \multicolumn{1}{|c|}{Überhitzung (K3) {[}K{]}}                  & \multicolumn{1}{c|}{8.90}   & 9.07              \\
 \multicolumn{1}{|c|}{Unterkühlung (K3) {[}K{]}}                 & \multicolumn{1}{c|}{0}      & 0                 \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K3) {[}\%{]}}          & \multicolumn{1}{c|}{16}     & 21                \\
@@ -877,10 +877,11 @@ Es ist ein Anstieg der Verdampfungstemperaturen in allen drei Kältekreisen um c
 \label{sec:Verdichter}
 
 Im Rahmen der Untersuchungen werden zwei Ausführungen des in Abschnitt~\ref{sec:Das Kühlregal} vorgestellten Verdichtermodells verglichen. 
-Ein Austausch der Verdichter umfasst die Entsorgung der vorherigen Kältemittelfüllung, den Aus- und Einbau der Verdichter sowie eine komplette Inbetriebnahme, inklusive Druckfestigkeits- und Dichtheitsprüfung. Nach erneuter Inbetriebnahme wird das Kühlmöbel bis zum Erreichen einer konstanten Produkttemperatur betrieben. Anschließend beginnt der beobachtete Messzeitraum von \unit{24}{\hour}.
-Tabelle~\ref{tab:Verdichterdatenblatt} zeigt die Herstellerdaten beider Verdichtervarianten bei einer Verflüssigungstemperatur von \unit{35}{\celsius}, einer Verdampfungstemperatur von \unit{-10}{\celsius}, einer Überhitzung von \unit{10}{\kelvin} und einer Unterkühlung von \unit{0}{\kelvin} für einen Verdichter. Die Hybridausführung stellt einen höheren Kältemittelmassenstrom bei gleichzeitig geringerer elektrischer Leistungsaufnahme gegenüber der Standardausführung zur Verfügung.
-Tabelle~\ref{tab:VergleichVerdichter} sind die erfassten und berechneten Messwerte der Untersuchungen zu entnehmen. Diese zeigen eine signifikante Erhöhung der elektrischen als auch der thermischen Leistungen beim Wechsel der Hybrid- zur Standardausführung des Verdichters. Der EER erfährt nur eine geringe Erhöhung. Es ist zudem eine leichte Reduzierung des Kältemittelmassenstroms zu erkennen und eine Reduzierung des Dampfanteils am Verflüssigeraustritt um \unit{5}{\%} bis \unit{14}{\%}. In Kältekreis 2 ist dies besonders gut zu erkennen. Der Druckabfall in den Kreisen 2 und 3 erfährt eine Reduktion während der Druckabfall sehr gering ansteigt. Die kältekreis- und luftseitig erfassten Temperaturen sowie Temperaturdifferenzen unterscheiden sich nicht signifikant. Die Änderungen liegen im Bereich der Messungenauigkeit.  
-Die log-p-h-Diagramme~\ref{fig:logph51} und \ref{fig:logph54} zeigen das Zwei-Phasen-Gebiet von R290 im Anwendungsbereich. Auf der x-Achse ist die Enthalpie in $\frac{kJ}{kg}$ und auf der y-Achse logarithmisch der Druck in $bar$ aufgetragen. Der Vergleich zeigt die Erhöhung der Verflüssigungs- sowie der Verdampfungsenthalpie nach Wechsel zur Standardausführung exemplarisch an Kreis 2. Die Werte werden jeweils \unit{10}{\%} vor Ende des letzten Zyklus erfasst.
+Ein Austausch der Verdichter umfasst die Entsorgung der vorherigen Kältemittelfüllung, den Aus- und Einbau der Verdichter sowie eine komplette Inbetriebnahme, inklusive Druckfestigkeits- und Dichtheitsprüfung. Nach erneuter Inbetriebnahme wird das Kühlmöbel bis zum Erreichen einer konstanten Produkttemperatur betrieben. Anschließend beginnt der beobachtete Messzeitraum von \unit{24}{\hour}. \newline
+Tabelle~\ref{tab:Verdichterdatenblatt} zeigt die Herstellerdaten beider Verdichtervarianten bei einer Kondensationstemperatur von \unit{35}{\celsius}, einer Verdampfungstemperatur von \unit{-10}{\celsius}, einer Überhitzung von \unit{10}{\kelvin} und einer Unterkühlung von \unit{0}{\kelvin} für einen Verdichter. Die Hybridausführung stellt einen höheren Kältemittelmassenstrom bei gleichzeitig geringerer elektrischer Leistungsaufnahme gegenüber der Standardausführung zur Verfügung. \newline
+Tabelle~\ref{tab:VergleichVerdichter} sind die erfassten und berechneten Messwerte der Untersuchungen zu entnehmen. Diese zeigen eine signifikante Erhöhung der elektrischen als auch der thermischen Leistungen beim Wechsel der Hybrid- zur Standardausführung des Verdichters. Der EER erfährt nur eine geringe Erhöhung. Es ist zudem eine leichte Reduzierung des Kältemittelmassenstroms zu erkennen und eine Reduzierung des Dampfanteils am Kondensatoraustritt um \unit{5}{\%} bis \unit{14}{\%}. In Kältekreis 2 ist dies besonders gut zu erkennen. Der Druckabfall in den Kreisen 2 und 3 erfährt eine Reduktion während der Druckabfall sehr gering ansteigt. Die kältekreis- und luftseitig erfassten Temperaturen sowie Temperaturdifferenzen unterscheiden sich nicht signifikant. Die Änderungen liegen im Bereich der Messungenauigkeit. \newline
+ 
+Die log-p-h-Diagramme~\ref{fig:logph51} und \ref{fig:logph54} zeigen das Zwei-Phasen-Gebiet von R290 im Anwendungsbereich. Auf der x-Achse ist die Enthalpie in $\frac{kJ}{kg}$ und auf der y-Achse logarithmisch der Druck in $bar$ aufgetragen. Der Vergleich zeigt die Erhöhung der Kondensations- sowie der Verdampfungsenthalpie nach Wechsel zur Standardausführung exemplarisch an Kreis 2. Die Werte werden jeweils \unit{10}{\%} vor Ende des letzten Zyklus erfasst.
 
 
 
@@ -900,7 +901,7 @@ Die log-p-h-Diagramme~\ref{fig:logph51} und \ref{fig:logph54} zeigen das Zwei-Ph
 
 \begin{table}[h!]
 \centering
-\caption{Vergleich zwischen zwei Ausführungen eines Scrollverdichters.}
+\caption{Vergleich zwischen der Hybrid- und der Standardausführung eines Scrollverdichters.}
 \label{tab:VergleichVerdichter}
 \begin{tabular}{|ccc|}
 \hline
@@ -908,24 +909,24 @@ Die log-p-h-Diagramme~\ref{fig:logph51} und \ref{fig:logph54} zeigen das Zwei-Ph
                                                                 & ZB09KAU-TFD (Hyb) & ZB09KAU-TFD \\ \hline
 \multicolumn{1}{|c|}{el. Leistung Verdichter {[}W{]}}           & \multicolumn{1}{c|}{2554}  & 2697         \\
 \multicolumn{1}{|c|}{Leistung Verdampfer {[}W{]}}               & \multicolumn{1}{c|}{5770}  & 6161         \\
-\multicolumn{1}{|c|}{Leistung Verflüssiger {[}W{]}}             & \multicolumn{1}{c|}{8230}  & 8652         \\
+\multicolumn{1}{|c|}{Leistung Kondensator {[}W{]}}             & \multicolumn{1}{c|}{8230}  & 8652         \\
 \multicolumn{1}{|c|}{EER}                                       & \multicolumn{1}{c|}{2.26}  & 2.28         \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K1) {[}°C{]}}      & \multicolumn{1}{c|}{-7.71} & -7.61        \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K1) {[}°C{]}}    & \multicolumn{1}{c|}{34.71} & 34.48        \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K1) {[}°C{]}}    & \multicolumn{1}{c|}{34.71} & 34.48        \\
 \multicolumn{1}{|c|}{Überhitzung (K1) {[}K{]}}                  & \multicolumn{1}{c|}{8.06}  & 8.11         \\
 \multicolumn{1}{|c|}{Unterkühlung (K1) {[}K{]}}                 & \multicolumn{1}{c|}{0}     & 0            \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K1) {[}\%{]}}          & \multicolumn{1}{c|}{23}    & 18           \\
 \multicolumn{1}{|c|}{Massenstrom (K1) {[}g/s{]}}                & \multicolumn{1}{c|}{8.88}  & 8.59         \\
 \multicolumn{1}{|c|}{Druckabfall über Verdampfer (K1) {[}Pa{]}} & \multicolumn{1}{c|}{64649} & 65651        \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K2) {[}°C{]}}      & \multicolumn{1}{c|}{-7.95} & -8.36        \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K2) {[}°C{]}}    & \multicolumn{1}{c|}{35.30} & 35.63        \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K2) {[}°C{]}}    & \multicolumn{1}{c|}{35.30} & 35.63        \\
 \multicolumn{1}{|c|}{Überhitzung (K2) {[}K{]}}                  & \multicolumn{1}{c|}{8.06}  & 8.33         \\
 \multicolumn{1}{|c|}{Unterkühlung (K2) {[}K{]}}                 & \multicolumn{1}{c|}{0}     & 0            \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K2) {[}\%{]}}          & \multicolumn{1}{c|}{20}    & 6            \\
 \multicolumn{1}{|c|}{Massenstrom (K2) {[}g/s{]}}                & \multicolumn{1}{c|}{8.79}  & 8.29         \\
 \multicolumn{1}{|c|}{Druckabfall über Verdampfer (K2) {[}Pa{]}} & \multicolumn{1}{c|}{68890} & 64548        \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K3) {[}°C{]}}      & \multicolumn{1}{c|}{-8.20} & -8.22        \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K3) {[}°C{]}}    & \multicolumn{1}{c|}{34.77} & 34.65        \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K3) {[}°C{]}}    & \multicolumn{1}{c|}{34.77} & 34.65        \\
 \multicolumn{1}{|c|}{Überhitzung (K3) {[}K{]}}                  & \multicolumn{1}{c|}{9.07}  & 9.21         \\
 \multicolumn{1}{|c|}{Unterkühlung (K3) {[}K{]}}                 & \multicolumn{1}{c|}{0}     & 0            \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K3) {[}\%{]}}          & \multicolumn{1}{c|}{21}    & 15           \\
@@ -967,7 +968,7 @@ Die log-p-h-Diagramme~\ref{fig:logph51} und \ref{fig:logph54} zeigen das Zwei-Ph
 \section{Änderung der Verdampferschaltung}
 \label{sec:Änderung der Verdampferschaltung}
 
-In diesem Abschnitt wird die Entscheidungsfindung, der eigentliche Wechsel der Verdampfer und deren Verschaltungen sowie die daran durchgeführten Untersuchungen beschrieben. Abbildung~\ref{fig:Verschaltungsarten} zeigt die untersuchten Verdampfer und ihre Verschaltungsarten. Der bei AHT-Kühlmöbeln standardmäßig verbaute Verdampfer ist zweireihig und besitzt nur die Anzahl an Kupferrohren, die tatsächlich mit Kältemittel beaufschlagt werden. In den Lamellen sind dennoch die Lochungen samt deren Grate für weitere Rohre vorhanden, sodass die reduzierte Rohranzahl nicht den Luftwiderstand beeinflusst. Dieser wurde bereits auf die zu untersuchende Verschaltung umgerüstet. Es soll im Anschluss ein vierreihiger Verdampfer mit versetzten Rohren untersucht werden. Dieser verspricht einen höheren kA-Wert und damit einen nach Gleichung~\ref{eq:4} höheren übertragenen Wärmestrom. 
+In diesem Abschnitt wird der Wechsel der Verdampfer und deren Verschaltungen sowie die daran durchgeführten Untersuchungen beschrieben. Abbildung~\ref{fig:Verschaltungsarten} zeigt die untersuchten Verdampfer und ihre Verschaltungsarten. Der bei AHT-Kühlmöbeln standardmäßig verbaute Verdampfer ist zweireihig und besitzt zwecks Kostenreduzierung nur die Kupferrohre, die tatsächlich mit Kältemittel beaufschlagt werden. In den Lamellen sind dennoch die Lochungen samt deren Grate für weitere Rohre vorhanden, sodass die reduzierte Rohranzahl nicht die Luftströmung innerhalb des Verdampfers beeinflusst. Im Anschluss soll ein vierreihiger Verdampfer mit versetzten Rohren untersucht werden. Dieser besitzt eine Verschaltung wie sie in Kühlmöbeln von LIDL zu finden ist und mehr Kupferrohre als für die Kältekreise benötigt werden. Der Verdampfer verspricht einen höheren kA-Wert und damit nach Gleichung~\ref{eq:4} einen höheren übertragbaren Wärmestrom. Mithilfe des in Abschnitt~\ref{sec:Simulationsmodell} präsentierten Simulationsmodells werden die Verschaltungen V1 und V2 zur Validierung des Modells bei \unit{0}{\%} r.F.  miteinander verglichen. Zuletzt werden die Untersuchungsergebnisse beider Verschaltungen unter den Normbedingungen bei \unit{60}{\%} r. F miteinander verglichen.
 
 \begin{figure}[h!tb]
 \centering
@@ -981,8 +982,12 @@ In diesem Abschnitt wird die Entscheidungsfindung, der eigentliche Wechsel der V
 
 
 
-\section{Vergleich zwischen Verdampfer}
-\label{sec:Änderung der Verdampferschaltung}
+\subsection{Vergleich zwischen Verdampfern}
+\label{subsec:Vergleich zwischen Verdampfern}
+
+Im Folgenden werden die Ergebnisse der Untersuchungen mit dem zweireihigen AHT-Verdampfer und dem vierreihigen LIDL-Verdampfer mit versetzten Reihen beschrieben und verglichen. Der Einbau eines neuen Verdampfers im Kühlmöbel erfordert zunächst eine komplette Demontage des Innenraums. Das Kältemittel der Anlage wird entsorgt. Die M-Pakete werden entfernt und zwischengelagert. Daraufhin werden die Regalbretter, die Verkleidungen des Bodens, der Rückwand sowie der Decke und die Seitenwände demontiert. Die Abdeckungen des Verdampfer und die Lüfter müssen entfernt werden. Bevor die Lötverbindungen des Verdampfers getrennt werden können müssen noch alles Temperatursensoren entfernt werden. Anschließend erfolgt ein Austausch des Verdampfers durch die LIDL-Ausführung und eine Montage des kompletten Kühlmöbels in umgekehrter Reihenfolge der zuvor beschriebenen Schritte. Danach wird die Anlage erneut mit genau \unit{150}{\gram} pro Kreis gefüllt. Vor Inbetriebnahme des Kühlmöbels wird eine Dichtheits- und eine Druckfestigkeitsprüfung an den drei Kältekreisen durchgeführt. Unter gleichen Bedingungen wie zuvor wird erneut eine Untersuchung durchgeführt. \newline In Tabelle~\ref{tab:Vergleichaltneu} sind die Ergebnisse der Untersuchungen des Betriebs mit dem alten AHT-Verdampfer sowie dem neuen LIDL-Verdampfer dargestellt-
+Der Vergleich zeigt eine Reduktion der thermischen Leistungen um etwa \unit{1000}{\watt} bei gleichbleibender elektrischen Leistungsaufnahme. Dies resultiert in einer Reduktion des EER um \unit{16.2}{\%}. In den Kältekreisen ist ein Anstieg der Verdampfungstemperaturen um \unit{2}{\kelvin} bis \unit{5}{\kelvin} zu erkennen.
+
 
 \begin{table}[h!]
 \centering
@@ -993,24 +998,24 @@ In diesem Abschnitt wird die Entscheidungsfindung, der eigentliche Wechsel der V
                                                                 & AHT-Verdampfer      & LIDL-Verdampfer V1 \\ \hline
 \multicolumn{1}{|c|}{el. Leistung Verdichter {[}W{]}}           & \multicolumn{1}{c|}{2697}  & 2661                   \\
 \multicolumn{1}{|c|}{Leistung Verdampfer {[}W{]}}               & \multicolumn{1}{c|}{6161}  & 5082                   \\
-\multicolumn{1}{|c|}{Leistung Verflüssiger {[}W{]}}             & \multicolumn{1}{c|}{8652}  & 7599                   \\
+\multicolumn{1}{|c|}{Leistung Kondensator {[}W{]}}             & \multicolumn{1}{c|}{8652}  & 7599                   \\
 \multicolumn{1}{|c|}{EER}                                       & \multicolumn{1}{c|}{2.28}  & 1.91                   \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K1) {[}°C{]}}      & \multicolumn{1}{c|}{-7.61} & -4.85                  \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K1) {[}°C{]}}    & \multicolumn{1}{c|}{34.48} & 34.29                  \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K1) {[}°C{]}}    & \multicolumn{1}{c|}{34.48} & 34.29                  \\
 \multicolumn{1}{|c|}{Überhitzung (K1) {[}K{]}}                  & \multicolumn{1}{c|}{8.11}  & 12.30                  \\
 \multicolumn{1}{|c|}{Unterkühlung (K1) {[}K{]}}                 & \multicolumn{1}{c|}{0}     & 0                      \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K1) {[}\%{]}}          & \multicolumn{1}{c|}{18}    & 35                     \\
 \multicolumn{1}{|c|}{Massenstrom (K1) {[}g/s{]}}                & \multicolumn{1}{c|}{8.59}  & 9.42                   \\
 \multicolumn{1}{|c|}{Druckabfall über Verdampfer (K1) {[}Pa{]}} & \multicolumn{1}{c|}{65651} & 75911                  \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K2) {[}°C{]}}      & \multicolumn{1}{c|}{-8.36} & -3.81                  \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K2) {[}°C{]}}    & \multicolumn{1}{c|}{35.63} & 35.06                  \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K2) {[}°C{]}}    & \multicolumn{1}{c|}{35.63} & 35.06                  \\
 \multicolumn{1}{|c|}{Überhitzung (K2) {[}K{]}}                  & \multicolumn{1}{c|}{8.33}  & 10.58                  \\
 \multicolumn{1}{|c|}{Unterkühlung (K2) {[}K{]}}                 & \multicolumn{1}{c|}{0}     & 0                      \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K2) {[}\%{]}}          & \multicolumn{1}{c|}{6}     & 34                     \\
 \multicolumn{1}{|c|}{Massenstrom (K2) {[}g/s{]}}                & \multicolumn{1}{c|}{8.29}  & 9.84                   \\
 \multicolumn{1}{|c|}{Druckabfall über Verdampfer (K2) {[}Pa{]}} & \multicolumn{1}{c|}{64548} & 72885                  \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K3) {[}°C{]}}      & \multicolumn{1}{c|}{-8.22} & -5.03                  \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K3) {[}°C{]}}    & \multicolumn{1}{c|}{34.65} & 33.86                  \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K3) {[}°C{]}}    & \multicolumn{1}{c|}{34.65} & 33.86                  \\
 \multicolumn{1}{|c|}{Überhitzung (K3) {[}K{]}}                  & \multicolumn{1}{c|}{9.21}  & 11.89                  \\
 \multicolumn{1}{|c|}{Unterkühlung (K3) {[}K{]}}                 & \multicolumn{1}{c|}{0}     & 0                      \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K3) {[}\%{]}}          & \multicolumn{1}{c|}{15}    & 43                     \\
@@ -1026,6 +1031,8 @@ In diesem Abschnitt wird die Entscheidungsfindung, der eigentliche Wechsel der V
 
 
 
+\subsection{Modellgestützter Vergleich der Verschaltungen V1 und V2}
+\label{subsec:Modellgestützter Vergleich der Verschaltungen V1 und V2}
 
 Aus den Versuchsdaten ist ersichtlich, dass nur die letzte Rohrstrecke überhitzt ist.
 
@@ -1075,36 +1082,70 @@ $\lambda_{Al}$   & 220   & $\frac{W}{m K}$   \\ \hline
 0rf                                                             & Verdampfer V1               & Verdampfer V2 \\ \hline
 \multicolumn{1}{|c|}{el. Leistung Verdichter {[}W{]}}           & \multicolumn{1}{c|}{2623}   & 2607          \\
 \multicolumn{1}{|c|}{Leistung Verdampfer {[}W{]}}               & \multicolumn{1}{c|}{5241}   & 5387          \\
-\multicolumn{1}{|c|}{Leistung Verflüssiger {[}W{]}}             & \multicolumn{1}{c|}{7397}   & 7447          \\
+\multicolumn{1}{|c|}{Leistung Kondensator {[}W{]}}             & \multicolumn{1}{c|}{7397}   & 7447          \\
 \multicolumn{1}{|c|}{EER}                                       & \multicolumn{1}{c|}{1.99}   & 2.07          \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K1) {[}°C{]}}      & \multicolumn{1}{c|}{-14.14} & -15.59        \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K1) {[}°C{]}}    & \multicolumn{1}{c|}{34.12}  & 34.23         \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K1) {[}°C{]}}    & \multicolumn{1}{c|}{34.12}  & 34.23         \\
 \multicolumn{1}{|c|}{Überhitzung (K1) {[}K{]}}                  & \multicolumn{1}{c|}{16.36}  & 16.64         \\
 \multicolumn{1}{|c|}{Unterkühlung (K1) {[}K{]}}                 & \multicolumn{1}{c|}{0}      & 2.79          \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K1) {[}\%{]}}          & \multicolumn{1}{c|}{1}      & 0             \\
-\multicolumn{1}{|c|}{Massenstrom (K1) {[}g/s{]}}                & \multicolumn{1}{c|}{8.14}   & 8.88          \\
+\multicolumn{1}{|c|}{Massenstrom (K1) {[}g/s{]}}                & \multicolumn{1}{c|}{6.11}   & 5.59          \\
 \multicolumn{1}{|c|}{Druckabfall über Verdampfer (K1) {[}Pa{]}} & \multicolumn{1}{c|}{47191}  & 52996         \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K2) {[}°C{]}}      & \multicolumn{1}{c|}{-14.20} & -15.79        \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K2) {[}°C{]}}    & \multicolumn{1}{c|}{34.97}  & 35.35         \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K2) {[}°C{]}}    & \multicolumn{1}{c|}{34.97}  & 35.35         \\
 \multicolumn{1}{|c|}{Überhitzung (K2) {[}K{]}}                  & \multicolumn{1}{c|}{16.06}  & 16.39         \\
 \multicolumn{1}{|c|}{Unterkühlung (K2) {[}K{]}}                 & \multicolumn{1}{c|}{0.15}   & 4.21          \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K2) {[}\%{]}}          & \multicolumn{1}{c|}{0}      & 0             \\
-\multicolumn{1}{|c|}{Massenstrom (K2) {[}g/s{]}}                & \multicolumn{1}{c|}{7.98}   & 8.79          \\
+\multicolumn{1}{|c|}{Massenstrom (K2) {[}g/s{]}}                & \multicolumn{1}{c|}{6.05}   & 5.48          \\
 \multicolumn{1}{|c|}{Druckabfall über Verdampfer (K2) {[}Pa{]}} & \multicolumn{1}{c|}{42863}  & 44176         \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K3) {[}°C{]}}      & \multicolumn{1}{c|}{-15.43} & -17.37        \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K3) {[}°C{]}}    & \multicolumn{1}{c|}{33.95}  & 34.29         \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K3) {[}°C{]}}    & \multicolumn{1}{c|}{33.95}  & 34.29         \\
 \multicolumn{1}{|c|}{Überhitzung (K3) {[}K{]}}                  & \multicolumn{1}{c|}{17.33}  & 18.10         \\
 \multicolumn{1}{|c|}{Unterkühlung (K3) {[}K{]}}                 & \multicolumn{1}{c|}{0}      & 3.91          \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K3) {[}\%{]}}          & \multicolumn{1}{c|}{3}      & 0             \\
-\multicolumn{1}{|c|}{Massenstrom (K3) {[}g/s{]}}                & \multicolumn{1}{c|}{7.92}   & 8.68          \\
+\multicolumn{1}{|c|}{Massenstrom (K3) {[}g/s{]}}                & \multicolumn{1}{c|}{5.66}   & 4.94          \\
 \multicolumn{1}{|c|}{Druckabfall über Verdampfer (K3) {[}Pa{]}} & \multicolumn{1}{c|}{36124}  & 35103         \\ \hline
-\multicolumn{1}{|c|}{Durchschnittsprodukttemperatur {[}°C{]}}   & \multicolumn{1}{c|}{0.84}   & 1.51          \\
-\multicolumn{1}{|c|}{Maximale Produkttemperatur {[}°C{]}}       & \multicolumn{1}{c|}{5.80}   & 6.88          \\
+\multicolumn{1}{|c|}{Durchschnittsprodukttemperatur {[}°C{]}}   & \multicolumn{1}{c|}{0.80}   & 1.46          \\
+\multicolumn{1}{|c|}{Maximale Produkttemperatur {[}°C{]}}       & \multicolumn{1}{c|}{5.70}   & 6.83          \\
 \multicolumn{1}{|c|}{Minimale Produkttemperatur {[}°C{]}}       & \multicolumn{1}{c|}{-3.65}  & -3.51         \\
 \multicolumn{1}{|c|}{Einlasstemperatur Luft {[}°C{]}}           & \multicolumn{1}{c|}{4.42}   & 4.92          \\
 \multicolumn{1}{|c|}{Auslasstemperatur Luft {[}°C{]}}           & \multicolumn{1}{c|}{-5.38}  & -5.58         \\ \hline
 \end{tabular}
 \end{table}
+
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.6]{Pictures/Test61tempprofile.pdf}
+\caption{Simuliertes Temperaturprofil des Verdampfers für Verschaltung V1}
+\label{fig:SimTempV1}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.59]{Pictures/test61V2tempprofile.pdf}
+\caption{Simuliertes Temperaturprofil des Verdampfers für Verschaltung V2}
+\label{fig:SimTempV2}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.55]{Pictures/test61V1ogph.pdf}
+\caption{Simuliertes Druckprofil des Verdampfers für Verschaltung V1}
+\label{fig:SimDruckV1}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.55]{Pictures/test61V2logph.pdf}
+\caption{Simuliertes Druckprofil des Verdampfers für Verschaltung V2}
+\label{fig:SimDruckV2}
+\end{figure}
+
+
+
+\subsection{Vergleich der Verschaltungen V1 und V2}
+\label{subsec:Vergleich der Verschaltungen V1 und V2}
 
 \begin{table}[h!]
 \centering
@@ -1116,24 +1157,24 @@ $\lambda_{Al}$   & 220   & $\frac{W}{m K}$   \\ \hline
                                                                 & Verdampfer V1               & Verdampfer V2 \\ \hline
 \multicolumn{1}{|c|}{el. Leistung Verdichter {[}W{]}}           & \multicolumn{1}{c|}{2665}   & 2649          \\
 \multicolumn{1}{|c|}{Leistung Verdampfer {[}W{]}}               & \multicolumn{1}{c|}{5901}   & 6040          \\
-\multicolumn{1}{|c|}{Leistung Verflüssiger {[}W{]}}             & \multicolumn{1}{c|}{8287}   & 8380          \\
+\multicolumn{1}{|c|}{Leistung Kondensator {[}W{]}}             & \multicolumn{1}{c|}{8287}   & 8380          \\
 \multicolumn{1}{|c|}{EER}                                       & \multicolumn{1}{c|}{2.21}   & 2.28          \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K1) {[}°C{]}}      & \multicolumn{1}{c|}{-9.58}  & -10.94        \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K1) {[}°C{]}}    & \multicolumn{1}{c|}{34.30}  & 34.34         \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K1) {[}°C{]}}    & \multicolumn{1}{c|}{34.30}  & 34.34         \\
 \multicolumn{1}{|c|}{Überhitzung (K1) {[}K{]}}                  & \multicolumn{1}{c|}{16.31}  & 16.54         \\
 \multicolumn{1}{|c|}{Unterkühlung (K1) {[}K{]}}                 & \multicolumn{1}{c|}{0}      & 0.02          \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K1) {[}\%{]}}          & \multicolumn{1}{c|}{11}     & 0             \\
 \multicolumn{1}{|c|}{Massenstrom (K1) {[}g/s{]}}                & \multicolumn{1}{c|}{7.65}   & 7.17          \\
 \multicolumn{1}{|c|}{Druckabfall über Verdampfer (K1) {[}Pa{]}} & \multicolumn{1}{c|}{56393}  & 62087         \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K2) {[}°C{]}}      & \multicolumn{1}{c|}{-9.15}  & -10.72        \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K2) {[}°C{]}}    & \multicolumn{1}{c|}{35.34}  & 35.14         \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K2) {[}°C{]}}    & \multicolumn{1}{c|}{35.34}  & 35.14         \\
 \multicolumn{1}{|c|}{Überhitzung (K2) {[}K{]}}                  & \multicolumn{1}{c|}{15.55}  & 15.72         \\
 \multicolumn{1}{|c|}{Unterkühlung (K2) {[}K{]}}                 & \multicolumn{1}{c|}{0}      & 0.20          \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K2) {[}\%{]}}          & \multicolumn{1}{c|}{4}      & 0             \\
 \multicolumn{1}{|c|}{Massenstrom (K2) {[}g/s{]}}                & \multicolumn{1}{c|}{7.78}   & 7.25          \\
 \multicolumn{1}{|c|}{Druckabfall über Verdampfer (K2) {[}Pa{]}} & \multicolumn{1}{c|}{52500}  & 53686         \\ \hline
 \multicolumn{1}{|c|}{Verdampfungstemperatur (K3) {[}°C{]}}      & \multicolumn{1}{c|}{-10.73} & -12.25        \\
-\multicolumn{1}{|c|}{Verflüssigungstemperatur (K3) {[}°C{]}}    & \multicolumn{1}{c|}{33.94}  & 34.27         \\
+\multicolumn{1}{|c|}{Kondensationstemperatur (K3) {[}°C{]}}    & \multicolumn{1}{c|}{33.94}  & 34.27         \\
 \multicolumn{1}{|c|}{Überhitzung (K3) {[}K{]}}                  & \multicolumn{1}{c|}{17.11}  & 17.29         \\
 \multicolumn{1}{|c|}{Unterkühlung (K3) {[}K{]}}                 & \multicolumn{1}{c|}{0}      & 0.18          \\
 \multicolumn{1}{|c|}{Dampfanteil vor EV (K3) {[}\%{]}}          & \multicolumn{1}{c|}{19}     & 0             \\
@@ -1160,8 +1201,9 @@ $\lambda_{Al}$   & 220   & $\frac{W}{m K}$   \\ \hline
 \section{Einstellung von Normbedingungen}
 \label{sec:Einstellung von Normbedingungen}
 
+In diesem Abschnitt werden die Ergebnisse aus Abschnitt~\ref{sec:EinstellungvonNormbedingungen1} erläutert und die daraus abgeleiteten Konsequenten erklärt.
 Vergleicht man die Ergebnisse aller durchgeführten Untersuchungen aus Tabelle~\ref{tab:Lüfterleistungen} so lassen sich diese hinsichtlich des Erreichens von Geschwindigkeiten zwischen \unit{0,1}{\meter\per\second} und \unit{0,2}{\meter\per\second} auf die in Tabelle~\ref{tab:Lüfterleistungen_eingegrenzt} aufgeführten Untersuchungen eingrenzen. Eine weitere Reduktion der Leistung führt sowohl beim Betrieb mit fünf Lüftern, wie auch mit zwei Lüftern dazu, dass die Geschwindigkeit am unteren Messpunkt gegen 0 geht. \
-Aus den in Abbildung~\ref{fig:10pctOC} - \ref{fig:30pctCC} kann man entnehmen, dass die Geschwindigkeiten beim Betrieb mit fünf Lüftern mit je \unit{10}{\%} ihrer Leistung näher an der geforderten Normgeschwindigkeit liegen als beim Betrieb mit zwei Lüftern bei \unit{30}{\%} Leistung. Hierbei ist ein höherer Turbolenzgrad aufgrund der größeren Schwankung der Messwerte ersichtlich. Ein höherer Turbolenzgrad hat einen höheren Durchmischungsgrad der Raumluft mit der kalten Luft des Luftschleiers zur Folge. 
+Anhand der Abbildungen~\ref{fig:10pctOC} - \ref{fig:30pctCC} lässt sich erkennen, dass die Geschwindigkeiten beim Betrieb mit fünf Lüftern mit je \unit{10}{\%} ihrer Leistung näher an der geforderten Normgeschwindigkeit liegen als beim Betrieb mit zwei Lüftern bei \unit{30}{\%} Leistung. Hierbei ist ein höherer Turbolenzgrad aufgrund der größeren Schwankung der Messwerte ersichtlich. Ein höherer Turbolenzgrad hat einen höheren Durchmischungsgrad der Raumluft mit der kalten Luft des Luftschleiers zur Folge. 
 Stellt man diese Erkenntnisse den Ergebnissen der Untersuchungen mit einer geschlossenen Decke gegenüber so ist zu erkennen, dass das Schließen der Decke eine Minderung des Turbolenzgrades zur Folge hat. \
 Der beim Vergleich der Abbildungen~\ref{fig:10pctOC_temp} und \ref{fig:30pctOC_temp} ersichtliche höhere Temperaturgradient bei niedrigerer Lüfterleistung ist ebenfalls auf den höheren Turbolenzgrad zurückzuführen. \
 Aufgrund der relativ geringen Luftgeschwindigkeit ist die Auftriebskraft sehr einflussreich auf das Strömungsbild. Die warme Luft steigt bei Eintritt in den Raum langsam an die Decke und zieht sich dort entlang bis zur Öffnung in der Decke bzw. bis sie gezwungen ist in den weiter unten liegenden Luftauslass von Kammer A zu strömen.
@@ -1190,10 +1232,10 @@ Lüfteranzahl            & Lüfterleistung          & Decke       \\
 
 
 
-\section{Der Einfluss unterschiedlicher Kältemittelöle auf das Systemverhalten}
+\section{Kältemittelöle}
 \label{sec:Kältemittelöleanalyse}
 
-Wie in Abschnitt~\ref{sec:EinflussÖl} beschrieben ist auffällig, dass die Sättigungstemperatur des Kältemittels im Verflüssiger unter der Eintrittstemperatur des Wassers liegt. Dies ist durch einen geringen Druck in der Flüssigkeitsleitung zu erklären. Der Hersteller der Verflüssiger gibt bei vollständiger Verflüssigung einen maximalen Druckabfall von \unit{0.0117}{\bbar} an. Ein sehr hoher Dampfanteil im Verflüssiger und in der Flüssigkeitsleitung sowie ein hoher Massenstrom verursachen, nach Gleichung~\ref{eq:14}, einen großen Druckabfall. Durch Absinken des Druckes sinkt die Sättigungstemperatur des Kältemittels und folglich die Differenz zwischen Eingangstemperatur des Wassers und Temperatur des Kältemittels. Dies führt dazu, dass am Verlüssiger keine Wärme mehr übertragen werden kann und das Kältemittel nicht in der Lage ist weiter zu kondensieren bzw. zu unterkühlen. Der geringere Druckabfall über den Verdampfer ist durch den geringeren Kältemittelmassenstrom zu erklären. Die Reduktion des Kältemittelmassenstroms ist auf eine Reduktion des Öffnungsgrades des Expansionsventiles zurückzuführen. Aufgrund des relativ hohen Dampfanteiles vor dessen Einlass und der verschiedenen Öleigenschaften ist zu erwarten, dass sich das Regelverhalten der Ventile in beiden Untersuchungen leicht voneinander unterscheidet.  \
+Wie in Abschnitt~\ref{sec:EinflussÖl} beschrieben ist auffällig, dass die Sättigungstemperatur des Kältemittels im Kondensator unter der Eintrittstemperatur des Wassers liegt. Dies ist durch einen geringen Druck in der Flüssigkeitsleitung zu erklären. Der Hersteller der Kondensatoren gibt bei vollständiger Kondensation einen maximalen Druckabfall von \unit{0.0117}{\bbar} an. Ein sehr hoher Dampfanteil im Kondensator und in der Flüssigkeitsleitung sowie ein hoher Massenstrom verursachen, nach Gleichung~\ref{eq:14}, einen großen Druckabfall. Durch Absinken des Druckes sinkt die Sättigungstemperatur des Kältemittels und folglich die Differenz zwischen Eingangstemperatur des Wassers und Temperatur des Kältemittels. Dies führt dazu, dass am Verlüssiger keine Wärme mehr übertragen werden kann und das Kältemittel nicht in der Lage ist weiter zu kondensieren bzw. zu unterkühlen. Der geringere Druckabfall über den Verdampfer ist durch den geringeren Kältemittelmassenstrom zu erklären. Die Reduktion des Kältemittelmassenstroms ist auf eine Reduktion des Öffnungsgrades des Expansionsventiles zurückzuführen. Aufgrund des relativ hohen Dampfanteiles vor dessen Einlass und der verschiedenen Öleigenschaften ist zu erwarten, dass sich das Regelverhalten der Ventile in beiden Untersuchungen leicht voneinander unterscheidet.  \
 Wie Tabelle~\ref{tab:LöslichkeitHC3M} zu entnehmen ist die Löslichkeit des Kältemittels in HATCOL 4467 in den Wärmeübertragern etwas geringer als die in 3MAF. Das Öl nimmt weniger Kältemittel auf, wodurch mehr Leistung zur Verfügung steht, da mehr Kältemittel sofort verdampfen kann. 3MAF besitzt mit der höheren Kältemittellöslichkeit hingegen bessere Ölrückführungseigenschaften. Der rechnerische Unterschied im Verdichter ist vernachlässigbar gering.
 Der Versuch bestätigt die rechnerischen Vorhersagen. Ein Wechsel des Öles zu HATCOL 4467 führt zu einer Vergrößerung der Wärmeübertragerleistungen. Dies hat auch eine überproportionale Erhöhung der elektrischen Leistungsaufnahme zu Folge, was sich negativ auf den EER auswirkt.
 Produkt- und lufttemperaturseitig ist nur ein geringer Effekt des Ölwechsels zu beobachten. Dieser liegt im Bereich der Messungenauigkeit und kann ist als vernachlässigbar zu deuten. Die wärmere Eintrittstemperatur ist wahrscheinlich auf Unregelmäßigkeiten in der Durchmischung mit dem warmen Luftstrom der Klimakammer zurückzuführen. Deswegen ist es schwierig das System anhand der erzielten Produkttemperatur zu bewerten.
@@ -1218,35 +1260,82 @@ Da sich dies negativ auf den EER auswirkt und produkttemperaturseitig kein Einfl
 
 
 \section{Abtauintervalle}
-\label{sec:Abtauintervalle}
+\label{sec:AbtauintervalleAnalyse}
 
+In diesem Abschnitt wird der Einfluss der Länge der Abtauintervalle auf das Systemverhalten auf Basis der in Abschnitt~\ref{sec:Abtauintervalle} beschriebenen Untersuchungsergebnisse analysiert. \newline
+Zunächst ist zu untersuchen, warum die Abtauung genau nach \unit{3}{\hour} eingeleitet wird. Zu diesem Zweck wird die Abtauregelung der Steuerungssoftware betrachtet. Diese ist schematisch in Abbildung~\ref{fig:bedarfsgerechteAbtauung} dargestellt. Im unteren Diagramm ist auf der x-Achse die Zeit dargestellt und auf der y-Achse die Temperaturdifferenz über den Verdampfer. Das Diagramm darüber zeigt diskrete Ereignisse  der Regelung einer Bedarfsabtauung die in einem Kühlzyklus stattfinden.
+Nach dem Ende einer Abtauung wird nach einer bestimmten Verzögerung die maximale und optimale Temperaturdifferenz des Verdampfers ermittelt. Sinkt die tatsächliche Temperaturdifferenz unter einen Bruchteil davon, so wird in einer ersten Stufe die Abtauung eingeleitet. Sinkt die Temperaturdifferenz unter einen vorgegebenen absoluten Grenzwert von \unit{8}{\kelvin}, so leiter die zweite Stufe der Regelung die Abtauung ein. Wird die Abtauung nicht in dem vorgegebenen Abtauintervall von \unit{3}{\hour} durch die erste oder zweite Stufe eingeleitet, so findet diese spätestens nach Ablauf der Zeit statt.
 
-Während eines Kühlzyklus sammelt sich aufgrund der unter dem Tau- und Gefrierpunkt liegenden Temperatur der Verdampferoberfläche und der hohen relativen Luftfeuchtigkeit viel Kondensat, welches daraufhin gefriert. Der Verdampfer vereist langsam. Wegen der stetig dicker werdenden Eisschicht entsteht ein zusätzlicher Wärmeleitwiderstand. Dieser verkleinert den Wärmedurchgangskoeffizienten k entsprechend Gleichung~\ref{eq:UA}. Dies hat gemäß Gleichung~\ref{eq:4} eine Reduzierung der übertragenen Wärme zur Folge.
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.55]{Pictures/defrostintervall.pdf}
+\caption{Auslösestufen der bedarfsgerechten Abtauung.}
+\label{fig:bedarfsgerechteAbtauung}
+\end{figure}
 
+Offensichtlich wurde durch die Stufen 1 und 2 der Bedarfsabtauung keine Abtauung eingeleitet. Im Folgenden wird die Temperaturdifferenz der Luft über den Verdampfer genauer betrachtet um Rückschlüsse auf das Regelverhalten der Steuerungssoftware ziehen zu können. Diese ist über einen Kühlzyklus in Abbildung~\ref{fig:deltaTLuftevap51} dargestellt. Auf der x-Achse ist die Zeit in $h$ und auf der y-Achse die Temperaturdifferenz in $K$ aufgetragen. Es ist zu erkennen, dass diese entgegen der Erwartungen mit fortschreitender Zeit ansteigt. Da die Temperaturdifferenz nicht sinkt kann auch kein eingestellter Grenzwert unterschritten werden. Infolgedessen findet keine Einleitung der Abtauung durch die ersten beiden Stufen der Regelung statt. 
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.8]{Pictures/51/delTaT_evap.pdf}
+\caption{Temperaturdifferenz der Luft am Verdampfer bei einem 3h Abtauintervall.}
+\label{fig:deltaTLuftevap51}
+\end{figure}
+
+Die Regelung der bedarfsgerechten Abtauung basiert auf der Annahme, dass die Temperaturdifferenz der Luft kleiner wird. Dies hat den folgenden Grund:
+Während eines Kühlzyklus sammelt sich aufgrund der unter dem Tau- und Gefrierpunkt liegenden Temperatur der Verdampferoberfläche und der hohen relativen Luftfeuchtigkeit viel Kondensat, welches daraufhin gefriert. Der Verdampfer vereist langsam. Wegen der stetig dicker werdenden Eisschicht entsteht ein zusätzlicher Wärmeleitwiderstand. Dieser verkleinert den Wärmedurchgangskoeffizienten $k$ entsprechend Gleichung~\ref{eq:UA}. Dies hat gemäß Gleichung~\ref{eq:4} eine Reduzierung der übertragenen Wärme zur Folge. Die Temperaturdifferenz sinkt, da die Austrittstemperatur der Luft infolgedessen höher ist. \newline
+Abbildung~\ref{fig:deltaTLuftevap50} zeigt die Temperaturdifferenz der Luft bei der Vergleichsuntersuchung mit einem \unit{4}{\hour} Abtauintervall. Es ist zu erkennen, dass wie bei der nachfolgenden Untersuchung die Temperaturdifferenz zunächst ansteigt. Jedoch beginnt diese bei circa \unit{3.7}{\hour} abzusinken. Zu diesem Zeitpunkt ist der Effekt der Eisbildung detektierbar und eine Einleitung der Abtauung durch die ersten beiden Stufen möglich. Dies wird jedoch durch das kurze Abtauintervall und durch die zunächst ansteigende Temperaturdifferenz verhindert. \newline 
+Eine Untersuchung der Ein- und Austrittstemperaturen der Luft am Verdampfer lässt Rückschlüsse auf das Verhalten der Temperaturdifferenz zu.
+Abbildung~\ref{fig:TLuftevap51} stellt diese zeitlich über das \unit{3}{\hour} Abtauintervall der Untersuchung der bedarfsgerechten Abtauung dar.
+Es ist zu erkennen, dass die Austrittstemperatur der Luft zunächst kurz ansteigt und daraufhin stetig absinkt während die Eintrittstemperatur in den Verdampfer leicht zunimmt. Das Absinken der Austrittstemperatur der Luft ist direkt abhängig von deren Eintrittstemperatur sowie der Verdampfungstemperatur des Kältemittels.
+
+\begin{figure}[h]
+\centering
+\includegraphics[scale=0.8]{Pictures/50/delTaT_evap.pdf}
+\caption{Temperaturdifferenz der Luft am Verdampfer bei einem 4h Abtauintervall.}
+\label{fig:deltaTLuftevap50}
+\end{figure}
+
+In Abbildung~\ref{fig:Tevap51} ist die Verdampfungstemperatur für alle drei Kältekreise zeitlich dargestellt. Es lässt sich beobachten, dass bei konstanter Verdampfungstemperatur und steigender Lufteintrittstemperatur die Austrittstemperatur zunächst ansteigt. Beginnt die Verdampfungstemperatur abzusinken, so fällt auch die Austrittstemperatur der Luft. \newline Das Ansteigen der Eintrittstemperatur ist dadurch jedoch nicht zu erklären.
+Es ist zu vermuten, dass durch die sinkende Austrittstemperatur der Luft am Auslassgitter des Kühlmöbels, infolge einer Veränderung des Wärmeübergangs durch Konvektion, die Induktionsrate der warmen Kammerluft erhöht.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.8]{Pictures/51/T_air,evap.pdf}
+\caption{Ein- und Austrittstemperaturen der Luft am Verdampfer bei einem 3h Abtauintervall.}
+\label{fig:TLuftevap51}
+\end{figure}
+
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.8]{Pictures/51/Tsats_K1K2K3lastCycle.pdf}
+\caption{Verdampungstemperaturen der drei Kältekreise bei einem 3h Abtauintervall.}
+\label{fig:Tevap51}
+\end{figure}
 
 
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{Pictures/50evaploss.pdf}
-\caption{Sinken der Verdampfungstemperatur durch größeres Abtauintervall}
+\caption{Verdampungstemperaturen der drei Kältekreise bei einem 4h Abtauintervall.}
 \label{fig:SinkenVerdampfung4h3h}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{Pictures/50powerloss.pdf}
-\caption{Leistungsverlust durch größeres Abtauintervall}
+\caption{elektrische und thermische Leistungen durch größeres Abtauintervall bei einem 4h Abtauintervall.}
 \label{fig:Leistungsverlust4h3h}
 \end{figure}
 
 
+Die Ergebnisse aus Abschnitt~\ref{sec:Abtauintervalle} zeigen eine Effizienzsteigerung durch eine Verkürzung des Abtauintervalls auf \unit{3}{\hour}. Um diesen Effekt zu untersuchen werden die Verdampfungstemperaturen und die Leistungen grafisch betrachtet.
+In Abbildung~\ref{fig:SinkenVerdampfung4h3h} sind die Verdampfungstemperaturen der Untersuchung des \unit{4}{\hour} Abtauintervalls zeitlich über einen Kühlzyklus dargestellt. Von Beginn des Zyklus bis zu einem Zeitpunkt von etwa \unit{2}{\hour} sind die Temperaturen konstant mit circa \unit{-7}{\celsius}. Anschließend beginnen die Temperaturen zu fallen. Ab \unit{3}{\hour} sinken die Temperaturen sehr stark auf bis zu \unit{-18}{\celsius}.
+Abbildung~\ref{fig:Leistungsverlust4h3h} stellt die elektrische Leistungsaufnahme der Verdichter und die thermischen Leistungen der Wärmeübertrager desselben Zyklus zeitlich dar. Während die elektrische Leistungsaufnahme konstant bleibt sinken die thermischen Leistungen wie die Verdampfungstemperatur ab einem Zeitpunkt von \unit{3}{\hour} stark ab. In beiden Diagrammen ist die Reduktion der jeweiligen Werte im Bereich zwischen \unit{3}{\hour} und \unit{4}{\hour} rot gekennzeichnet. \newline
+Da diese Betrachtung unabhängig von der Temperatur der Eintrittsluft ist kann der Effekt der Eisbildung früher als bei einer Betrachtung der Temperaturdifferenz detektiert werden. Eine Verkürzung des Abtauintervalls verhindert ein starkes Absinken der thermischen Leistungen und den Verdampfungstemperaturen. Da die Werte in Tabelle~\ref{tab:Vergleich4h3h} über die letzten \unit{75}{\%} eines Zyklus gemittelt sind, sind die des \unit{4}{\hour} Abtauintervalls entsprechend geringer.
 
-
-\clearpage
-
-
-
+Durch die Änderung des Abtauintervalls von \unit{4}{\hour} auf \unit{3}{\hour} wird der EER um \unit{5.6}{\%} von \unit{2.14}{} auf \unit{2.26}{} erhöht.
 
 
 
@@ -1265,12 +1354,13 @@ Während eines Kühlzyklus sammelt sich aufgrund der unter dem Tau- und Gefrierp
 \section{Verdichter}
 \label{sec:Verdichter}
 
-Aufgrund der erzielten höheren Verflüssigungsleistung erreicht das Kältemittel einen niedrigeren Dampfgehalt. Bei Drosselung durch das Expansionsventil bleibt die Enthalpie nahezu konstant. Der erzielte Flashgasanteil hinter dem Ventil ist folglich ebenfalls geringer. Dadurch wird ein Verdampfungsenthalpiegewinn erzielt, wie beim Vergleich der Diagramme~\ref{fig:logph51} und \ref{fig:logph54} erkennbar ist. Trotz eines niedrigeren Kältemittelmassenstroms wird nach Gleichung~\ref{eq:4} an den Wärmeübertragern mehr Wärme übertragen. Nach Gleichung~\ref{eq:14} wird der Druckabfall über den Verdampfer gleichermaßen durch den Dampfanteil und den Kältemittelmassenstrom beeinflusst. Eine Reduktion beider Größen hat, wie in den Messwerten von Kreis 2 und 3 in Tabelle~\ref{tab:VergleichVerdichter} erkennbar, eine Reduktion des Druckabfalls über den Verdampfer zur Folge. Der in Kreis 1 leicht erhöhte Druckabfall ist durch die geringe Änderung von Dampfanteil und Massenstrom bei gleichzeitig minimaler Erhöhung des Verdampfungsdrucks zu erklären.
-Auf die Reduktion des Kältemittelmassenstroms reagiert die Regelung der Temperaturdifferenz über den Verflüssiger mit einer Erhöhung des Wassermassenstroms.
+Aufgrund der erzielten höheren Kondensationsleistung erreicht das Kältemittel einen niedrigeren Dampfgehalt. Bei Drosselung durch das Expansionsventil bleibt die Enthalpie nahezu konstant. Der erzielte Flashgasanteil hinter dem Ventil ist folglich ebenfalls geringer. Dadurch wird ein Verdampfungsenthalpiegewinn erzielt, wie beim Vergleich der Diagramme~\ref{fig:logph51} und \ref{fig:logph54} erkennbar ist. Trotz eines niedrigeren Kältemittelmassenstroms wird nach Gleichung~\ref{eq:4} an den Wärmeübertragern mehr Wärme übertragen. Nach Gleichung~\ref{eq:14} wird der Druckabfall über den Verdampfer gleichermaßen durch den Dampfanteil und den Kältemittelmassenstrom beeinflusst. Eine Reduktion beider Größen hat, wie in den Messwerten von Kreis 2 und 3 in Tabelle~\ref{tab:VergleichVerdichter} erkennbar, eine Reduktion des Druckabfalls über den Verdampfer zur Folge. Der in Kreis 1 leicht erhöhte Druckabfall ist durch die geringe Änderung von Dampfanteil und Massenstrom bei gleichzeitig minimaler Erhöhung des Verdampfungsdrucks zu erklären.
+Auf die Reduktion des Kältemittelmassenstroms reagiert die Regelung der Temperaturdifferenz über den Kondensator mit einer Erhöhung des Wassermassenstroms.
 Gleichzeitig steigt nach Gleichung~\ref{eq:4} die Enthalpiedifferenz des Kältemittels.
 Da diese Effekte unter den aktuellen Versuchbedingungen nicht trennbar sind wirkt sich eine Reduzierung des Kältemittelstroms leistungssteigernd aus.
-Bei konstantem Wassermassenstrom würde dies in einer höheren Verflüssigungstemperatur und niedrigerem Dampfanteil des Kältemittels resultieren.
-Das System verhält sich entgegengesetzt der Herstellerdaten. Statt einem höheren Massenstrom und geringerer elektrischer Leistungsaufnahme stellt sich ein niedrigerer Massenstrom bei erhöhter elektrischer Leistungsaufnahme ein.
+Bei konstantem Wassermassenstrom würde dies in einer höheren Kondensationstemperatur und niedrigerem Dampfanteil des Kältemittels resultieren.
+
+Das System verhält sich entgegengesetzt der Herstellerdaten. Statt einem höheren Massenstrom und geringerer elektrischer Leistungsaufnahme stellt sich ein niedrigerer Massenstrom bei erhöhter elektrischer Leistungsaufnahme ein.  
 Der Betrieb mit der Standardausführung des Scrollverdichters ZB09KAU-TFD wirkt sich unter den gegenwärtigen Prüfbedingungen sowohl leistungs- als auch leicht effizienzsteigernd aus. Gegenüber dem Hybridmodell wird ein EER-Gewinn von \unit{0.9}{\%} erzielt.
 
 
@@ -1285,7 +1375,6 @@ Im Verdampfer herrscht, bedingt durch einen geringen Durchmesser der Verdampferr
 
 Grundidee hinter dem Modell ist den, durch den hohen Kältemittelmassenstrom bei gleichzeitig geringem Durchmesser der Verdampferrohre bedingten, Druckabfall und das damit einhergehende Absinken der Sättigungstemperatur zur Erhöhung der Kälteleistung zu nutzen. Im Ausgangsmodell durchströmt das Kältemittel den Verdampfer im Gegenstromprinzip. Aufgrund des Druckabfalls verhält sich diese Anordung wie eine Kombination aus Gleich- und Gegenstrom. Wird nun die Anordnung der Rohre dahingehend geändert, dass das Kältemittel den Verdampfer von dessen Mitte aus im Gleichstrom mit der Luft nach oben durchströmt, aber die überhitzten Rohrreihen noch immer beim Lufteintritt sind, so erzielt man den gegenteiligen Effekt: Der Wärmeübertrager bietet eine Kombination aus Gleich- und Gegenstrom, verhält sich aber wie ein reiner Gegenstromverdampfer. Hierbei ist am Verdampferaustritt der Luft eine höhere Temperaturdifferenz zum Kältemittel zu erwarten. Den Vergleich zeigt Abbildung~\ref{fig:Vergleich der Verdampferschaltungen}.
 Das Modell soll zeigen ob diese Maßnahme einen bedeutenden Effekt erzielen kann und wird anschließend im Versuch validiert.
-
 
 
 

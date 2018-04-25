@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="New document 1">
+   sodipodi:docname="Verdampfer_V1.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.5"
-     inkscape:cx="-73.597218"
-     inkscape:cy="553.57947"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="158.01411"
+     inkscape:cy="526.29225"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -446,7 +446,7 @@
            x="338.40109"
            y="99.78833"
            style="-inkscape-font-specification:Utopia;font-family:Utopia;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:40px" /></flowRegion><flowPara
-         id="flowPara3478"></flowPara></flowRoot>    <flowRoot
+         id="flowPara3478" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3480"
        style="font-size:48px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia"
@@ -560,7 +560,7 @@
            x="408.70773"
            y="988.7226"
            style="-inkscape-font-specification:Utopia;font-family:Utopia;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:40px" /></flowRegion><flowPara
-         id="flowPara3614"></flowPara></flowRoot>    <flowRoot
+         id="flowPara3614" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot3625"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia"><flowRegion
@@ -584,7 +584,7 @@
            style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Utopia;-inkscape-font-specification:Utopia" /></flowRegion><flowPara
          id="flowPara3639">T<flowSpan
    style="font-size:65.00091553%;baseline-shift:sub"
-   id="flowSpan3641">Luft,ein</flowSpan></flowPara></flowRoot>    <flowRoot
+   id="flowSpan3641">L,ein</flowSpan></flowPara></flowRoot>    <flowRoot
        transform="translate(-3.2900758,-157.27987)"
        xml:space="preserve"
        id="flowRoot3633-6"
@@ -598,7 +598,7 @@
            style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Utopia;-inkscape-font-specification:Utopia" /></flowRegion><flowPara
          id="flowPara3639-4">T<flowSpan
    style="font-size:65.00091553%;baseline-shift:sub"
-   id="flowSpan3641-9">Luft,6</flowSpan></flowPara></flowRoot>    <flowRoot
+   id="flowSpan3641-9">L,6</flowSpan></flowPara></flowRoot>    <flowRoot
        transform="translate(-4.7042887,-319.91443)"
        xml:space="preserve"
        id="flowRoot3633-63"
@@ -612,7 +612,7 @@
            style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Utopia;-inkscape-font-specification:Utopia" /></flowRegion><flowPara
          id="flowPara3639-2">T<flowSpan
    style="font-size:65.00091553%;baseline-shift:sub"
-   id="flowSpan3641-91">Luft,5</flowSpan></flowPara></flowRoot>    <flowRoot
+   id="flowSpan3641-91">L,5</flowSpan></flowPara></flowRoot>    <flowRoot
        transform="translate(-6.1185028,-475.47793)"
        xml:space="preserve"
        id="flowRoot3633-3"
@@ -626,7 +626,7 @@
            style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Utopia;-inkscape-font-specification:Utopia" /></flowRegion><flowPara
          id="flowPara3639-8">T<flowSpan
    style="font-size:65.00091553%;baseline-shift:sub"
-   id="flowSpan3641-4">Luft,4</flowSpan></flowPara></flowRoot>    <flowRoot
+   id="flowSpan3641-4">L,4</flowSpan></flowPara></flowRoot>    <flowRoot
        transform="translate(-7.5327164,-631.04142)"
        xml:space="preserve"
        id="flowRoot3633-0"
@@ -640,7 +640,7 @@
            style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Utopia;-inkscape-font-specification:Utopia" /></flowRegion><flowPara
          id="flowPara3639-6">T<flowSpan
    style="font-size:65.00091553%;baseline-shift:sub"
-   id="flowSpan3641-1">Luft,3</flowSpan></flowPara></flowRoot>    <flowRoot
+   id="flowSpan3641-1">L,3</flowSpan></flowPara></flowRoot>    <flowRoot
        transform="translate(-10.361143,-789.43333)"
        xml:space="preserve"
        id="flowRoot3633-5"
@@ -654,7 +654,7 @@
            style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Utopia;-inkscape-font-specification:Utopia" /></flowRegion><flowPara
          id="flowPara3639-0">T<flowSpan
    style="font-size:65.00091553%;baseline-shift:sub"
-   id="flowSpan3641-97">Luft,2</flowSpan></flowPara></flowRoot>    <flowRoot
+   id="flowSpan3641-97">L,2</flowSpan></flowPara></flowRoot>    <flowRoot
        transform="translate(-11.775357,-946.41104)"
        xml:space="preserve"
        id="flowRoot3633-37"
@@ -668,7 +668,7 @@
            style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Utopia;-inkscape-font-specification:Utopia" /></flowRegion><flowPara
          id="flowPara3639-01">T<flowSpan
    style="font-size:65.00091553%;baseline-shift:sub"
-   id="flowSpan3641-6">Luft,aus</flowSpan></flowPara></flowRoot>    <flowRoot
+   id="flowSpan3641-6">L,aus</flowSpan></flowPara></flowRoot>    <flowRoot
        transform="translate(128.23178,-872.87194)"
        xml:space="preserve"
        id="flowRoot3633-57"

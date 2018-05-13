@@ -59,6 +59,90 @@
          id="path4843"
          d="m 37.828125,43.2 455.371875,0 0,270 -455.371875,0 0,-270 z" />
     </clipPath>
+    <clipPath
+       id="clipPath3130"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3132"
+         d="m 37.828125,43.2 455.371875,0 0,270 -455.371875,0 0,-270 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath3120"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3122"
+         d="m 37.828125,43.2 455.371875,0 0,270 -455.371875,0 0,-270 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath3110"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3112"
+         d="m 37.828125,43.2 455.371875,0 0,270 -455.371875,0 0,-270 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath3414"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3416"
+         d="m 37.828125,43.2 455.371875,0 0,270 -455.371875,0 0,-270 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath3404"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3406"
+         d="m 37.828125,43.2 455.371875,0 0,270 -455.371875,0 0,-270 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath3394"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3396"
+         d="m 37.828125,43.2 455.371875,0 0,270 -455.371875,0 0,-270 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath3698"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3700"
+         d="m 37.828125,43.2 455.371875,0 0,270 -455.371875,0 0,-270 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath3688"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3690"
+         d="m 37.828125,43.2 455.371875,0 0,270 -455.371875,0 0,-270 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath3678"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3680"
+         d="m 37.828125,43.2 455.371875,0 0,270 -455.371875,0 0,-270 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath3982"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3984"
+         d="m 37.828125,43.2 455.371875,0 0,270 -455.371875,0 0,-270 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath3972"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3974"
+         d="m 37.828125,43.2 455.371875,0 0,270 -455.371875,0 0,-270 z" />
+    </clipPath>
+    <clipPath
+       id="clipPath3962"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3964"
+         d="m 37.828125,43.2 455.371875,0 0,270 -455.371875,0 0,-270 z" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -68,10 +152,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="417.15852"
-     inkscape:cy="610.77065"
+     inkscape:cx="407.29654"
+     inkscape:cy="585.55561"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g4867"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -184,7 +268,7 @@
              sodipodi:role="line"
              y="0"
              x="0 7.632 11.448"
-             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:BitstreamVeraSans;-inkscape-font-specification:BitstreamVeraSans-Roman">0.0</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia">0.0</tspan>
         </text>
         <path
            id="path4885"
@@ -204,7 +288,7 @@
              sodipodi:role="line"
              y="0"
              x="0 7.632 11.448"
-             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:BitstreamVeraSans;-inkscape-font-specification:BitstreamVeraSans-Roman">1.0</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia">1.0</tspan>
         </text>
         <path
            id="path4893"
@@ -224,7 +308,7 @@
              sodipodi:role="line"
              y="0"
              x="0 7.632 11.448"
-             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:BitstreamVeraSans;-inkscape-font-specification:BitstreamVeraSans-Roman">2.0</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia">2.0</tspan>
         </text>
         <path
            id="path4901"
@@ -244,7 +328,7 @@
              sodipodi:role="line"
              y="0"
              x="0 7.632 11.448"
-             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:BitstreamVeraSans;-inkscape-font-specification:BitstreamVeraSans-Roman">3.0</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia">3.0</tspan>
         </text>
         <path
            id="path4909"
@@ -264,7 +348,7 @@
              sodipodi:role="line"
              y="0"
              x="0 7.632 11.448"
-             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:BitstreamVeraSans;-inkscape-font-specification:BitstreamVeraSans-Roman">4.0</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia">4.0</tspan>
         </text>
         <text
            id="text4917"
@@ -274,7 +358,7 @@
              sodipodi:role="line"
              y="0"
              x="0 8.2200003 15.6 18.936001 23.639999 27.455999 30.792 38.400002 42.216"
-             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:BitstreamVeraSans;-inkscape-font-specification:BitstreamVeraSans-Roman">Zeit in h</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia">Zeit in h</tspan>
         </text>
         <path
            id="path4921"
@@ -293,7 +377,7 @@
              id="tspan4927"
              y="0"
              x="0"
-             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:BitstreamVeraSans;-inkscape-font-specification:BitstreamVeraSans-Roman">0</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia">0</tspan>
         </text>
         <path
            id="path4929"
@@ -312,7 +396,7 @@
              id="tspan4935"
              y="0"
              x="0"
-             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:BitstreamVeraSans;-inkscape-font-specification:BitstreamVeraSans-Roman">2</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia">2</tspan>
         </text>
         <path
            id="path4937"
@@ -331,7 +415,7 @@
              id="tspan4943"
              y="0"
              x="0"
-             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:BitstreamVeraSans;-inkscape-font-specification:BitstreamVeraSans-Roman">4</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia">4</tspan>
         </text>
         <path
            id="path4945"
@@ -350,7 +434,7 @@
              id="tspan4951"
              y="0"
              x="0"
-             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:BitstreamVeraSans;-inkscape-font-specification:BitstreamVeraSans-Roman">6</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia">6</tspan>
         </text>
         <path
            id="path4953"
@@ -369,7 +453,7 @@
              id="tspan4959"
              y="0"
              x="0"
-             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:BitstreamVeraSans;-inkscape-font-specification:BitstreamVeraSans-Roman">8</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia">8</tspan>
         </text>
         <path
            id="path4961"
@@ -389,7 +473,7 @@
              sodipodi:role="line"
              y="0"
              x="0 6.684 14.064 17.4 23.652 28.356001 35.964001 43.571999 51.192001 55.007999 58.344002 65.952003 69.767998 76.716003"
-             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:BitstreamVeraSans;-inkscape-font-specification:BitstreamVeraSans-Roman">Leistung in kW</tspan>
+             style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia">Leistung in kW</tspan>
         </text>
         <path
            id="path4969"
@@ -406,11 +490,13 @@
            id="g4973">
           <text
              id="text4975"
-             transform="matrix(1,0,0,-1,2.984375,3.96875)">
+             transform="scale(1,-1)"
+             x="6.1843748"
+             y="-3.96875">
             <tspan
                id="tspan4977"
-               y="0"
-               x="0"
+               y="-3.96875"
+               x="6.1843748"
                style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmr10;-inkscape-font-specification:Cmr10">˙</tspan>
           </text>
           <text
@@ -420,7 +506,7 @@
                id="tspan4981"
                y="0"
                x="0"
-               style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmmi10;-inkscape-font-specification:Cmmi10">Q</tspan>
+               style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia Italic;font-style:italic">Q</tspan>
           </text>
           <text
              id="text4983"
@@ -430,7 +516,7 @@
                sodipodi:role="line"
                y="0"
                x="0 3.7283204"
-               style="font-size:8.39999962px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmr10;-inkscape-font-specification:Cmr10">ev</tspan>
+               style="font-size:8.39999961999999910px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia Italic;font-style:italic">ev</tspan>
           </text>
         </g>
         <path
@@ -443,21 +529,24 @@
            id="g4989">
           <text
              id="text4991"
-             transform="matrix(1,0,0,-1,2.984375,3.96875)">
+             transform="scale(1,-1)"
+             x="6.1843748"
+             y="-3.96875">
             <tspan
                id="tspan4993"
-               y="0"
-               x="0"
+               y="-3.96875"
+               x="6.1843748"
                style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmr10;-inkscape-font-specification:Cmr10">˙</tspan>
           </text>
           <text
              id="text4995"
-             transform="matrix(1,0,0,-1,0,0.703125)">
+             transform="scale(1,-1)"
+             y="-0.703125">
             <tspan
                id="tspan4997"
-               y="0"
+               y="-0.703125"
                x="0"
-               style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmmi10;-inkscape-font-specification:Cmmi10">Q</tspan>
+               style="font-size:12px;font-style:italic;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia Italic">Q</tspan>
           </text>
           <text
              id="text4999"
@@ -467,7 +556,7 @@
                sodipodi:role="line"
                y="0"
                x="0 3.7283204"
-               style="font-size:8.39999962px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmr10;-inkscape-font-specification:Cmr10">cd</tspan>
+               style="font-size:8.39999961999999910px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia Italic;font-style:italic">cd</tspan>
           </text>
         </g>
         <path
@@ -485,7 +574,7 @@
                id="tspan5009"
                y="0"
                x="0"
-               style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmmi10;-inkscape-font-specification:Cmmi10">P</tspan>
+               style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia Italic;font-style:italic">P</tspan>
           </text>
           <text
              id="text5011"
@@ -495,7 +584,7 @@
                sodipodi:role="line"
                y="0"
                x="0 3.7283204"
-               style="font-size:8.39999962px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Cmr10;-inkscape-font-specification:Cmr10">cp</tspan>
+               style="font-size:8.39999961999999910px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Utopia;-inkscape-font-specification:Utopia Italic;font-style:italic">cp</tspan>
           </text>
         </g>
       </g>

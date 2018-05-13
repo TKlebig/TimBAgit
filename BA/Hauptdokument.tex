@@ -51,7 +51,7 @@
 \usepackage{blindtext} % Um den lorem ipsum Text zu erzeugen
 %\usepackage{svg}
 \usepackage{epstopdf}
-\usepackage[table,xcdraw]{xcolor}
+\usepackage[tableann,xcdraw]{xcolor}
 %\usepackage{subfig} %für mehrere Bilder nebeneinander HACK#42
 
 
@@ -133,7 +133,10 @@
 \usepackage{multirow}
 \usepackage{booktabs} % Erstelle besser aussehende Tabellen, nutze \toprule, \midrule, \bottomrule für horizontale Linien
 \usepackage[point]{rccol} % Werte werden über das Kommata ausgerichtet
-
+\usepackage{tabularx}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}}
 %-----------------------------------------------------------------------------
 % Abbildungen
 %-----------------------------------------------------------------------------

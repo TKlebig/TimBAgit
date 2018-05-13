@@ -1,0 +1,87 @@
+%% Creator: Inkscape inkscape 0.92.3, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file '50powerloss1.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{558.07086182bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.4142857)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{50powerloss1.pdf}}%
+    \put(0.09436942,0.43810563){\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}0.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{50powerloss1.pdf}}%
+    \put(0.27065921,0.43810563){\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}1.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{50powerloss1.pdf}}%
+    \put(0.44614841,0.43810563){\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}2.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{50powerloss1.pdf}}%
+    \put(0.62204446,0.43810563){\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}3.0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{50powerloss1.pdf}}%
+    \put(0.79762554,0.43810563){\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}4.0\end{tabular}}}}%
+    \put(0.45056998,0.41017739){\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Zeit in h\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{50powerloss1.pdf}}%
+    \put(0.09219081,0.45458959){\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}0\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{50powerloss1.pdf}}%
+    \put(0.09300451,0.54530388){\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{50powerloss1.pdf}}%
+    \put(0.09163959,0.63601817){\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}4\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{50powerloss1.pdf}}%
+    \put(0.09221706,0.72673245){\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}6\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{50powerloss1.pdf}}%
+    \put(0.09226955,0.81744674){\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}8\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{50powerloss1.pdf}}%
+    \put(0.07904039,0.61307711){\rotatebox{90}{\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}Leistung in kW\end{tabular}}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{50powerloss1.pdf}}%
+    \put(0.81928051,0.87676275){\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{P}\end{tabular}}}}%
+    \put(0.83222423,0.87162039){\makebox(0,0)[lt]{\lineheight{0}\smash{\begin{tabular}[t]{l}\textit{c}\textit{p}\end{tabular}}}}%
+    \put(0.57063606,0.95345996){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.05831632\unitlength}\raggedright \end{minipage}}}%
+    \put(0.55795695,0.89327416){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.20159756\unitlength}\raggedright $\dot{Q}_{ev}$\end{minipage}}}%
+    \put(0.68436642,0.89324013){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.20159756\unitlength}\raggedright $\dot{Q}_{cd}$\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{50powerloss1.pdf}}%
+  \end{picture}%
+\endgroup%

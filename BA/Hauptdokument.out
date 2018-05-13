@@ -3,7 +3,7 @@
 \BOOKMARK [0][-]{Hilfszaehler.4}{Tabellenverzeichnis}{}% 3
 \BOOKMARK [0][-]{Hilfszaehler.5}{Vorwort}{}% 4
 \BOOKMARK [0][-]{chapter.1}{Motivation}{}% 5
-\BOOKMARK [0][-]{chapter.2}{Technik/Methoden}{}% 6
+\BOOKMARK [0][-]{chapter.2}{Technik und Methoden}{}% 6
 \BOOKMARK [1][-]{section.2.1}{Stand der Technik}{chapter.2}% 7
 \BOOKMARK [2][-]{subsection.2.1.1}{Propan in K\344lteanlagen}{section.2.1}% 8
 \BOOKMARK [2][-]{subsection.2.1.2}{Komponenten einer K\344ltekompressionsmaschine}{section.2.1}% 9
@@ -37,16 +37,9 @@
 \BOOKMARK [1][-]{section.4.3}{Abtauintervalle}{chapter.4}% 37
 \BOOKMARK [1][-]{section.4.4}{Verdichter}{chapter.4}% 38
 \BOOKMARK [1][-]{section.4.5}{\304nderung der Verdampferschaltung}{chapter.4}% 39
-\BOOKMARK [0][-]{chapter.5}{Zusammenfassung}{}% 40
-\BOOKMARK [0][-]{Hilfszaehler.6}{Literaturverzeichnis}{}% 41
-\BOOKMARK [0][-]{appendix.A}{Grafische Auswertung der Untersuchungen}{}% 42
-\BOOKMARK [1][-]{section.A.1}{Untersuchung 35}{appendix.A}% 43
-\BOOKMARK [1][-]{section.A.2}{Untersuchung 50}{appendix.A}% 44
-\BOOKMARK [1][-]{section.A.3}{Betrieb mit 3h Abtauintervall}{appendix.A}% 45
-\BOOKMARK [1][-]{section.A.4}{Betrieb mit ZB09KAU-TFD \(Kupferwicklung\)}{appendix.A}% 46
-\BOOKMARK [1][-]{section.A.5}{Betrieb mit ZB09KAU-TFD \(Aluminiumwicklung}{appendix.A}% 47
-\BOOKMARK [1][-]{section.A.6}{Betrieb mit AHT Verdampfer}{appendix.A}% 48
-\BOOKMARK [1][-]{section.A.7}{Betrieb mit LIDL Verdampfer V1 bei 0\045 r.F.}{appendix.A}% 49
-\BOOKMARK [1][-]{section.A.8}{Betrieb mit LIDL Verdampfer V1 bei 60\045 r.F.}{appendix.A}% 50
-\BOOKMARK [1][-]{section.A.9}{Betrieb mit LIDL Verdampfer V2 bei 0\045 r.F.}{appendix.A}% 51
-\BOOKMARK [1][-]{section.A.10}{Betrieb mit LIDL Verdampfer V2 bei 60\045 r.F.}{appendix.A}% 52
+\BOOKMARK [2][-]{subsection.4.5.1}{Vergleich zwischen Verdampfern}{section.4.5}% 40
+\BOOKMARK [2][-]{subsection.4.5.2}{Modellgest\374tzter Vergleich der Verschaltungen V1 und V2}{section.4.5}% 41
+\BOOKMARK [2][-]{subsection.4.5.3}{Vergleich der Verschaltungen V1 und V2}{section.4.5}% 42
+\BOOKMARK [0][-]{chapter.5}{Zusammenfassung}{}% 43
+\BOOKMARK [0][-]{Hilfszaehler.6}{Literaturverzeichnis}{}% 44
+\BOOKMARK [0][-]{appendix.A}{Ergebnisse der Untersuchungen}{}% 45

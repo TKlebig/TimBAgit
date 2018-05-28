@@ -53,6 +53,12 @@ Mag.~Konstantin Kulterer.
 {Emerson Climate Technologies}.
 \newblock {Vergleich von 3MAF und HATCOL 4467}.
 
+\bibitem{DINDeutschesInstitutfurNormunge.V..1998}
+{DIN Deutsches Institut f{\"u}r Normung e.V.}
+\newblock {DIN EN~1861 - K{\"a}lteanlagen und W{\"a}rmepumpen
+  Systemflie{\ss}bilder und Rohrleitungs- und Instrumentenflie{\ss}bilder},
+  1998.
+
 \bibitem{Muller.2016}
 Dr.-Ing.~Dirk M{\"u}ller.
 \newblock {Regenerative Energien f{\"u}r Geb{\"a}ude II: Kaltwasserversorgung
@@ -72,11 +78,20 @@ S.~A. Klein.
 \newblock {\em {VDI-W{\"a}rmeatlas}}.
 \newblock 2013.
 
+\bibitem{J.MichaelDoster.}
+{J. Michael Doster}.
+\newblock {Two Phase Friction}.
+
 \bibitem{Kesper.1976}
 Bernt Kesper and Jogindar~Mohan Chawla.
 \newblock {Reibungsdruckabfall bei adiabater
   Zweiphasen-Fl{\"u}ssigkeits-Dampf-Str{\"o}mung hoher Geschwindigkeit}.
 \newblock {\em {Forschung im Ingenieurwesen}}, 42(6):177--183, 1976.
+
+\bibitem{Awad.2012}
+M.~M. Awad.
+\newblock {Two-Phase Flow}.
+\newblock 2012.
 
 \bibitem{Bergman.2011}
 Theodore~L. Bergman, Adrienne~S. Lavine, Frank~P. Incropera, David~P. Dewitt,
@@ -93,14 +108,28 @@ Gregory Nellis and Sanford~A. Klein.
 {Lehrstuhl f{\"u}r W{\"a}rme- und Stoff{\"u}bertragung}.
 \newblock {W{\"a}rme- und Stoff{\"u}bertragung I/II}.
 
+\bibitem{McDonald.2012}
+Andr{\'e}~G. McDonald and Hugh~L. Magande.
+\newblock {Fundamentals of Heat Exchanger Design // Introduction to
+  Thermo-Fluids Systems Design}.
+\newblock 2012.
+
 \bibitem{LehrstuhlfurWarmeundStoffubertragung.b}
 {Lehrstuhl f{\"u}r W{\"a}rme- und Stoff{\"u}bertragung}.
 \newblock {W{\"a}rme{\"u}bertrager und Dampferzeuger}.
 
 \bibitem{Universitatpolitecnicadevalencia.2017}
 {Universitat polit{\`e}cnica de val{\`e}ncia}.
-\newblock {Assesing and optimizing the performance of R-290 integral display
+\newblock {Assessing and optimizing the performance of R-290 integral display
   case}.
+
+\bibitem{EmersonClimateTechnologies.}
+{Emerson Climate Technologies}.
+\newblock {ZB09KAU-TFD Datenblatt}.
+
+\bibitem{EmersonClimateTechnologies.2018}
+{Emerson Climate Technologies}.
+\newblock {ZB09KAU-TFD Hybrid Datenblatt}.
 
 \bibitem{Recknagel.2005}
 Hermann Recknagel, Sprenger Recknagel, Sprenger Schramek~.. Recknagel, and
@@ -115,9 +144,17 @@ Hermann Recknagel, Sprenger Recknagel, Sprenger Schramek~.. Recknagel, and
   - Teil 4: W{\"a}rme- und feuchteschutztechnische Bemessungswerte}.
 \newblock 2017.
 
+\bibitem{SWEP.2017}
+{Datenblatt - Kondensator R290, 2,7 KW - B8LAS mit 20 Platten}, 2017.
+
 \bibitem{EmersonClimateTechnologies.2017}
 {Emerson Climate Technologies}.
 \newblock {K{\"u}hlm{\"o}belsteuerung ECB-D20}.
+
+\bibitem{Wilke.2005}
+Ingo Wilke.
+\newblock {\em {Verdichterstabilisierung mit passiven Geh{\"a}usestrukturen}}.
+\newblock PhD thesis.
 
 \bibitem{Winter.2012}
 Janos Winter, Roland Handschuh, Gerhard Frei, and Peter Roth.
@@ -129,5 +166,10 @@ Janos Winter, Roland Handschuh, Gerhard Frei, and Peter Roth.
 {Emerson Climate Technologies}.
 \newblock {EXD-HP1/2 {\"U}berhitzungs-/Economiser-Regler}.
 \newblock 2016.
+
+\bibitem{Lasance.2003}
+Clemens J.~M. Lasance.
+\newblock {The Thermal Conductivity of Moist Air}.
+\newblock 9(4), 2003.
 
 \end{thebibliography}

@@ -93,7 +93,7 @@
 	\put(\strip@pt\@tempdimb,\strip@pt\@tempdimc){
 		\makebox(0,0){
 			\rotatebox{45}{
-				\textcolor[gray]{0.75}{
+				\textcolor[gray]{0.9}{
 					\fontsize{5cm}{5cm}
 					\selectfont{
 						Vertraulich
@@ -235,13 +235,7 @@
 \setcounter{tocdepth}{2}
 \tableofcontents
 
-%-----------------------------------------------------------------------------
-% Nomenklatur
-%-----------------------------------------------------------------------------
-\clearpage
-\refstepcounter{Hilfszaehler}
-\addcontentsline{toc}{chapter}{Nomenklatur}
-\input{Chapters/Abkuerzungen.tex}
+
 
 %-----------------------------------------------------------------------------
 % Abbildungsverzeichnis
@@ -259,13 +253,22 @@
 \addcontentsline{toc}{chapter}{Tabellenverzeichnis}
 \listoftables
 
+
 %-----------------------------------------------------------------------------
-% Vorwort, kommentiere die Zeile wenn nicht nötig
+% Nomenklatur
 %-----------------------------------------------------------------------------
 \clearpage
 \refstepcounter{Hilfszaehler}
-\addcontentsline{toc}{chapter}{Vorwort}
-\input{Chapters/Vorwort.tex}
+\addcontentsline{toc}{chapter}{Nomenklatur}
+\input{Chapters/Abkuerzungen.tex}
+
+%-----------------------------------------------------------------------------
+% Vorwort, kommentiere die Zeile wenn nicht nötig
+%-----------------------------------------------------------------------------
+%\clearpage
+%\refstepcounter{Hilfszaehler}
+%\addcontentsline{toc}{chapter}{Vorwort}
+%\input{Chapters/Vorwort.tex}
 
 %-----------------------------------------------------------------------------
 % Setup Normale Seiten(Neue Nummerierung)
@@ -293,7 +296,7 @@
 \clearpage
 \refstepcounter{Hilfszaehler}
 \addcontentsline{toc}{chapter}{\bibname}
-\protect\bibliographystyle{unsrt} %natdin Dieser Stil ist eine Empfehlung, aber nicht verpflichtend.
+\protect\bibliographystyle{unsrt} %unsrt%natdin Dieser Stil ist eine Empfehlung, aber nicht verpflichtend.
 \bibliography{Literaturverzeichnis}
 
 %-----------------------------------------------------------------------------

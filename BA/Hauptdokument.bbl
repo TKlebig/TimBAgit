@@ -25,15 +25,12 @@ Hans Moons.
   Grundlegende Anforderungen, Begriffe, Klassifikationen und dra
   Auswahlkriterien}, 2014.
 
-\bibitem{BitzerKuhlmaschinenGmbH.2014}
-{Bitzer K{\"u}hlmaschinen GmbH}.
-\newblock {Technische Informationen - Einsatz von Propan (R290) und Propen
-  (R1270) mit halbhermetischen Verdichtern}.
-
-\bibitem{Huber.2011}
-Karl Huber and J{\"o}rg Rehburg.
-\newblock {Mit Propan wirtschaftlich und umweltfreundlich k{\"u}hlen}.
-\newblock (12), 2011.
+\bibitem{Korner.2017}
+Dennis K{\"o}rner.
+\newblock {\em {Dynamische Modellierung von Kompressionsw{\"a}rmepumpen und
+  Bewertung unterschiedlicher K{\"a}ltemittel unter Ber{\"u}cksichtigung
+  aktueller Vorschriften und Richtlinien in Deutschland}}.
+\newblock PhD thesis, RWTH, Aachen, 2017.
 
 \bibitem{Kulterer.2007}
 Mag.~Konstantin Kulterer.
@@ -53,11 +50,30 @@ Mag.~Konstantin Kulterer.
 {Emerson Climate Technologies}.
 \newblock {Vergleich von 3MAF und HATCOL 4467}.
 
+\bibitem{BitzerKuhlmaschinenGmbH.2014}
+{Bitzer K{\"u}hlmaschinen GmbH}.
+\newblock {Technische Informationen - Einsatz von Propan (R290) und Propen
+  (R1270) mit halbhermetischen Verdichtern}.
+
+\bibitem{Huber.2011}
+Karl Huber and J{\"o}rg Rehburg.
+\newblock {Mit Propan wirtschaftlich und umweltfreundlich k{\"u}hlen}.
+\newblock (12), 2011.
+
 \bibitem{DINDeutschesInstitutfurNormunge.V..1998}
 {DIN Deutsches Institut f{\"u}r Normung e.V.}
 \newblock {DIN EN~1861 - K{\"a}lteanlagen und W{\"a}rmepumpen
   Systemflie{\ss}bilder und Rohrleitungs- und Instrumentenflie{\ss}bilder},
   1998.
+
+\bibitem{NationalInstruments.2013}
+{National Instruments}.
+\newblock {LabVIEW: User Manual}, 2013.
+
+\bibitem{WIKAAlexanderWiegandSE&Co.KG.2016}
+{WIKA Alexander Wiegand SE {\&} Co. KG}.
+\newblock {Einsatz von Thermoelementen}.
+\newblock (9), 2016.
 
 \bibitem{Muller.2016}
 Dr.-Ing.~Dirk M{\"u}ller.

@@ -1,41 +1,50 @@
 \select@language {ngerman}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces K\IeC {\"a}ltekreise des K\IeC {\"u}hlm\IeC {\"o}bels.}}{7}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Klimakammer.}}{8}{figure.2.2}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Anordnung der M-Pakete und der Temperatursensoren.}}{11}{figure.2.3}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Messpunkte.}}{12}{figure.2.4}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Vergleich der Verdampferschaltungen.}}{14}{figure.2.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ausgangsschaltung}}}{14}{figure.2.5}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {ver\IeC {\"a}nderte Schaltung}}}{14}{figure.2.5}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Geometrie des Verdampferrohres.}}{18}{figure.2.6}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Zellenmethode.}}{20}{figure.2.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Verschaltung V1}}}{20}{figure.2.7}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Verschaltung V2}}}{20}{figure.2.7}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Schematische Darstellung einer K\IeC {\"a}ltekompressionsmaschine zur Beschreibung des Funktionsprinzips.}}{3}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Schematische Darstellung der K\IeC {\"a}ltekreise des K\IeC {\"u}hlm\IeC {\"o}bels zur Visualisierung der Komponenten und Messstellen.}}{8}{figure.2.2}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Schematische Darstellung der Klimakammer zur Visualisierung des Pr\IeC {\"u}fstandes.}}{10}{figure.2.3}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Normgerechte Anordnung der M-Pakete und der Temperatursensoren in vertikalen K\IeC {\"u}hlm\IeC {\"o}bel.}}{14}{figure.2.4}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Messpunkte zur Erfassung der Luftgeschwindigkeit an vertikalen K\IeC {\"u}hlm\IeC {\"o}beln.}}{15}{figure.2.5}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Rohrschichten und Geometrie des Verdampferrohres.}}{20}{figure.2.6}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Schematische Darstellung Verschaltung anhand der Zellenmethode.}}{22}{figure.2.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Verschaltung V1}}}{22}{figure.2.7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Verschaltung V2}}}{22}{figure.2.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Luftgeschwindigkeiten bei 10\% L\IeC {\"u}fterleistung und offener Decke.}}{23}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Luftgeschwindigkeiten bei 10\% L\IeC {\"u}fterleistung und geschlossener Decke.}}{23}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Luftgeschwindigkeiten bei 30\% L\IeC {\"u}fterleistung und offener Decke.}}{24}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Luftgeschwindigkeiten bei 30\% L\IeC {\"u}fterleistung und geschlossener Decke.}}{24}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Lufttemperaturen bei 10\% L\IeC {\"u}fterleistung und offener Decke.}}{25}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Lufttemperaturen bei 30\% L\IeC {\"u}fterleistung und offener Decke.}}{25}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Luftstr\IeC {\"o}mung in der Klimakammer mit Decken\IeC {\"o}ffnung.}}{26}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Luftstr\IeC {\"o}mung in der Klimakammer ohne Decken\IeC {\"o}ffnung.}}{26}{figure.3.8}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces logp-h-Diagramm (K2) beim Betrieb mit Verdichtermodell ZB09KAU-TFD (Hybrid) \unit {10}{\%} vor Ende des Zyklus.}}{30}{figure.3.9}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces logp-h-Diagramm (K2) beim Betrieb mit Verdichtermodell ZB09KAU-TFD \unit {10}{\%} vor Ende des Zyklus.}}{30}{figure.3.10}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Die untersuchten Verdampfer und Verschaltungsarten.}}{31}{figure.3.11}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {AHT-Verdampfer}}}{31}{figure.3.11}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {LIDL-Verdampfer V1}}}{31}{figure.3.11}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {LIDL-Verdampfer V2}}}{31}{figure.3.11}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Simuliertes Temperaturprofil des Verdampfers f\IeC {\"u}r Verschaltung V1.}}{36}{figure.3.12}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Simuliertes Temperaturprofil des Verdampfers f\IeC {\"u}r Verschaltung V2.}}{36}{figure.3.13}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Luftgeschwindigkeiten bei 10\% L\IeC {\"u}fterleistung und offener Decke.}}{25}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Luftgeschwindigkeiten bei 10\% L\IeC {\"u}fterleistung und geschlossener Decke.}}{25}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Luftgeschwindigkeiten bei 30\% L\IeC {\"u}fterleistung und offener Decke.}}{26}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Luftgeschwindigkeiten bei 30\% L\IeC {\"u}fterleistung und geschlossener Decke.}}{26}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Lufttemperaturen bei 10\% L\IeC {\"u}fterleistung und offener Decke.}}{27}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Lufttemperaturen bei 30\% L\IeC {\"u}fterleistung und offener Decke.}}{27}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Luftstr\IeC {\"o}mung in der Klimakammer mit Decken\IeC {\"o}ffnung.}}{28}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Luftstr\IeC {\"o}mung in der Klimakammer ohne Decken\IeC {\"o}ffnung.}}{28}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces logp-h-Diagramm (K2) beim Betrieb mit Verdichtermodell ZB09KAU-TFD (Hybrid) \unit {10}{\%} vor Ende des Zyklus.}}{32}{figure.3.9}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces logp-h-Diagramm (K2) beim Betrieb mit Verdichtermodell ZB09KAU-TFD \unit {10}{\%} vor Ende des Zyklus.}}{32}{figure.3.10}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Die untersuchten Verdampfer und Verschaltungsarten.}}{33}{figure.3.11}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {AHT-Verdampfer}}}{33}{figure.3.11}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {LIDL-Verdampfer V1}}}{33}{figure.3.11}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {LIDL-Verdampfer V2}}}{33}{figure.3.11}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Simuliertes Temperaturprofil des Verdampfers f\IeC {\"u}r Verschaltung V1.}}{39}{figure.3.12}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Simuliertes Temperaturprofil des Verdampfers f\IeC {\"u}r Verschaltung V2.}}{39}{figure.3.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Ausl\IeC {\"o}sestufen der bedarfsgerechten Abtauung.}}{40}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Temperaturdifferenz der Luft am Verdampfer bei einem 3h Abtauintervall.}}{41}{figure.4.2}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Temperaturdifferenz der Luft am Verdampfer bei einem 4h Abtauintervall.}}{42}{figure.4.3}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Ein- und Austrittstemperaturen der Luft am Verdampfer bei einem 3h Abtauintervall.}}{43}{figure.4.4}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Verdampfungstemperaturen der drei K\IeC {\"a}ltekreise bei einem 3h Abtauintervall.}}{43}{figure.4.5}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Verdampfungstemperaturen der drei K\IeC {\"a}ltekreise bei einem 4h Abtauintervall.}}{44}{figure.4.6}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Elektrische und thermische Leistungen bei einem 4h Abtauintervall.}}{44}{figure.4.7}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Ausl\IeC {\"o}sestufen der bedarfsgerechten Abtauung.}}{43}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Temperaturdifferenz der Luft am Verdampfer bei einem 3h Abtauintervall.}}{44}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Temperaturdifferenz der Luft am Verdampfer bei einem 4h Abtauintervall.}}{45}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Ausl\IeC {\"o}sung der Abtauung mit gegenw\IeC {\"a}rtigem Detektionsalgorithmus.}}{46}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Ausl\IeC {\"o}sung der Abtauung mit verbessertem Detektionsalgorithmus.}}{47}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Ein- und Austrittstemperaturen der Luft am Verdampfer bei einem 3h Abtauintervall.}}{47}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Verdampfungstemperaturen der drei K\IeC {\"a}ltekreise bei einem 3h Abtauintervall.}}{48}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Verdampfungstemperaturen der drei K\IeC {\"a}ltekreise bei einem 4h Abtauintervall.}}{48}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Elektrische und thermische Leistungen bei einem 4h Abtauintervall.}}{49}{figure.4.9}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Ausl\IeC {\"o}sestufen der bedarfsgerechten Abtauung.}}{50}{figure.4.10}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Temperaturdifferenz der Luft am Verdampfer bei einem 3h Abtauintervall.}}{51}{figure.4.11}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Temperaturdifferenz der Luft am Verdampfer bei einem 4h Abtauintervall.}}{52}{figure.4.12}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Ausl\IeC {\"o}sung der Abtauung mit gegenw\IeC {\"a}rtigem Detektionsalgorithmus.}}{53}{figure.4.13}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Ausl\IeC {\"o}sung der Abtauung mit verbessertem Detektionsalgorithmus.}}{54}{figure.4.14}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Ein- und Austrittstemperaturen der Luft am Verdampfer bei einem 3h Abtauintervall.}}{54}{figure.4.15}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Verdampfungstemperaturen der drei K\IeC {\"a}ltekreise bei einem 3h Abtauintervall.}}{55}{figure.4.16}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Verdampfungstemperaturen der drei K\IeC {\"a}ltekreise bei einem 4h Abtauintervall.}}{55}{figure.4.17}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Elektrische und thermische Leistungen bei einem 4h Abtauintervall.}}{56}{figure.4.18}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

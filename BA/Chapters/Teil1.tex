@@ -123,7 +123,22 @@ Da die Oberflächentemperatur des Verdampfers unter dem Gefrierpunkt von Wasser 
 Die Abtauregelung eines Kühlmöbels erfüllt den Zweck, dessen Verdampfer in regelmäßigen Abständen zu enteisen. Es wird zwischen elektrischer Abtauung, Heißgasabtauung und Umluftabtauung unterschieden. Bei einer elektrischen Abtauung wird das Eis mithilfe von Heizwiderständen im Verdampferpaket abgetaut. Eine Heißgasabtauung erfolgt mittels einer Systemumkehr des Kältekreises. Hierbei wird überhitztes Kältemittel in den Verdampfer geleitet und taut das Eis ab. Die Umluftabtauung bezeichnet die einfachste Abtauregelung. Hierbei werden die Verdichter ausgeschaltet während die Verdampferlüfter weiterlaufen. Da kein Kältemittel mehr strömt wird die Wärme des Kühlguts vom Eis aufgenommen welches dadurch schmilzt und abtropft. Mittels einer Kondensatpumpe wird das aufgetaute Eis aus dem Kühlmöbel entfernt. \newline
 Der Abtauung wird entweder in einem vorgegebenen Zeitintervall oder mittels einer Bedarfsdetektion eingeleitet. Bei einer bedarfsgerechten Abtauung wird die Temperaturdifferenz der Luft über den Verdampfer erfasst. Sinkt diese innerhalb des vorgegebenen Abtauintervalls unter einen bestimmten Wert, wird die Abtauung zu diesem Zeitpunkt eingeleitet.
 
-\clearpage
+
+
+\section{Die Klimakammer}
+\label{sec:Die Klimakammer}
+
+Eine Klimakammer erfüllt den Zweck beherrschbare und realitätsnahe Randbedingungen zu generieren. Abbildung~\ref{fig:Klimakammer} zeigt den Aufbau der Klimakammer und die Position des Kühlmöbels in dieser. Die Klimatisierung der Raumluft übernimmt dabei die Klimaanlage der Kammer B. Damit die aufbereitete Luft den Raum über dessen gesamte Länge durchströmt, wurde die Ansaugöffnung von Kammer B mit einer abgehangenen Decke verdeckt. Diese reicht schräg bis zur Mitte des Raumes hinab und verläuft von dort parallel zur Decke und endet kurz vor der rechten Wand. Vor den Luftauslassgittern besitzen die Kammern Umlenkbleche. Diese sollen eine gleichmäßige Verteilung des Luftmassenstroms über den Austrittquerschnitt erzielen. \newline
+Jede Kammer besitzt zudem einen Wasseranschluss, dessen Vorlauftemperatur regulierbar ist. Die Kondensatoren des Kühlregals werden mit temperiertem Wasser der Regelung von Kammer A beaufschlagt. Die Regelung der Kondensationstemperatur wird mittels zwei Pumpen in einem primären und einem sekundären Wasserkreislauf realisiert. Die Pumpe im primären Wasserkreislauf beaufschlagt die Kondensatoren mit Wasser und hält eine vorgegebene Temperaturdifferenz über diesen nahezu konstant. Die Pumpe des sekundären Wasserkreislaufs regelt über einen Wärmeübertrager zwischen den beiden Kreisen die Temperatur des Wassers am Eintritt des Kondensators auf \unit{30}{\celsius}. Dies erfüllt den Zweck eine nahezu konstante Kondensationstemperatur zu generieren.  \newline
+Die Klimaanlagen sind in der Lage die angesaugte Raumluft aufzuheizen, abzukühlen sowie zu be- und entfeuchten. Die Regelung wird mithilfe einer in NI-LabView entwickelten Steuerung realisiert \cite{NationalInstruments.2013}. Diese ermöglicht Einflussnahme auf die Soll-Werte, die Dauer der jeweiligen Untersuchung und die Einstellung der Regelparameter und übernimmt einen Teil der Messdatenerfassung. 
+
+
+\begin{figure}[htb]
+\centering
+\includegraphics[scale=.6]{Pictures/ClimateChamber.pdf}
+\caption{Schematische Darstellung der Klimakammer zur Visualisierung des Prüfstandes.}
+\label{fig:Klimakammer}
+\end{figure}
 
 \section{Das Kühlregal}
 \label{sec:Das Kühlregal}
@@ -140,32 +155,13 @@ Es besitzt auf einer Länge von \unit{3,75}{\metre}, vier Regalböden um Kühlgu
 
 \clearpage
 
-\section{Die Klimakammer}
-\label{sec:Die Klimakammer}
-
-Eine Klimakammer erfüllt den Zweck beherrschbare und realitätsnahe Randbedingungen zu generieren. Abbildung~\ref{fig:Klimakammer} zeigt den Aufbau der Klimakammer und die Position des Kühlmöbels in dieser. Die Klimatisierung der Raumluft übernimmt dabei die Klimaanlage der Kammer B. Damit die aufbereitete Luft den Raum über dessen gesamte Länge durchströmt, wurde die Ansaugöffnung von Kammer B mit einer abgehangenen Decke verdeckt. Diese reicht schräg bis zur Mitte des Raumes hinab und verläuft von dort parallel zur Decke der Klimakammer bis fast zu deren Ende. Vor den Luftauslassgittern besitzen die Kammern Umlenkbleche. Diese sollen eine gleichmäßige Verteilung des Luftmassenstroms über den Austrittquerschnitt erzielen. \newline
-Jede Kammer besitzt zudem einen Wasseranschluss, dessen Vorlauftemperatur regulierbar ist. Die Kondensatoren des Kühlregals werden mit temperiertem Wasser der Regelung von Kammer A beaufschlagt. Die Regelung der Kondensationstemperatur wird mittels zwei Pumpen in einem primären und einem sekundären Wasserkreislauf realisiert. Die Pumpe im primären Wasserkreislauf beaufschlagt die Kondensatoren mit Wasser und hält eine vorgegebene Temperaturdifferenz über diesen nahezu konstant. Die Pumpe des sekundären Wasserkreislaufs regelt über einen Wärmeübertrager zwischen den beiden Kreisen die Temperatur des Wassers am Eintritt des Kondensators auf \unit{30}{\celsius}. Dies erfüllt den Zweck eine nahezu konstante Kondensationstemperatur zu generieren.  \newline
-Die Klimaanlagen sind in der Lage die angesaugte Raumluft aufzuheizen, abzukühlen sowie zu be- und entfeuchten. Die Regelung wird mithilfe einer in NI-LabView entwickelten Steuerung realisiert \cite{NationalInstruments.2013}. Diese ermöglicht Einflussnahme auf die Soll-Werte, die Dauer der jeweiligen Untersuchung und die Einstellung der Regelparameter und übernimmt einen Teil der Messdatenerfassung. 
-
-
-\begin{figure}[htb]
-\centering
-\includegraphics[scale=.6]{Pictures/ClimateChamber.pdf}
-\caption{Schematische Darstellung der Klimakammer zur Visualisierung des Prüfstandes.}
-\label{fig:Klimakammer}
-\end{figure}
-
 \section{Messdatenerfassung und Berechnungsgrößen}
 \label{sec:Erfassung von Messdaten}
 
 Mithilfe geeigneter Sensorik sowie der Steuerungssoftware von Klimakammer und Kälteanlafe werden die für die Berechnung und Bewertung relevanten Größen während des Betriebs erfasst und gespeichert. Insgesamt finden drei Systeme Anwendung um sensorbasiert Daten zu erfassen, umzuwandeln und in Tabellenform zu speichern. Alle erfassten sowie berechneten Messdaten werden über die letzten \unit{75}{\%} des letzten Kühlzyklus in einem Untersuchungszeitraum von \unit{24}{\hour} gemittelt. Dies dient der Vergleichbarkeit. Die im Rahmen der Arbeit dargestellten Ergebnisse wurden auf diese Art vereinheitlicht.
 
 
-\subsection{Messdaten des Kühlregals}
-\label{subsec:Messdaten der Klimakammer}
 
-Mithilfe des Programms NI-SignalExpress werden die Messdaten des Kühlregals und der Kältekreisläufe via Modbus erfasst. Es werden Thermoelemente verwendet, um die Temperaturen zu messen und Hochgenauigkeitsdruckaufnehmer, um die Drücke zu messen. Die Temperatursensoren sind Thermoelemente des Typs K und besitzen eine maximale Messabweichung von $\pm$~\unit{1.5}{\kelvin} \cite{WIKAAlexanderWiegandSE&Co.KG.2016}. Erfasst werden die Produkttemperaturen, die Ein- und Austrittstemperatur der Luft am Verdampfer des Kühlregals, die Temperaturen an verschiedenen Positionen der Kältekreisläufe und die Relativdrücke des Kältemittels im System in Heißgasleitung, Flüssigkeitsleitung, Einspritzleitung und Saugleitung. Die Positionen der Sensoren an den Kältekreisläufen sind aus Abbildung~\ref{fig:IDC150} ersichtlich. Zudem wurde die Temperatur des Kältemittels nach jedem einzelnen Durchgang durch den Verdampfer erfasst.
-Die erfassten Daten werden in einer Exceltabelle aufgezeichnet. SignalExpress ermöglicht die Visualisierung der Messwerte in Echtzeit, was die Beobachtung des Kühlprozesses vereinfacht.
 
 \subsection{Messdaten der Klimakammer}
 \label{subsec:Messdaten der Klimakammer}
@@ -173,12 +169,16 @@ Die erfassten Daten werden in einer Exceltabelle aufgezeichnet. SignalExpress er
 Die in Abschnitt~\ref{sec:Die Klimakammer} vorgestellte Klimakammer wird über eine in mit NI-LabView erstellte Steuerungssoftware bedient. Raumluftseitig werden die Temperatur sowie die relative Luftfeuchtigkeit erfasst. Wasserseitig werden Wassermassenstrom sowie Vor- und Rücklauftemperatur gemessen. 
 Die Sensoren, welche die Regelgrößen Temperatur und relative Luftfeuchtigkeit aufnehmen, sind zuluftseitig in der Nähe des Auslassgitters positioniert. Die Regelgröße der Temperatur entspricht dem Mittelwert von drei, über die Höhe des Luftauslassgitters verteilten Temperatursensoren. Wird der Betrieb der Klimakammer über das Programm gestartet, so werden die Daten erfasst und in einer Exceldatei aufgezeichnet.
 
+\subsection{Messdaten des Kühlregals}
+\label{subsec:Messdaten der Klimakammer}
 
+Mithilfe des Programms NI-SignalExpress werden die Messdaten des Kühlregals und der Kältekreisläufe via Modbus erfasst. Es werden Thermoelemente verwendet, um die Temperaturen zu messen und Hochgenauigkeitsdruckaufnehmer, um die Drücke zu messen. Die Temperatursensoren sind Thermoelemente des Typs K und besitzen eine maximale Messabweichung von $\pm$~\unit{1.5}{\kelvin} \cite{WIKAAlexanderWiegandSE&Co.KG.2016}. Erfasst werden die Produkttemperaturen, die Ein- und Austrittstemperatur der Luft am Verdampfer des Kühlregals, die Temperaturen an verschiedenen Positionen der Kältekreisläufe und die Relativdrücke des Kältemittels im System in Heißgasleitung, Flüssigkeitsleitung, Einspritzleitung und Saugleitung. Die Positionen der Sensoren an den Kältekreisläufen sind aus Abbildung~\ref{fig:IDC150} ersichtlich. Zudem wurde die Temperatur des Kältemittels nach jedem einzelnen Durchgang durch den Verdampfer erfasst.
+Die erfassten Daten werden in einer Exceltabelle aufgezeichnet. SignalExpress ermöglicht die Visualisierung der Messwerte in Echtzeit, was die Beobachtung des Kühlprozesses vereinfacht.
 
 \subsection{Messdaten des Leistungsanalysators}
 \label{subsec:Messdaten des Leistungsanalysators}
 
-Es wird ein Yokogawa WT3000 Leistungsanalysator verwendet, um Spannungen, Ströme und Leistungen während des Betriebs zu erfassen und aufzuzeichen. Dieser ist in der Lage Spannungen und Ströme mit einer Genauigkeit von \unit{0,02}{\%} zu erfassen und daraus Blind-, Wirk- und Scheinleistungen zu berechnen. Die abgenommenen Komponenten sind die einzelnen Verdichter, die Ventilatoren und die restlichen Verbraucher des Kühlregals, wie Licht und Relays. Das Gerät speichert die erfassten und berechneten Messwerte im Excelformat auf einem externen Datenspeicher. \newline
+Es wird ein Yokogawa WT3000 Leistungsanalysator verwendet, um Spannungen, Ströme und Leistungen während des Betriebs zu erfassen und aufzuzeichen. Dieser ist in der Lage Spannungen und Ströme mit einer Genauigkeit von \unit{0,02}{\%} zu erfassen und daraus Blind-, Wirk- und Scheinleistungen zu berechnen. Die abgenommenen Komponenten sind die einzelnen Verdichter, die Ventilatoren und die restlichen Verbraucher des Kühlregals, wie Licht und Relays. Das Gerät speichert die erfassten und berechneten Messwerte im Excelformat auf einem externen Datenspeicher.
 Im Anschluss lassen sich mit den erfassten Werten Berechnungen durchführen.
 
 
@@ -257,7 +257,7 @@ Voraussetzung für eine normgerechte Messung ist zudem, dass eine Bewegung der L
 Die erfassten Messwerte und die auf deren Basis berechneten Leistungen sowie Bewertungsgrößen werden über die letzten \unit{75}{\%} des letzten Kühlzyklus in einem Untersuchungszeitraum von \unit{24}{\hour} gemittelt.
 
 
-\clearpage
+
 
 
 % Please add the following required packages to your document preamble:
@@ -285,12 +285,7 @@ Die erfassten Messwerte und die auf deren Basis berechneten Leistungen sowie Bew
 \end{tabular}
 \end{table}
 
-\begin{figure}[h!tb]
-\centering
-\includegraphics[scale=.12]{Pictures/multi-deck-chilled-cabinet.pdf}
-\caption{Normgerechte Anordnung der M-Pakete und der Temperatursensoren in vertikalen Kühlmöbel.}
-\label{fig:Anordnung der M-Pakete}
-\end{figure}
+
 
 % Please add the following required packages to your document preamble:
 % \usepackage[table,xcdraw]{xcolor}
@@ -314,6 +309,18 @@ H2              & +10                                                           
 S               & \multicolumn{2}{c|}{Sonderklasse}                                                                                                                                                                                                                       \\ \hline
 \end{tabular}
 \end{table}
+
+\clearpage
+
+\begin{figure}[h!tb]
+\centering
+\includegraphics[scale=.11]{Pictures/multi-deck-chilled-cabinet.pdf}
+\caption{Normgerechte Anordnung der M-Pakete und der Temperatursensoren in vertikalen Kühlmöbel.}
+\label{fig:Anordnung der M-Pakete}
+\end{figure}
+
+
+
 
 
 
@@ -368,6 +375,8 @@ Der statische Anteil, sowie der Beschleunigungsanteil sind sehr gering und desha
 \label{eq:11}
 \Delta p_{\mathrm{Reibung}} = \int_{\mathrm{l_1}}^{\mathrm{l_2}} \left( \frac{dp}{dl} \right)_{\mathrm{Reibung}} dl
 \end{equation}
+
+\clearpage
 
 
 Die Gasphase ist dispers, wenn Gleichung~\ref{eq:12} gilt. Hierbei bezeichnet $\beta$ das Verhältnis der Volumenströme der flüssigen Phase $\dot{V}_\mathrm{F}$ und der Gasphase $\dot{V}_\mathrm{G}$. Die Bedingung ist abhängig vom Dampfanteil des Kältemittels $x$, der Dichte der flüssigen Phase $\rho_\mathrm{F}$, der Dichte der Gasphase $\rho_\mathrm{G}$ und der Froudezahl $Fr$.
@@ -563,7 +572,7 @@ Die Eintrittstemperatur des Kältemittels ist die Sättigungstemperatur bei Eing
 \dot{Q} = \dot{M}_{\mathrm{KM}} (h_{\mathrm{KM,ein}} - h_{\mathrm{KM,aus}}) = \dot{M}_{\mathrm{L}} c_{\mathrm{p,L}}(T_{\mathrm{L,ein}} - T_{\mathrm{L,aus}})
 \end{equation}
 
-Damit sind die Gleichungen für das Modell gegeben. Im Weiteren muss für die Berechnung des Wärmeübertragers eine geeignete Modellierungsmethode gewählt werden.
+Die $\epsilon-NTU$-Methode ist nur gültig für die Annahme trockener Luft. Aufgrund dessen muss das Modell mit Untersuchungen, die bei einer relativen Luftfeuchtigkeit von \unit{0}{\%} durchgeführt werden, validiert werden. Im Weiteren muss für die Berechnung des Wärmeübertragers eine geeignete Modellierungsmethode gewählt werden.
 
 
 \subsection{Modellierungsmethode}
@@ -572,12 +581,12 @@ Damit sind die Gleichungen für das Modell gegeben. Im Weiteren muss für die Be
 Mithilfe der Gleichungssysteme aus Abschnitt~\ref{subsec:Berechnung des Druckabfalls in der Zweiphasen-Strömung} und \ref{subsec:Berechnung des Wärmeübergangs} lassen sich, durch Angabe der Eingangswerte Druck, Dampfanteil, Temperatur und Massenstrom des Kältemittels sowie Temperatur und Massenstrom der Luft (aus Energiebilanz), Ausgangswerte nach einer definierten Rohrlänge berechnen. Da die Ergebnisse einer Zelle von den Eingangswerten abhängig sind, bietet eine Unterteilung in mehrere kleine Zellen eine höhere Genauigkeit. Das Modell wird entsprechend der Anzahl der Verdampferrohre eines Kältekreises in sechs Berechnungszellen unterteilt. Jeder einzelnen Zelle werden auf Basis des Eintrittszustandes des Fluids die für diesen gültigen Gleichungen zugeordnet. Die Variablen der Ein- und Austrittsgrößen jeder Zelle werden, entsprechend der realen Verschaltung, miteinander verknüpft. Auf diese Weise ergibt sich aus dem Gesamtapparat ein System zusammengeschalteter Einzelapparate \cite{LehrstuhlfurWarmeundStoffubertragung.b}.
 Über die Benutzeroberfläche lässt sich der Zustand beider Fluide nach jeder einzelnen Zelle ablesen und somit mit den Daten des realen Verdampfers vergleichen.
 Das Modell ist gültig für den die Annahme trockener Luft. Da auch in einer Klimakammer \unit{0}{\%} relative Feuchtigkeit schwierig zu erreichen sind, ist eine Abweichung der Ergebnisse zu erwarten. \newline
-Bei der Zellenmethode wird die Austauschfläche in Teilbereiche unterteilt, die nacheinander seperat von beiden Fluidströmen durchströmt werden. Jede Teilfläche wird als Fläche eines Einzelapparates mit individuellen Ein- und Austrittstemperaturen beider Fluide aufgefasst. Abbildung~\ref{fig:Zellenmethode} stellt die schematischen Darstellungen beider Verschaltungsarten gegenüber. In Verschaltung~V1 sind die Anfangswerte der Luft und des Kältemittels in der ersten und der letzten Zelle vorgegeben, deshalb erfolgt die Berechnung iterativ. In Verschaltung-V2 ist der Rechenaufwand geringer, da die Berechnung der Zellen~2 bis 4 nicht iterativ erfolgt.
+Bei der Zellenmethode wird die Austauschfläche in Teilbereiche unterteilt, die nacheinander seperat von beiden Fluidströmen durchströmt werden. Jede Teilfläche wird als Fläche eines Einzelapparates mit individuellen Ein- und Austrittstemperaturen beider Fluide aufgefasst. Abbildung~\ref{fig:Zellenmethode} stellt die schematischen Darstellungen beider Verschaltungsarten gegenüber. In Verschaltung~V2 sind die Anfangswerte der Luft und des Kältemittels in der ersten und der letzten Zelle vorgegeben, deshalb erfolgt die Berechnung iterativ. In Verschaltung-V3 ist der Rechenaufwand geringer, da die Berechnung der Zellen~2 bis 4 nicht iterativ erfolgt.
 
 \begin{figure}[htb]
 \centering
-	\subfigure[Verschaltung V1]{\includegraphics[scale=.5]{Pictures/Verdampfer_V1.pdf}}
-	\subfigure[Verschaltung V2]{\includegraphics[scale=.5]{Pictures/Verdampfer_V2.pdf}}
+	\subfigure[Verschaltung V2]{\includegraphics[scale=.5]{Pictures/Verdampfer_V1.pdf}}
+	\subfigure[Verschaltung V3]{\includegraphics[scale=.5]{Pictures/Verdampfer_V2.pdf}}
 \caption{Schematische Darstellung der Verschaltung anhand der Zellenmethode.}
 \label{fig:Zellenmethode}
 \end{figure}
@@ -603,15 +612,15 @@ In diesem Kapitel werden die Durchführung der Untersuchungen sowie die erzielte
 \begin{tabular}{|ccccccc|}
 \hline
 Test Nr.              & r. F.                     & Überhitzung              & Öl                               & Abtauintervall          & Verdichter                           & Verdampfer \\ \hline
-\multicolumn{1}{|c|}{1} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{3MAF}        & \multicolumn{1}{c|}{4h} & \multicolumn{1}{c|}{ZB09KAU-TFD Hyb} & AHT        \\
-\multicolumn{1}{|c|}{2} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{4h} & \multicolumn{1}{c|}{ZB09KAU-TFD Hyb} & AHT        \\
-\multicolumn{1}{|c|}{3} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD Hyb} & AHT        \\
-\multicolumn{1}{|c|}{4} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & AHT        \\
-\multicolumn{1}{|c|}{5} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V1    \\
-\multicolumn{1}{|c|}{6} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V1    \\
-\multicolumn{1}{|c|}{7} & \multicolumn{1}{c|}{0\%}  & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V1    \\
-\multicolumn{1}{|c|}{8} & \multicolumn{1}{c|}{0\%}  & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V2    \\
-\multicolumn{1}{|c|}{9} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & LIDL V2    \\ \hline
+\multicolumn{1}{|c|}{1} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{3MAF}        & \multicolumn{1}{c|}{4h} & \multicolumn{1}{c|}{ZB09KAU-TFD Hyb} & V1       \\
+\multicolumn{1}{|c|}{2} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{4h} & \multicolumn{1}{c|}{ZB09KAU-TFD Hyb} & V1        \\
+\multicolumn{1}{|c|}{3} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD Hyb} & V1        \\
+\multicolumn{1}{|c|}{4} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & V1        \\
+\multicolumn{1}{|c|}{5} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{8K}  & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & V2    \\
+\multicolumn{1}{|c|}{6} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & V2    \\
+\multicolumn{1}{|c|}{7} & \multicolumn{1}{c|}{0\%}  & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & V2    \\
+\multicolumn{1}{|c|}{8} & \multicolumn{1}{c|}{0\%}  & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & V3    \\
+\multicolumn{1}{|c|}{9} & \multicolumn{1}{c|}{60\%} & \multicolumn{1}{c|}{13K} & \multicolumn{1}{c|}{HC~4467} & \multicolumn{1}{c|}{3h} & \multicolumn{1}{c|}{ZB09KAU-TFD}     & V3    \\ \hline
 \end{tabular}
 \end{table}
 
@@ -804,16 +813,10 @@ Tabelle~\ref{tab:Vergleich4h3h} zeigt die Ergebnisse der beiden Untersuchungen.
 Während die elektrische Leistungsaufnahmen in etwa gleich groß sind, vergrößern sich bei bedarfsgerechter Abtauung die übertragenen Wärmeströme an den Wärmeübertragern deutlich um circa \unit{350}{\watt}. Dies verursacht eine Erhöhung des EER von \unit{2.14}{} auf \unit{2.26}{}.
 Es ist ein Anstieg der Verdampfungstemperaturen in allen drei Kältekreisen um circa \unit{2}{\kelvin} erkennbar. Die Kondensationstemperaturen sind unverändert. Der Massenstrom des Kältemittels steigt um etwa \unit{0.7}{\gram\per\second}. Der Druckabfall über den Verdampfer steigt um etwa \unit{0.05}{\bbar}. Der Dampfanteil des Kältemittels am Kondensatoraustritt steigt um \unit{3}{\%} bis \unit{5}{\%}. Die Auslasstemperatur der Luft steigt um fast \unit{1}{\kelvin} während die Einlasstemperatur der Luft und die Produkttemperaturen unverändert bleiben. \newline
 Es ist zu untersuchen, warum eine Verkürzung des Abtauintervalls einen Effizienzgewinn verursacht. \newline
-Ein Vergleich der Zeitabtauung mit der bedarfsgerechten Abtauung zeigt, dass diese die Abtauung nach etwa \unit{4}{\hour} einleitet. Der Detektionsalgorithmus der Bedarfsabtauung weist damit aufgrund einer zu späten Abtauung Verbesserungspotential auf. Er soll hinsichtlich des Erreichens eines kürzeren Abtauintervalls untersucht werden.
+Ein Vergleich der Zeitabtauung mit der bedarfsgerechten Abtauung zeigt, dass diese die Abtauung nach etwa \unit{4}{\hour} einleitet. Der Detektionsalgorithmus der Bedarfsabtauung weist damit aufgrund einer zu späten Abtauung Verbesserungspotential auf. Er soll hinsichtlich des Erreichens eines kürzeren Abtauintervalls untersucht werden. \newline
+Im Anschluss der Untersuchungen der Abtauintervalle werden die Hybrid-Verdichter des Kühlmöbels mit der Standardausführung ausgetauscht.
 
  
-
-
-
-
-
-
-
 
 
 
@@ -827,23 +830,13 @@ Ein Vergleich der Zeitabtauung mit der bedarfsgerechten Abtauung zeigt, dass die
 
 
 In diesem Abschnitt werden die Untersuchungsergebnisse des Betriebs mit zwei Ausführungen des in Abschnitt~\ref{sec:Das Kühlregal} vorgestellten Verdichtermodells verglichen. 
-Ein Austausch der Verdichter umfasst die Entsorgung der vorherigen Kältemittelfüllung, den Aus- und Einbau der Verdichter sowie eine komplette Inbetriebnahme, inklusive Druckfestigkeits- und Dichtheitsprüfung. Nach erneuter Inbetriebnahme wird das Kühlmöbel bis zum Erreichen einer konstanten Produkttemperatur betrieben. Anschließend beginnt der beobachtete Messzeitraum von \unit{24}{\hour}. \newline
-Tabelle~\ref{tab:Verdichterdatenblatt} zeigt die Herstellerdaten beider Verdichtervarianten bei einer Kondensationstemperatur von \unit{35}{\celsius}, einer Verdampfungstemperatur von \unit{-10}{\celsius}, einer Überhitzung von \unit{10}{\kelvin} und einer Unterkühlung von \unit{0}{\kelvin} für einen Verdichter \cite{EmersonClimateTechnologies.},\cite{EmersonClimateTechnologies.2018}. Die Hybridausführung stellt einen um \unit{0.04}{\gram\per\second} höheren Kältemittelmassenstrom bei gleichzeitig um \unit{30}{\watt} geringerer elektrischer Leistungsaufnahme und \unit{10}{\watt} niedrigerer Kälteleistung gegenüber der Standardausführung zur Verfügung.  \newline
-Tabelle~\ref{tab:VergleichVerdichter} sind die erfassten und berechneten Messwerte der Untersuchungen zu entnehmen. Diese zeigen eine signifikante Erhöhung der elektrischen als auch der thermischen Leistungen um etwa \unit{400}{\watt} beim Wechsel der Hybrid- zur Standardausführung des Verdichters. Der EER erfährt nur eine geringe Erhöhung um \unit{0.02}{}. Es ist zudem eine Reduzierung des Kältemittelmassenstroms \unit{0.3}{\gram\per\second} bis \unit{0.5}{\gram\per\second} zu erkennen und eine Reduzierung des Dampfanteils am Kondensatoraustritt um \unit{5}{\%} bis \unit{14}{\%}. In Kreis~2 ist dies besonders gut zu erkennen. Der Druckabfall in den Kreisen~2 und 3 erfährt eine Reduktion während der Druckabfall sehr gering ansteigt. Die kältekreis- und luftseitig erfassten Temperaturen sowie Temperaturdifferenzen unterscheiden sich nicht signifikant. Die Änderungen liegen im Bereich der Messungenauigkeit. Der Vergleich mit den Herstellerdaten zeigt, dass sich das System entgegengesetzt der Voraussagen verhält. Statt einem höheren Massenstrom und geringerer elektrischer Leistungsaufnahme stellt sich ein niedrigerer Massenstrom bei erhöhter elektrischer Leistungsaufnahme ein. Es ist zu untersuchen warum das System sich anders verhält als durch die Herstellerdaten zu erwarten.\newline
-Die log-p-h-Diagramme~\ref{fig:logph51} und \ref{fig:logph54} zeigen das Zwei-Phasen-Gebiet von R290 im Anwendungsbereich. Auf der x-Achse ist die Enthalpie in $\frac{kJ}{kg}$ und auf der y-Achse logarithmisch der Druck in $bar$ aufgetragen. Der Vergleich zeigt die Erhöhung der Kondensations- sowie der Verdampfungsenthalpie nach Wechsel zur Standardausführung exemplarisch an Kreis 2. Die Werte werden jeweils \unit{10}{\%} vor Ende des letzten Zyklus erfasst. Es ist zu untersuchen, was die Erhöhung der Enthalpiedifferenz verursacht und warum eine Leistungserhöhung erzielt wird.
+Ein Austausch der Verdichter umfasst die Entsorgung der vorherigen Kältemittelfüllung, den Aus- und Einbau der Verdichter sowie die Inbetriebnahme, inklusive Druckfestigkeits- und Dichtheitsprüfung. Nach dieser wird das Kühlmöbel bis zum Erreichen einer konstanten Produkttemperatur betrieben. Anschließend beginnt der beobachtete Messzeitraum von \unit{24}{\hour}. \newline
+Tabelle~\ref{tab:Verdichterdatenblatt} zeigt die Herstellerdaten beider Verdichtervarianten bei einer Kondensationstemperatur von \unit{35}{\celsius}, einer Verdampfungstemperatur von \unit{-10}{\celsius}, einer Überhitzung von \unit{10}{\kelvin} und einer Unterkühlung von \unit{0}{\kelvin} für einen Verdichter \cite{EmersonClimateTechnologies.},\cite{EmersonClimateTechnologies.2018}. Die Standardausführung verspricht einen um \unit{0.04}{\gram\per\second} höheren Kältemittelmassenstrom bei gleichzeitig um \unit{30}{\watt} geringerer elektrischer Leistungsaufnahme und \unit{10}{\watt} niedrigerer Kälteleistung gegenüber der Hybridausführung.  \newline
+Tabelle~\ref{tab:VergleichVerdichter} sind die erfassten und berechneten Messwerte der Untersuchungen zu entnehmen. Diese zeigen eine signifikante Erhöhung der elektrischen als auch der thermischen Leistungen um etwa \unit{400}{\watt} beim Wechsel der Hybrid- zur Standardausführung des Verdichters. Der EER erfährt nur eine geringe Erhöhung um \unit{0.9}{\%}. Es ist zudem eine Reduzierung des Kältemittelmassenstroms \unit{0.3}{\gram\per\second} bis \unit{0.5}{\gram\per\second} zu erkennen und eine Reduzierung des Dampfanteils am Kondensatoraustritt um \unit{5}{\%} bis \unit{14}{\%}. In Kreis~2 ist dies besonders gut zu erkennen. Der Druckabfall in den Kreisen~2 und 3 erfährt eine Reduktion während der Druckabfall gering ansteigt. Die kältekreis- und luftseitig erfassten Temperaturen unterscheiden sich nicht signifikant. Die Änderungen liegen im Bereich der Messungenauigkeit. Der Vergleich mit den Herstellerdaten zeigt, dass sich das System entgegengesetzt der Voraussagen verhält. Statt einem höheren Massenstrom und geringerer elektrischer Leistungsaufnahme stellt sich ein niedrigerer Massenstrom bei erhöhter elektrischer Leistungsaufnahme ein. Dieser Widerspruch wird ihm Rahmen der Analyse betrachtet.\newline
+Die log-p-h-Diagramme~\ref{fig:logph51} und \ref{fig:logph54} zeigen das Zwei-Phasen-Gebiet von R290 im Anwendungsbereich. Auf der x-Achse ist die Enthalpie in \unit{}{\kilo\joule\per\kilo\gram} und auf der y-Achse logarithmisch der Druck in $bar$ aufgetragen. Der Vergleich zeigt die Erhöhung der Kondensations- sowie der Verdampfungsenthalpie nach Wechsel zur Standardausführung exemplarisch an Kreis 2. Die Werte werden jeweils \unit{10}{\%} vor Ende des letzten Zyklus erfasst. Es ist zu untersuchen, warum eine Leistungserhöhung der Wärmeübertrager erzielt wird. \newline
+Im Anschluss wird der Verdampfer des Kühlmöbels ausgetauscht, um mit den Untersuchungen bezüglich dessen Einflusses auf die Kälteleistung des Kühlmöbels fortfahren zu können. 
 
-\begin{table}[h!]
-\centering
-\caption{Herstellerdaten.}
-\label{tab:Verdichterdatenblatt}
-\begin{tabular}{|ccc|}
-\hline
-                                            & ZB09KAU-TFD (Hyb)         & ZB09KAU-TFD \\ \hline
-\multicolumn{1}{|c|}{Kälteleistung {[}W{]}} & \multicolumn{1}{c|}{2280} & 2290        \\
-\multicolumn{1}{|c|}{el. Leistung {[}W{]}}  & \multicolumn{1}{c|}{830}  & 800         \\
-\multicolumn{1}{|c|}{Massenstrom {[}g/s{]}} & \multicolumn{1}{c|}{7.96} & 8.00        \\ \hline
-\end{tabular}
-\end{table}
+
 
 
 \begin{figure}[h!]
@@ -874,13 +867,13 @@ Die log-p-h-Diagramme~\ref{fig:logph51} und \ref{fig:logph54} zeigen das Zwei-Ph
 \section{Änderung der Verdampferschaltung}
 \label{sec:Änderung der Verdampferschaltung}
 
-In diesem Unterkapitel wird der Wechsel der Verdampfer und deren Verschaltungen sowie die daran durchgeführten Untersuchungen beschrieben. Abbildung~\ref{fig:Verschaltungsarten} zeigt die untersuchten Verdampfer und ihre Verschaltungsarten. Der bei AHT-Kühlmöbeln standardmäßig verbaute Verdampfer ist zweireihig und besitzt zwecks Kostenreduzierung nur die Kupferrohre, die tatsächlich mit Kältemittel beaufschlagt werden. In den Lamellen sind dennoch die Lochungen samt deren Grate für weitere Rohre vorhanden, sodass die reduzierte Rohranzahl nicht die Luftströmung innerhalb des Verdampfers beeinflusst. Im Anschluss soll ein vierreihiger Verdampfer mit versetzten Rohren untersucht werden. Dieser besitzt eine Verschaltung wie sie in Kühlmöbeln von LIDL zu finden ist und mehr Kupferrohre als für die Kältekreise benötigt werden. Der Verdampfer verspricht einen höheren kA-Wert und damit nach Gleichung~\ref{eq:4} einen höheren übertragbaren Wärmestrom. Mithilfe des in Abschnitt~\ref{sec:Simulationsmodell} präsentierten Simulationsmodells werden die Verschaltungen V1 und V2 zur Validierung des Modells bei \unit{0}{\%} r.F.  miteinander verglichen. Zuletzt werden die Untersuchungsergebnisse beider Verschaltungen unter den Normbedingungen bei \unit{60}{\%} r. F miteinander verglichen, um die Verschaltung unter Normbedingungen bewerten zu können.
+In diesem Unterkapitel wird der Wechsel der Verdampfer und deren Verschaltungen sowie die daran durchgeführten Untersuchungen beschrieben. Abbildung~\ref{fig:Verschaltungsarten} zeigt die untersuchten Verdampfer und ihre Verschaltungsarten. Der bei AHT-Kühlmöbeln standardmäßig verbaute Verdampfer ist zweireihig und die Rohrreihen sind parallel angeordnet. Trotz reduzierter Rohranzahl sind in den Lamellen Lochungen, samt deren Grate, für weitere Rohre vorhanden, sodass die Luftströmung innerhalb des Verdampfers nicht dadurch beeinflusst wird. Im Anschluss soll ein vierreihiger Verdampfer mit versetzten Rohrreihen untersucht werden. Dieser verspricht aufgrund der effizienteren Bauform einen höheren kA-Wert und damit nach Gleichung~\ref{eq:4} einen höheren übertragbaren Wärmestrom. Mithilfe des in Abschnitt~\ref{sec:Simulationsmodell} präsentierten Simulationsmodells werden die Verschaltungen V2 und V3 zur Validierung des Modells bei \unit{0}{\%} r.F.  miteinander verglichen. Zuletzt werden die Untersuchungsergebnisse beider Verschaltungen unter den Normbedingungen bei \unit{60}{\%} r. F miteinander verglichen, um die Verschaltung unter Normbedingungen bewerten zu können.
 
 \begin{figure}[h!tb]
 \centering
-	\subfigure[AHT-Verdampfer]{\includegraphics[scale=.65]{Pictures/AHTEV.pdf}}
-	\subfigure[LIDL-Verdampfer V1]{\includegraphics[scale=.65]{Pictures/LIDLV1.pdf}}
-	\subfigure[LIDL-Verdampfer V2]{\includegraphics[scale=.65]{Pictures/LIDLV2.pdf}}
+	\subfigure[Verschaltung V1]{\includegraphics[scale=.65]{Pictures/AHTEV.pdf}}
+	\subfigure[Verschaltung V2]{\includegraphics[scale=.65]{Pictures/LIDLV1.pdf}}
+	\subfigure[Verschaltung V3]{\includegraphics[scale=.65]{Pictures/LIDLV2.pdf}}
 \caption{Die untersuchten Verdampfer und Verschaltungsarten.}
 \label{fig:Verschaltungsarten}
 \end{figure}
@@ -891,24 +884,24 @@ In diesem Unterkapitel wird der Wechsel der Verdampfer und deren Verschaltungen 
 \subsection{Vergleich zwischen Verdampfern}
 \label{subsec:Vergleich zwischen Verdampfern}
 
-In diesem Abschnitt wird der Umbau des Kühlmöbels beschrieben und die Ergebnisse der Untersuchungen des zweireihigen AHT-Verdampfers und des vierreihigen LIDL-Verdampfers mit versetzten Reihen beschrieben und verglichen. Der neue Verdampfer besitzt die gleichen Abmessungen wie der vorige. Rohrdurchmesser und Rohrdicke sind identisch. Der Einbau eines neuen Verdampfers im Kühlmöbel erfordert zunächst eine komplette Demontage des Innenraums. Das Kältemittel der Anlage wird entsorgt. Die M-Pakete werden entfernt und zwischengelagert. Daraufhin werden die Regalbretter, die Verkleidungen des Bodens, der Rückwand sowie der Decke und die Seitenwände demontiert. Die Abdeckungen des Verdampfers und die Lüfter müssen entfernt werden. Bevor die Lötverbindungen des Verdampfers getrennt werden können müssen noch alle Temperatursensoren entfernt werden. Anschließend erfolgt ein Austausch des Verdampfers durch die LIDL-Ausführung und eine Montage des kompletten Kühlmöbels in umgekehrter Reihenfolge der zuvor beschriebenen Schritte. Danach wird die Anlage erneut mit \unit{150}{\gram} Propan pro Kreis gefüllt. Vor Inbetriebnahme des Kühlmöbels wird eine Dichtheits- und eine Druckfestigkeitsprüfung an den drei Kältekreisen durchgeführt. Unter gleichen Bedingungen wie zuvor wird erneut eine Untersuchung durchgeführt. \newline 
-In Tabelle~\ref{tab:Vergleichaltneu} sind die Ergebnisse der Untersuchungen des Betriebs mit dem alten AHT-Verdampfer sowie dem neuen LIDL-Verdampfer dargestellt.
-Der Vergleich zeigt eine Reduktion der thermischen Leistungen um etwa \unit{1000}{\watt} bei gleichbleibender elektrischer Leistungsaufnahme. Dies resultiert in einer Reduktion des EER um \unit{16.2}{\%} von \unit{2.28}{} auf \unit{1.91}{}. In den Kältekreisen ist ein Anstieg der Verdampfungstemperaturen um \unit{3}{\kelvin} bis \unit{5}{\kelvin} zu erkennen. Die Kondensationstemperaturen bleiben etwa konstant. Lediglich in Kreis~3 weicht diese um fast \unit{1}{\kelvin} nach unten ab. Die Überhitzung ist während des Betriebs mit dem LIDL-Verdampfer um \unit{3}{\kelvin} bis \unit{4}{\kelvin} größer. Auffällig ist, dass mit dem Einbau des neuen Verdampfers die vom Expansionsventil erfasste Überhitzung stets um etwa \unit{2}{\kelvin} von der messtechnisch erfassten Überhitzung nach oben abweicht. Der Dampfanteil ist um bis zu \unit{28}{\%} größer und liegt bei \unit{35}{\%} und \unit{34}{\%} in den Kreisen 1 und 2 und bei \unit{43}{\%} in Kreis 3. Der Massenstrom des Kältemittels ist in allen Kreisen etwa \unit{1}{\gram} bis \unit{1.5}{\gram} größer. Der Druckabfall über den Verdampfer ist \unit{0.1}{\bbar} größer. \newline
+In diesem Abschnitt wird der Umbau des Kühlmöbels beschrieben und die Ergebnisse der Untersuchungen von Verschaltung~V1 und V2 beschrieben und verglichen. Der vierreihiger Verdampfer besitzt die gleichen Abmessungen wie der zweireihige. Rohrdurchmesser und Rohrdicke sind identisch. Der Einbau eines neuen Verdampfers im Kühlmöbel erfordert zunächst eine komplette Demontage des Innenraums. Das Kältemittel der Anlage wird entsorgt. Die M-Pakete werden entfernt und zwischengelagert. Daraufhin werden die Regalbretter, die Verkleidungen des Bodens, der Rückwand sowie der Decke und die Seitenwände demontiert. Die Abdeckungen des Verdampfers und die Lüfter müssen entfernt werden. Bevor die Lötverbindungen des Verdampfers getrennt werden können müssen noch alle Temperatursensoren entfernt werden. Anschließend erfolgt ein Austausch des Verdampfers und eine Montage des kompletten Kühlmöbels in umgekehrter Reihenfolge der zuvor beschriebenen Schritte. Danach wird die Anlage erneut mit \unit{150}{\gram} Propan pro Kreis gefüllt. Vor Inbetriebnahme des Kühlmöbels wird eine Dichtheits- und eine Druckfestigkeitsprüfung an den drei Kältekreisen durchgeführt. Unter gleichen Bedingungen wie zuvor wird erneut eine Untersuchung durchgeführt. \newline 
+In Tabelle~\ref{tab:Vergleichaltneu} sind die Ergebnisse der Untersuchungen des Betriebs in Verschaltung~V1 und V2 dargestellt.
+Der Vergleich zeigt eine Reduktion der thermischen Leistungen um etwa \unit{1000}{\watt} bei gleichbleibender elektrischer Leistungsaufnahme. Dies resultiert in einer Reduktion des EER um \unit{16.2}{\%} von \unit{2.28}{} auf \unit{1.91}{}. In den Kältekreisen ist ein Anstieg der Verdampfungstemperaturen um \unit{3}{\kelvin} bis \unit{5}{\kelvin} zu erkennen. Die Kondensationstemperaturen bleiben etwa konstant. Lediglich in Kreis~3 weicht diese um fast \unit{1}{\kelvin} nach unten ab. Die Überhitzung ist während des Betriebs in Verschaltung~2 um \unit{3}{\kelvin} bis \unit{4}{\kelvin} größer. Auffällig ist, dass mit dem Einbau des neuen Verdampfers die vom Expansionsventil erfasste Überhitzung stets um etwa \unit{2}{\kelvin} von der messtechnisch erfassten Überhitzung nach oben abweicht. Der Dampfanteil ist um bis zu \unit{28}{\%} größer und liegt bei \unit{35}{\%} und \unit{34}{\%} in den Kreisen~1 und 2 und bei \unit{43}{\%} in Kreis~3. Der Massenstrom des Kältemittels ist in allen Kreisen etwa \unit{1}{\gram\per\second} bis \unit{1.5}{\gram\per\second} größer. Der Druckabfall über den Verdampfer ist \unit{0.1}{\bbar} größer. \newline
 Bei der Betrachtung der Produkt- und Lufttemperaturen ist eine deutliche Erhöhung dieser Messwerte auffällig. Die Durchschnittstemperatur der Produkte ist um fast \unit{2}{\kelvin} höher. Die minimale Produkttemperatur steigt stark von circa \unit{1}{\celsius} auf fast \unit{4}{\celsius} an während die maximale Produkttemperatur unverändert ist. Die Ein- und Auslasstemperaturen der Luft sind ebenso um \unit{2}{\kelvin} höher. \newline
 Es ist zu untersuchen warum der Verdampferaustausch eine derartige Verschlechterung hinsichtlich der erzielten Leistungen und Temperaturen mit sich führt.
 
 
 \clearpage
 
-\subsection{Modellgestützter Vergleich der Verschaltungen V1 und V2}
-\label{subsec:Modellgestützter Vergleich der Verschaltungen V1 und V2}
+\subsection{Modellgestützter Vergleich der Verschaltungen V2 und V3}
+\label{subsec:Modellgestützter Vergleich der Verschaltungen V2 und V3}
 
 In diesem Abschnitt wird die Modellbildung sowie der Verdampferumbau erläutert und die Simulationsergebnisse mit den Versuchsdaten verglichen.
 Zunächst wird, wie in Abschnitt~\ref{sec:Simulationsmodell} beschrieben, ein Modell mithilfe des Programms EES entwickelt. 
 Die Grundidee hinter dem Modell ist den, durch den hohen Kältemittelmassenstrom bei gleichzeitig geringem Durchmesser der Verdampferrohre bedingten, Druckabfall und das damit einhergehende Absinken der Sättigungstemperatur zur Erhöhung der Kälteleistung zu nutzen. Im Ausgangsmodell durchströmt das Kältemittel den Verdampfer im Gegenstromprinzip. Aufgrund des Druckabfalls verhält sich diese Anordung wie eine Kombination aus Gleich- und Gegenstrom. Wird nun die Anordnung der Rohre dahingehend geändert, dass das Kältemittel den Verdampfer von dessen Mitte aus im Gleichstrom mit der Luft nach oben durchströmt, die Luft jedoch wie zuvor bei den überhitzten Rohrreihen einströmt, so wird der gegenteilige Effekt erzielt. Der Wärmeübertrager bietet eine Kombination aus Gleich- und Gegenstrom, verhält sich aber wie ein reiner Gegenstromverdampfer. Hierbei ist am Verdampferaustritt der Luft eine höhere Temperaturdifferenz zum Kältemittel zu erwarten. 
 Wegen der angewandten $\epsilon$-$NTU$-Methode ist das Modell nur gültig für trockene Luft \cite{Bergman.2011}. Basierend auf dieser Annahme ist es nötig, die Berechnung ganzheitlich für trockene Luft durchzuführen sowie das Modell mit Versuchsdaten von Untersuchungen bei \unit{0}{\%} relativer Feuchtigkeit zu validieren. In der Klimakammer sind bei dieser Einstellung lediglich relative Feuchtigkeiten zwischen \unit{5}{\%} und \unit{25}{\%} erzielbar. Am Lufteinlass des Verdampfers beträgt die relative Feuchtigkeit etwa \unit{40}{\%}, weswegen mit einer äquivalenten Temperatur gerechnet werden muss. Bei konstanter Enthalpie entspricht die Ist-Temperatur von \unit{4.42}{\celsius} bei \unit{40}{\%} r.F. einer äquivalenten Temperatur von \unit{9.75}{\celsius} bei \unit{0}{\%} r.F.. \newline
-Für die Berechnung der Wärmeleitwiderstände, mittels der Gleichungen~\ref{eq:28} bis \ref{eq:31}, ist es notwendig die Wärmeübergangs- und Wärmeleitkoeffizienten zu bestimmen. Eine Berechnung dieser Werte mittels geeigneter Modelle liefert fehlerhafte Werte infolgederer das Modell instabil ist. Um den Rechenaufwand sowie Fehlerquellen gering zu halten werden die in Tabelle~\ref{tab:Werte der Wärmeübergangs- und Wärmeleitzahlen} dargestellten Annahmen getroffen \cite{Bergman.2011},\cite{Recknagel.2005},\cite{DINDeutschesInstitutfurNormunge.V..2017d}. Dabei werden die Wärmeübergangskoeffizienten der Luft $\alpha_L$, des Kältemittels $\alpha_{KM}$ und des überhitzten Kältemittels $\alpha_{KM,SH}$ so gewählt, dass das errechnete Temperaturprofil des Kältemittels dem erfassten Temperaturprofil, auf Basis der Messwerte von Untersuchung~61, entspricht. 
-Für die Berechnung der Rohrstrecken, welche mit zweiphasigem Kältemittel beaufschlagt werden, werden Gleichung~\ref{eq:33} und der Wärmeübergangskoeffizient $\alpha_{KM}$ verwendet. Aus dem erfassten Temperaturprofil ist ersichtlich, dass nur die letzte Rohrstrecke überhitzt ist. Für diese werden Gleichung~\ref{eq:34} und der Wärmeübergangskoeffizient $\alpha_{KM,SH}$ verwendet. \newline
+Für die Berechnung der Wärmeleitwiderstände, mittels der Gleichungen~\ref{eq:28} bis \ref{eq:31}, ist es notwendig die Wärmeübergangs- und Wärmeleitkoeffizienten zu bestimmen. Eine Berechnung dieser Werte mittels geeigneter Modelle liefert fehlerhafte Werte infolgederer das Modell instabil ist. Um den Rechenaufwand sowie Fehlerquellen gering zu halten werden die in Tabelle~\ref{tab:Werte der Wärmeübergangs- und Wärmeleitzahlen} dargestellten Annahmen getroffen \cite{Bergman.2011},\cite{Recknagel.2005},\cite{DINDeutschesInstitutfurNormunge.V..2017d}. Dabei werden die Wärmeübergangskoeffizienten der Luft $\alpha_\mathrm{L}$, des Kältemittels $\alpha_\mathrm{KM}$ und des überhitzten Kältemittels $\alpha_\mathrm{KM,SH}$ so gewählt, dass das errechnete Temperaturprofil des Kältemittels dem erfassten Temperaturprofil, auf Basis der Messwerte von Untersuchung~61, entspricht. 
+Für die Berechnung der Rohrstrecken, welche mit zweiphasigem Kältemittel beaufschlagt werden, werden Gleichung~\ref{eq:33} und der Wärmeübergangskoeffizient $\alpha_\mathrm{KM}$ verwendet. Aus dem erfassten Temperaturprofil ist ersichtlich, dass nur die letzte Rohrstrecke überhitzt ist. Für diese werden Gleichung~\ref{eq:34} und der Wärmeübergangskoeffizient $\alpha_\mathrm{KM,SH}$ verwendet. \newline
 Das Modell wird exemplarisch für einen Kältekreis im Verdampfer erstellt. Damit die Ergebnisse vergleichbar mit denen der Untersuchungen sind wird mit einem Drittel des Luftmassenstroms gerechnet. 
 
 \begin{table}[h!]
@@ -920,24 +913,20 @@ Das Modell wird exemplarisch für einen Kältekreis im Verdampfer erstellt. Dami
 
 \hline
 Parameter        & Wert  & Einheit           \\ \hline
-$\alpha_{L}$     & 292   & $\frac{W}{m^2 K}$ \\
-$\alpha_{KM}$    & 50000 & $\frac{W}{m^2 K}$ \\
-$\alpha_{KM,SH}$ & 29    & $\frac{W}{m^2 K}$ \\
-$\lambda_{Cu}$   & 380   & $\frac{W}{m K}$   \\
-$\lambda_{Al}$   & 220   & $\frac{W}{m K}$   \\ \hline
+$\alpha_{L}$     & 292   & \unit{}{\watt\per(\squaremetre\kelvin)} \\
+$\alpha_{KM}$    & 50000 & \unit{}{\watt\per(\squaremetre\kelvin)} \\
+$\alpha_{KM,SH}$ & 29    & \unit{}{\watt\per(\squaremetre\kelvin)} \\
+$\lambda_{Cu}$   & 380   & \unit{}{\watt\per(\metre\kelvin)}   \\
+$\lambda_{Al}$   & 220   & \unit{}{\watt\per(\metre\kelvin)}   \\ \hline
 \end{tabular}
 \end{table}
 
 Die Simulation liefert Ergebnisse für die in Abbildung~\ref{fig:Verschaltungsarten} dargestellten Verschaltungen. Ein Vergleich der Simulationsergebnisse mit den Untersuchungsergebnissen von Verschaltung~V2 bei \unit{0}{\%} relativer Luftfeuchtigkeit ermöglicht die Validierung des Modells. Dafür muss zunächst die Verschaltung des Verdampfers verändert werden. Eine komplette Demontage des Kühlmöbels wie zuvor beim Tausch des Verdampfers ist dabei nicht nötig. Es genügt eine Demontage der rechten Seite des Kühlmöbels und beider Seitentrennwände um an den Seiten des Verdampfers arbeiten zu können. Zunächst wird das Kältemittel entsorgt. Die Einspritzleitung wird an die Stelle des zuvorigen Endes des vierten Verdampferrohres gesetzt und zwischen dem ersten und fünften Verdampferrohr eine neue Verbindung hergestellt. Im Anschluss werden die Temperaturfühler entsprechend neu positioniert. Bevor eine erneute Untersuchung durchgeführt werden kann wird eine Dichtheits- und eine Druckfestigkeitsprüfung an den drei Kältekreisen durchgeführt. Beim bisherigen Sollwert von \unit{8}{\kelvin} öffnet das Ventil komplett, sodass eine Regelung der Überhitzung nicht möglich ist. Deshalb wird für die weiteren Untersuchungen am neuen Verdampfer der Sollwert der Überhitzung an den drei Expansionsventilen auf \unit{13}{\kelvin} geändert. \newline 
-Im Folgenden werden die Ergebnisse der Simulation mit denen der Untersuchungen bei \unit{0}{\%} relativer Feuchtigkeit verglichen. Tabelle~\ref{tab:VergleichSimuUntersuchung} zeigt die Messwerte der Untersuchungen von Verschaltung~ V1 und V2 und die Simulationsergebnisse beider Verschaltungen. Dabei beziehen sich die Messwerte exemplarisch auf Kältekreis~1. 
-Im Vergleich der Untersuchung von Verschaltung~V1 mit deren Simulationsergebnissen fällt auf, dass der errechnete Druckabfall um \unit{0.2}{\bbar} geringer ist als der tatsächlich erzielte. Die erzielte Verdampfungstemperatur ist dementsprechend höher.
+Im Folgenden werden die Ergebnisse der Simulation mit denen der Untersuchungen bei \unit{0}{\%} relativer Feuchtigkeit verglichen. Tabelle~\ref{tab:VergleichSimuUntersuchung} zeigt die Messwerte der Untersuchungen von Verschaltung~V2 und V3 und die Simulationsergebnisse beider Verschaltungen. Dabei beziehen sich die Messwerte exemplarisch auf Kältekreis~1. 
+Im Vergleich der Untersuchung von Verschaltung~V2 mit deren Simulationsergebnissen fällt auf, dass der errechnete Druckabfall um \unit{0.2}{\bbar} geringer ist als der tatsächlich erzielte. Die erzielte Verdampfungstemperatur ist dementsprechend höher.
 Kältemittelmassenstrom und Einlasstemperatur der Luft sind konstant, da dies die Eingangsgrößen des Modells sind. Die errechnete Auslasstemperatur ist um etwa \unit{0.5}{\kelvin} höher als die tatsächliche. Die errechnete Kälteleistung weicht mit etwa \unit{30}{\watt} sehr gering von der tatsächlichen ab.  \newline Werden die Simulationsergebnisse beider Verschaltungen miteinander verglichen, so ist ein geringer Anstieg des Druckabfalls um etwa \unit{0.03}{\bbar} zu erkennen. Dies hat eine Reduzierung der Verdampfungstemperatur um \unit{0.25}{\kelvin} zur Folge. Die Kälteeistung ist um \unit{19}{\watt} höher. Dies spiegelt sich in einer sehr geringen Absenkung der Luftauslasstemperatur um \unit{0.15}{\kelvin} wider. Diese Änderungen sind zwar gering, belegen aber tendenziell die These, dass eine Änderung der Verschaltung eine Erhöhung der Kälteleistung erzielt. \newline
-Zuletzt wird der Effekt der Verschaltungsänderung im Modell mit dem in der Untersuchung erzieltem Effekt verglichen. Dies ermöglicht eine Beurteilung der Modelltauglichkeit. Der tatsächliche Druckabfall erfährt eine Erhöhung um etwa \unit{0.06}{\bbar}. Das ist doppelt so viel wie die berechnete Änderung. Dies resultiert in einer stärkeren Absenkung der Verdampfungstemperatur um etwa \unit{1.4}{\kelvin}. Während die Einlasstemperatur der Luft bei Verschaltung~V2 um etwa \unit{0.5}{\kelvin} höher ist, weicht die Auslasstemperatur der Luft vernachlässigbar gering nach unten ab. Mittels des Modells wird eine Erhöhung der Temperaturdifferenzen zwischen Ein- und Austritt um \unit{0.15}{\kelvin} vorausgesagt. Die Untersuchungen zeigen eine Erhöhung der Temperaturdifferenz um \unit{0.71}{\kelvin}. Die Messwerte der Untersuchungen belegen damit die Tendenz des Modells. Es ist zu untersuchen, warum der errechnete Druckabfall nur etwa halb so groß wie der tatsächliche ist. \newline
+Zuletzt wird der Effekt der Verschaltungsänderung im Modell mit dem in der Untersuchung erzieltem Effekt verglichen. Dies ermöglicht eine Beurteilung der Modelltauglichkeit. Der tatsächliche Druckabfall erfährt eine Erhöhung um etwa \unit{0.06}{\bbar}. Das ist doppelt so viel wie die berechnete Änderung. Dies resultiert in einer stärkeren Absenkung der Verdampfungstemperatur um etwa \unit{1.4}{\kelvin}. Während die Einlasstemperatur der Luft bei Verschaltung~V3 um etwa \unit{0.5}{\kelvin} höher ist, weicht die Auslasstemperatur der Luft vernachlässigbar gering nach unten ab. Mittels des Modells wird eine Erhöhung der Temperaturdifferenzen zwischen Ein- und Austritt um \unit{0.15}{\kelvin} vorausgesagt. Die Untersuchungen zeigen eine Erhöhung der Temperaturdifferenz um \unit{0.71}{\kelvin}. Die Messwerte der Untersuchungen belegen damit die Tendenz des Modells. Es ist zu untersuchen, warum der errechnete Druckabfall nur etwa halb so groß wie der tatsächliche ist. \newline
 
-
-
-
-\clearpage
 
 
 \begin{table}[h]
@@ -946,7 +935,7 @@ Zuletzt wird der Effekt der Verschaltungsänderung im Modell mit dem in der Unte
 \label{tab:VergleichSimuUntersuchung}
 \begin{tabular}{|ccccc|}
 \hline
-                                                      & Untersuchung V1             & Modell V1                   & Modell V2                   & Untersuchung V2 \\ \hline
+                                                      & Untersuchung V2             & Modell V2                   & Modell V3                   & Untersuchung V3 \\ \hline
 \multicolumn{1}{|c|}{Druckabfall {[}Pa{]}}            & \multicolumn{1}{c|}{47192}  & \multicolumn{1}{c|}{27175}  & \multicolumn{1}{c|}{29889}  & 52996           \\
 \multicolumn{1}{|c|}{Kälteleistung {[}W{]}}           & \multicolumn{1}{c|}{1791}   & \multicolumn{1}{c|}{1812}   & \multicolumn{1}{c|}{1831}   & 1827            \\
 \multicolumn{1}{|c|}{Verdampfungstemperatur {[}°C{]}} & \multicolumn{1}{c|}{-14.15} & \multicolumn{1}{c|}{-12.23} & \multicolumn{1}{c|}{-12.48} & -15.59          \\
@@ -958,30 +947,30 @@ Zuletzt wird der Effekt der Verschaltungsänderung im Modell mit dem in der Unte
 \end{table}
 
 
-Die Abbildungen~\ref{fig:SimTempV1} und \ref{fig:SimTempV2} zeigen die Temperaturprofile der Luft und des Kältemittels über jeden berechneten Verdampferdurchgang in Verschaltung V1 bzw. V2. Auf der x-Achse sind die Verdampferpässe auf die Höhe des Verdampfers bezogen aufgetragen, auf der y-Achse die Temperatur in °$C$. Der Effekt der Verschaltungsänderung auf das Temperaturprofil des Kältemittels ist gut zu erkennen. Statt zunächst Abzusinken steigt die Verdampfungstemperatur an. Dadurch wird am Luftaustritt des Verdampfers eine tiefere Temperatur erzielt. Die erzielte Änderung ist jedoch grafisch kaum sichtbar. Im vierten Verdampferdurchgang beginnt das Kältemittel zu überhitzen. Der Anstieg ist zunächst steiler als im fünften und sechsten Verdampferpass. In Verschaltung V2 überhitzt das Kältemittel auf eine höhere Temperatur als in V1. Es ist zu untersuchen, warum das Modell eine stärkere Überhitzung des Kältemittels vorraussagt. \newline
-Im Folgenden werden die Messwerte und Berechnungsergebnisse der Untersuchungen mit den Verschaltungen V1 und V2 bei einem Sollwert von \unit{0}{\%} r.F. in der Kammer miteinander verglichen. In Tabelle~\ref{tab:VergleichV1V2_0rF} werden diese dargestellt. Während die elektrische Leistung nach Änderung der Verschaltung eine geringe Reduktion um \unit{16}{\watt} verzeichnet, erfährt die thermische Leistung des Verdampfers eine Erhöhung um circa \unit{140}{\watt} und die des Kondensators um \unit{50}{\watt}. Dies resultiert in einer Erhöhung des EERs um \unit{4}{\%} von \unit{1.99}{} auf \unit{2.07}{}.
-Die Verdampfungstemperaturen in allen Kältekreisen erfahren eine Absenkung um circa \unit{1.5}{\kelvin}. Gegenüber den Untersuchungen bei \unit{60}{\%} r.F. sind diese sehr niedrig. Die Kondensationstemperaturen bleiben unbeeinflusst. Die Änderung der gemessenen Überhitzungen ist vernachlässigbar gering. Nur in Kreis 3 ist diese um etwa \unit{1}{\kelvin} höher. Auffällig ist, dass in der neuen Verschaltung der Dampfanteil in den drei Kreisen \unit{0}{\%} beträgt und damit eine Unterkühlung von etwa \unit{3}{\kelvin} bis \unit{4}{\kelvin} erzielt wird. Die Massenströme erfahren eine Reduktion um etwa \unit{0.5}{\gram\per\second}. Der Druckabfall verzeichnet in Kreis~1 einen Anstieg um \unit{0.05}{\bbar} und in Kreis~2 einen sehr geringen Anstieg um \unit{0.01}{\bbar}. In Kreis~3 verzeichnet der Druckabfall hingegen eine Reduktion um \unit{0.01}{\bbar}. Die Produkt- und Lufttemperaturen lassen erkennen, dass diese wie die Verdampfungstemperatur sehr niedrig sind. Gegenüber Verschaltung~V1 ist bei V2 keine Änderung ersichtlich. Nur die maximale Produkttemperatur ist um \unit{1}{\kelvin} höher. Damit einher geht eine Erhöhung der Durchschnittstemperatur um etwa \unit{0.6}{\kelvin}. Es ist zu untersuchen, warum die Temperaturen derart niedrig sind und ob die erfassten Messwerte die Berechnungen des Modells bestätigen.
+Die Abbildungen~\ref{fig:SimTempV1} und \ref{fig:SimTempV2} zeigen die Temperaturprofile der Luft und des Kältemittels über jeden berechneten Verdampferdurchgang in Verschaltung V2 bzw. V3. Auf der x-Achse sind die Verdampferpässe auf die Höhe des Verdampfers bezogen aufgetragen, auf der y-Achse die Temperatur in °$C$. Der Effekt der Verschaltungsänderung auf das Temperaturprofil des Kältemittels ist gut zu erkennen. Statt zunächst Abzusinken steigt die Verdampfungstemperatur an. Dadurch wird am Luftaustritt des Verdampfers eine tiefere Temperatur erzielt. Die erzielte Änderung ist jedoch grafisch kaum sichtbar. Im vierten Verdampferdurchgang beginnt das Kältemittel zu überhitzen. Der Anstieg ist zunächst steiler als im fünften und sechsten Verdampferpass. In Verschaltung V3 überhitzt das Kältemittel auf eine höhere Temperatur als in V2. Es ist zu untersuchen, warum das Modell eine stärkere Überhitzung des Kältemittels vorraussagt. \newline
+Im Folgenden werden die Messwerte und Berechnungsergebnisse der Untersuchungen mit den Verschaltungen V2 und V3 bei einem Sollwert von \unit{0}{\%} r.F. in der Kammer miteinander verglichen. In Tabelle~\ref{tab:VergleichV2V3_0rF} werden diese dargestellt. Während die elektrische Leistung nach Änderung der Verschaltung eine geringe Reduktion um \unit{16}{\watt} verzeichnet, erfährt die thermische Leistung des Verdampfers eine Erhöhung um circa \unit{140}{\watt} und die des Kondensators um \unit{50}{\watt}. Dies resultiert in einer Erhöhung des EERs um \unit{4}{\%} von \unit{1.99}{} auf \unit{2.07}{}.
+Die Verdampfungstemperaturen in allen Kältekreisen erfahren eine Absenkung um circa \unit{1.5}{\kelvin}. Gegenüber den Untersuchungen bei \unit{60}{\%} r.F. sind diese sehr niedrig. Die Kondensationstemperaturen bleiben unbeeinflusst. Die Änderung der gemessenen Überhitzungen ist vernachlässigbar gering. Nur in Kreis 3 ist diese um etwa \unit{1}{\kelvin} höher. Auffällig ist, dass in der neuen Verschaltung der Dampfanteil in den drei Kreisen \unit{0}{\%} beträgt und damit eine Unterkühlung von etwa \unit{3}{\kelvin} bis \unit{4}{\kelvin} erzielt wird. Die Massenströme erfahren eine Reduktion um etwa \unit{0.5}{\gram\per\second}. Der Druckabfall verzeichnet in Kreis~1 einen Anstieg um \unit{0.05}{\bbar} und in Kreis~2 einen sehr geringen Anstieg um \unit{0.01}{\bbar}. In Kreis~3 verzeichnet der Druckabfall hingegen eine Reduktion um \unit{0.01}{\bbar}. Die Produkt- und Lufttemperaturen lassen erkennen, dass diese wie die Verdampfungstemperatur sehr niedrig sind. Gegenüber Verschaltung~V2 ist bei V3 keine Änderung ersichtlich. Nur die maximale Produkttemperatur ist um \unit{1}{\kelvin} höher. Damit einher geht eine Erhöhung der Durchschnittstemperatur um etwa \unit{0.6}{\kelvin}. Es ist zu untersuchen, warum die Temperaturen derart niedrig sind und ob die erfassten Messwerte die Berechnungen des Modells bestätigen.
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{Pictures/Temp_V11.pdf}
-\caption{Simuliertes Temperaturprofil des Verdampfers für Verschaltung V1.}
+\caption{Simuliertes Temperaturprofil des Verdampfers für Verschaltung V2.}
 \label{fig:SimTempV1}
 \end{figure}
 
 \begin{figure}[h!]
 \centering
 \includegraphics[scale=0.8]{Pictures/Temp_V21.pdf}
-\caption{Simuliertes Temperaturprofil des Verdampfers für Verschaltung V2.}
+\caption{Simuliertes Temperaturprofil des Verdampfers für Verschaltung V3.}
 \label{fig:SimTempV2}
 \end{figure}
-\subsection{Vergleich der Verschaltungen V1 und V2}
-\label{subsec:Vergleich der Verschaltungen V1 und V2}
+\subsection{Vergleich der Verschaltungen V2 und V3}
+\label{subsec:Vergleich der Verschaltungen V2 und V3}
 
-In diesem Abschnitt werden die Untersuchungsergebnisse der Verschaltungen V1 und V2 unter den normalen Prüfbedingungen bei \unit{60}{\%} relativer Luftfeuchtigkeit miteinander verglichen. Der Umbau ist bereits erfolgt. Es ist lediglich eine erneute Untersuchung bei vorherigen Bedingungen erforderlich. Der Sollwert der Überhitzung beträgt \unit{13}{\kelvin}. \newline
-Tabelle~\ref{tab:VergleichV1V2_60rF} stellt die Messwerte und Berechnungsergebnisse der Untersuchungen mit den Verschaltungen V1 und V2 bei einem Sollwert von \unit{60}{\%} r.F. in der Kammer dar. Die elektrische Leistung erfährt eine Reduktion um \unit{16}{\watt}, die thermische Leistung des Verdampfers hingegen erfährt einen Anstieg um \unit{140}{\watt} und die des Kondensators um etwa \unit{100}{\watt}. Dies resultiert in einem Anstieg des EERs um \unit{3}{\%} von \unit{2.21}{} auf \unit{2.28}{}.
+In diesem Abschnitt werden die Untersuchungsergebnisse der Verschaltungen V2 und V3 unter den normalen Prüfbedingungen bei \unit{60}{\%} relativer Luftfeuchtigkeit miteinander verglichen. Der Umbau ist bereits erfolgt. Es ist lediglich eine erneute Untersuchung bei vorherigen Bedingungen erforderlich. Der Sollwert der Überhitzung beträgt \unit{13}{\kelvin}. \newline
+Tabelle~\ref{tab:VergleichV2V3_60rF} stellt die Messwerte und Berechnungsergebnisse der Untersuchungen mit den Verschaltungen~V2 und V3 bei einem Sollwert von \unit{60}{\%} r.F. in der Kammer dar. Die elektrische Leistung erfährt eine Reduktion um \unit{16}{\watt}, die thermische Leistung des Verdampfers hingegen erfährt einen Anstieg um \unit{140}{\watt} und die des Kondensators um etwa \unit{100}{\watt}. Dies resultiert in einem Anstieg des EERs um \unit{3}{\%} von \unit{2.21}{} auf \unit{2.28}{}.
 Die Verdampfungstemperatur in den drei Kältekreisen ist um etwa \unit{1.5}{\kelvin} geringer. Die Kondensationstemperatur sowie die erfasste Überhitzung sind unverändert.
-Während in Verschaltung~V1 keine Unterkühlung erzielt wird und die Dampfanteile zwischen \unit{4}{\%} und \unit{19}{\%} liegen, werden diese in der neuen Verschaltung auf \unit{0}{\%} reduziert. Dadurch wird zwar Unterkühlung erzielt, diese ist jedoch mit etwa \unit{0.2}{\kelvin} sehr gering. Der Massenstrom des Kältemittels erfährt eine Reduktion um \unit{0.5}{\gram\per\second}. Der Druckabfall steigt in Kreis~1 um etwa \unit{0.06}{\bbar}, in den Kreisen~2 und 3 um \unit{0.01}{\bbar} bis \unit{0.02}{\bbar} an. Der Vergleich der Produkttemperaturen zeigt eine Reduktion der maximalen Temperatur um \unit{0.5}{\kelvin} und der minimalen Temperatur um \unit{1.5}{\kelvin}. Dies resultiert in einer um \unit{0.5}{\kelvin} geringeren Durchschnittstemperatur.
+Während in Verschaltung~V2 keine Unterkühlung erzielt wird und die Dampfanteile zwischen \unit{4}{\%} und \unit{19}{\%} liegen, werden diese in der neuen Verschaltung auf \unit{0}{\%} reduziert. Dadurch wird zwar Unterkühlung erzielt, diese ist jedoch mit etwa \unit{0.2}{\kelvin} sehr gering. Der Massenstrom des Kältemittels erfährt eine Reduktion um \unit{0.5}{\gram\per\second}. Der Druckabfall steigt in Kreis~1 um etwa \unit{0.06}{\bbar}, in den Kreisen~2 und 3 um \unit{0.01}{\bbar} bis \unit{0.02}{\bbar} an. Der Vergleich der Produkttemperaturen zeigt eine Reduktion der maximalen Temperatur um \unit{0.5}{\kelvin} und der minimalen Temperatur um \unit{1.5}{\kelvin}. Dies resultiert in einer um \unit{0.5}{\kelvin} geringeren Durchschnittstemperatur.
 Während die Einlasstemperatur der Luft nahezu konstant ist verzeichnet die Auslasstemperatur eine Reduktion um etwa \unit{0.8}{\kelvin}.
 Es ist zu untersuchen, ob sich das System hinsichtlich dieser Werte ähnlich verhält wie in Untersuchung bei \unit{0}{\%} r.F.. Daraus kann abgeleitet werden ob die Vorhersagen des Modells auch für den Betrieb bei Normbedingungen gültig sind.
 
@@ -1273,8 +1262,8 @@ Aus dem Systemverhalten lässt sich somit schließen, dass die Füllmenge nicht 
 
 
 
-\subsection{Modellgestützter Vergleich der Verschaltungen V1 und V2}
-\label{subsec:Modellgestützter Vergleich der Verschaltungen V1 und V2_1}
+\subsection{Modellgestützter Vergleich der Verschaltungen V2 und V3}
+\label{subsec:Modellgestützter Vergleich der Verschaltungen V2 und V3_1}
 
 In diesem Abschnitt werden die Ergebnisse der Simulation sowie das Verhalten des Systems bei Änderung der Verschaltung der Verdampferrohre analysiert und hinsichtlich des Zieles der thermischen Leistungssteigerung bewertet.
 Die Ursache für die im Vergleich viel tieferen Temperaturen ist die geringe relative Luftfeuchtigkeit.
@@ -1283,18 +1272,18 @@ Die Ergebnisse der Simulation zeigen eine große Abweichung des errechneten Druc
 Trotz ungenauer Berechnung des Druckabfalls sind die Berechnungen der Temperaturen und der Leistungen sehr genau. Das liegt daran, dass die Parameter des Modells, die Wärmeübergangskoeffzienten $\alpha_L$, $\alpha_{KM}$ und $\alpha_{KM,SH}$, manuell so angepasst wurden, dass der errechnete dem messtechnisch erfassten Temperaturverlauf entspricht. Dies hat zur Folge, dass das Modell mit den aktuellen Parameterwerten nicht allgemeingültig ist. \newline
 Der durch die Änderung der Verdampferschaltung sichtbare Effekt in der Kälteleistung wird ebenfalls durch den zu gering berechneten Druckabfall beeinflusst. Der durch das Modell berechnete Kälteleistungsgewinn ist nur halb so groß wie der tatsächlich erzielte. Dadurch, dass der berechnete Druckabfall zu niedrig ist, ist auch die Änderung des Druckabfalls nach Änderung der Verschaltung proportional niedriger. Dies spiegelt sich in den erzielten Verdampfungstemperaturen und damit in der Kälteleistung wider.
 Aufgrund dessen ist zu vermuten, dass der Effekt der Verschaltungsänderung auf die Leistung, während den Untersuchungen bei \unit{60}{\%} r.F., noch deutlicher wird, da der Druckabfall wegen des höheren Druckniveaus ebenfalls höher ist. Durch das Modell wird neben dem Leistungsgewinn ein ebenfalls gesteigerter Druckabfall berechnet. Die Ursache dessen liegt im höheren Wärmestrom. Dadurch, dass das Kältemittel durch die veränderte Verschaltung mehr Wärme aufnimmt, wechselt es schneller den Aggregatzustand. Zwischen gasförmigem und flüssigem Kältemittel stellt sich ein Geschwindigkeitsschlupf ein, da gasförmiges Kältemittel aufgrund dessen geringer Dichte schneller strömt. Stärkere Reibungseffekte erhöhen deshalb den Reibungsdruckabfall. Das Kältemittel hat zu einem früheren Zeitpunkt als in der vorherigen Verschaltung dieselbe Geschwindigkeit. Es werden in jeder Zelle des Modells höhere Geschwindigkeiten berechnet. Da der Druckabfall, gemäß Gleichung~\ref{eq:14} quadratisch zur Geschwindigkeit steigt ist der Druckabfall in Verschaltung~V2 größer. \newline
-Bei der Betrachtung der Temperaturprofile der Luft in den Abbildungen~\ref{fig:SimTempV1} und \ref{fig:SimTempV2}, ist fast kein Unterschied ersichtlich. Aus den Temperaturprofilen des Kältemittels ist der Effekt durch die Umkehr der Fließrichtung des Kältemittels ersichtlich. Diese gleichen nun denen eines reinen Gegenstromwärmeübertragers. Zudem ist eine höhere Überhitzung in Verschaltung~V2 zu erkennen. Diese wird durch den von V2 erzielten Leistungsgewinn verursacht. Im realen System würde dies durch die Überhitzungsregelung kompensiert werden und in einem geringeren Massenstrom resultieren. Ein steilerer Druckgradient geht mit einem steileren Temperaturgradienten einher, was eine Verstärkung des Effekts der Verschaltungsänderung verursacht. Wie zuvor erwähnt ist dies bei Normbedingungen zu erwarten. \newline
+Bei der Betrachtung der Temperaturprofile der Luft in den Abbildungen~\ref{fig:SimTempV1} und \ref{fig:SimTempV2}, ist fast kein Unterschied ersichtlich. Aus den Temperaturprofilen des Kältemittels ist der Effekt durch die Umkehr der Fließrichtung des Kältemittels ersichtlich. Diese gleichen nun denen eines reinen Gegenstromwärmeübertragers. Zudem ist eine höhere Überhitzung in Verschaltung~V3 zu erkennen. Diese wird durch den erzielten Leistungsgewinn verursacht. Im realen System würde dies durch die Überhitzungsregelung kompensiert werden und in einem geringeren Massenstrom resultieren. Ein steilerer Druckgradient geht mit einem steileren Temperaturgradienten einher, was eine Verstärkung des Effekts der Verschaltungsänderung verursacht. Wie zuvor erwähnt ist dies bei Normbedingungen zu erwarten. \newline
 Die erfassten Messwerte bestätigen die Tendenz des Modells. Mit etwa \unit{35}{\watt} bis \unit{55}{\watt} Kälteleistungsgewinn je Kältekreis wird ein Gesamtkälteleistungsgewinn von \unit{140}{\watt} erzielt. Bei gleichzeitiger Reduktion der elektrischen Leistungsaufnahme resultiert dies in einem höheren EER. Durch den bei höherer Verflüssigungsleistung geringeren Kältemittelmassenstrom wird die Enthalpiedifferenz von Verdampfer und Kondensator erhöht. Zudem werden in diesem Zustand Dampfanteile von \unit{100}{\%} und daraus resultierende Unterkühlungen von \unit{3}{\kelvin} bis \unit{4}{\kelvin} realisiert.
 Bei steigender Überhitzung reagiert das Expansionsventil, um diese zu kompensieren, mit einer Erhöhung des Öffnungsgrades und damit einer Steigerung des Kältemittelmassenstrom. Die Untersuchungen zeigen aber einen niedrigeren Massenstrom und eine geringfügig höhere Überhitzung. Dies ist wahrscheinlich auf eine Verschiebung des Betriebspunktes der Verdichter zurückzuführen. Bei einem Verdichterkennfeld ist das Druckverhältnis über dem Massenstrom aufgetragen \cite{Wilke.2005}. Ein, durch gesteigerten Druckabfall, zunehmendes Druckverhältnis kann bei gleicher Motordrehzahl zu einem geringeren Massenstrom führen und zu einer Reduktion des isentropen Wirkungsgrades. \newline
 Mittels des Modells wird durch die Verschaltungsänderung eine Erhöhung der thermischen Leistungen und des Druckabfalls vorausgesagt, was durch die Untersuchungen bestätigt wird. Dies resultiert in einer Effizienzsteigerung von \unit{4}{\%}. 
 
-\subsection{Vergleich der Verschaltungen V1 und V2}
-\label{subsec:Vergleich der Verschaltungen V1 und V2_1}
+\subsection{Vergleich der Verschaltungen V2 und V3}
+\label{subsec:Vergleich der Verschaltungen V2 und V3_1}
 
-In diesem Abschnitt werden die in Abschnitt~\ref{subsec:Vergleich der Verschaltungen V1 und V2_1} beschriebenen Untersuchungsergebnisse von Verschaltung~V1 und V2 bei \unit{60}{\%} r.F. analysiert.
+In diesem Abschnitt werden die in Abschnitt~\ref{subsec:Vergleich der Verschaltungen V2 und V3_1} beschriebenen Untersuchungsergebnisse von Verschaltung~V2 und V3 bei \unit{60}{\%} r.F. analysiert.
 Das Druck- und Temperaturniveau ist bei dieser Untersuchung höher als das der vorausgehenden Untersuchung. Durch den höheren Anteil an Feuchtigkeit in der Luft wird ein Teil der Kälteleistung dazu benötigt diese zu kondensieren. Deswegen wird die Luft nicht so stark abgekühlt wie zuvor und die Verdampfungsdrücke und -temperaturen sind entsprechend höher. Die Verdampferleistungen in beiden Verschaltungen sind bei feuchter Luft höher als bei trockener Luft, da feuchte Luft eine höhere Wärmeleitfähigkeit besitzt und damit gemäß der Gleichungen~\ref{eq:4}, \ref{eq:UA} und \ref{eq:28} mehr Wärme übertragen wird \cite{Lasance.2003}. Der Effekt auf die Leistungssteigerung des Verdampfers ist mit \unit{140}{\watt} Leistungsgewinn genauso groß wie in der vorigen Untersuchung. Damit ist dieser wider der Erwartung, dass der steigende Druckabfall die Verdampferleistung vergrößert, nicht größer als unter trockenen Bedingungen. Der durch die Änderung der Verschaltung verursachte Druckabfall ist zwar gegenüber der Untersuchung bei \unit{0}{\%} r.F. bedingt durch den höheren Massenstrom größer, allerdings führt dies nicht zu einem proportionalen Anstieg der Verdampferleistung sondern wird anderweitig vom System kompensiert. Dabei liegt die Begründung vermutlich in einer Verschiebung des Betriebspunkts im Kennfeld des Verdichters. Eine Erhöhung des Druckverhältnisses bedingt dabei eine Reduktion des Kältemittelmassenstroms.
-Den Änderungen in den Messwerten liegen dieselben Ursachen zugrunde wie denen aus Abschnitt~\ref{subsec:Modellgestützter Vergleich der Verschaltungen V1 und V2_1}.
-Durch Verschaltung~V2 wird ein Betriebspunkt erreicht in dem der Zustand des Kältemittels vor dem Expansionsventil sich genau auf der Siedelinie befindet. 
+Den Änderungen in den Messwerten liegen dieselben Ursachen zugrunde wie denen aus Abschnitt~\ref{subsec:Modellgestützter Vergleich der Verschaltungen V2 und V3_1}.
+Durch Verschaltung~V3 wird ein Betriebspunkt erreicht in dem der Zustand des Kältemittels vor dem Expansionsventil sich genau auf der Siedelinie befindet. 
 Dies ist erstrebenswert in Hinsicht auf den Schutz des Expansionsventils vor Schlägen von Gasblasen und auf dessen Regelverhalten. \newline
 Mittels Verschaltung~V2 werden mit \unit{-0.47}{\celsius} minimaler und \unit{10.25}{\celsius} maximaler Produkttemperatur die bislang tiefsten Produkttemperaturen erzielt, wenn die Untersuchung bei \unit{0}{\%} r.F. nicht miteinbezogen wird. Diese werden durch die tiefere Verdampfungstemperatur und die Optimierung der Verschaltung generiert. Wegen des veränderten Überhitzungssollwerts sind die Ergebnisse nicht direkt mit denen vor dem Verdampfertausch vergleichbar.
 Die Effizienzsteigerung beträgt unter feuchten Bedingungen \unit{3}{\%}, sodass ein vergleichsweise hoher EER von \unit{2.28}{} erzielt wird. 
